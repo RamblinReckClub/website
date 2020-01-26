@@ -142,3 +142,7 @@ Temporary Items
 
 # Firebase Service Account credentials
 service-account-key.json
+
+# Custom RRC files
+./database_connect.php
+./memberLogin.php
