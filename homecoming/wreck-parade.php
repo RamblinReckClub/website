@@ -25,15 +25,15 @@
 <div class="container mb-3">
     <div class="row">
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Andreea Juravschi</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Bethany McMorris</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:wreckparade@gmail.com"><b>Will Hancock</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Madison Meyers</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:wreckparade@gmail.com"><b>Sam Auborn</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Zachary Mohr</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
         </div>
     </div>
@@ -42,7 +42,7 @@
 <div class="container">
     <div class= 'blog-header'>
         <div class='col-12' style="text-align: center;">
-            <h1>8:30 AM October 8th</h1>
+            <h1>9:00 AM October 28th</h1>
         </div>
 
         <!--    </div>-->
@@ -56,7 +56,7 @@
                 <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/8351909">RSVP</a>
             </div>
             <div class='col-sm-4 col-xs-12 mb-sm-3'>
-                <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1mQUOltMUkQfI17LI-luxrapdxB7CWMAmpJfCgUgtiEU/edit?usp=sharing" target="_blank">Event Rules</a>
+                <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1750Fd-Dy3bTbTPqHRJPLjuvdRNTichO7tuRg4_Pb3g4/edit?usp=share_link" target="_blank">Event Rules</a>
             </div>
             <div class='row text-center'>
                 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">-->
@@ -95,9 +95,9 @@
         [
             "image" => '/homecoming/images/wp-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '<p>Participants must first sign up through one of the following links:</p><p><a href="https://gatech.universitytickets.com/w/event.aspx?id=1914&p=1">Competing Organizations</a>
-                        </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSet4qjMWb4OOm95ghCuw2mnnlGeu8U7fIgelNbHynChKlL0Kw/viewform?usp=sf_link">Alumni Classic Cars</a>
-                        </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdmxKLRbQ_TgVzj_syt-asBHVP9hMOnzfBu8hCMQOGgOt6b8Q/viewform?usp=sf_link">Enthusiast Entries</a>
+            "main" => '<p>Participants must first sign up through one of the following links:</p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLfhVANTcszmvK5SAdtBboyUk6Ccz6jbDF8KrwJwryCkne1g/viewform?usp=pp_url">Competing Organizations</a>
+                        </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4lwi5wDuvDaCE2mEZSe7kXhfuLcu8xWh9FrwW6s5M9Wf97A/viewform?usp=sf_link">Alumni Classic Cars</a>
+                        </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGHA5ddSMad7j3SydJk-7H4fLDDlOnEFaq_9pLQ5_wKFeuYQ/viewform?usp=sf_link">Enthusiast Entries</a>
                         </p><p> And then RSVP with the Ramblin\' Reck Club at <a href="https://gatech.campuslabs.com/engage/event/8351909">this link</a>.'
             //<p>Participants must sign BOTH
               //          our waiver <a href="https://forms.gle/HhY5QLjPHhzyQGyq7">found here</a> and through SCPC
@@ -108,8 +108,8 @@
             "image" => '/homecoming/images/wp-003.jpg',
             "title" => 'Logistics',
             "main" => '<p>The Wreck parade will begin at the McCamish Parking Lot and proceed up Fowler street finishing
-                        across Ferst Drive. The parade will commence at 8:30AM on October 8th. A full list of the rules
-                        can be <a href="https://docs.google.com/document/d/1mQUOltMUkQfI17LI-luxrapdxB7CWMAmpJfCgUgtiEU/edit?usp=sharing">found here.</a></p>'
+                        across Ferst Drive. The parade will commence at 9:00 AM on October 28th. A full list of the rules
+                        can be <a href="https://docs.google.com/document/d/1750Fd-Dy3bTbTPqHRJPLjuvdRNTichO7tuRg4_Pb3g4/edit?usp=share_link">found here.</a></p>'
         ],
         [
             "image" => '/homecoming/images/wp-001.jpg',
@@ -146,7 +146,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <p class="text-muted"><i>Have any questions? Reach out to us at <a href="mailto:wreckparade@gmail.com">wreckparade@gmail.com</a> or <a href="mailto:rrchomecoming@gmail.com">rrchomecoming@gmail.com</a>.</i></p>
+            <p class="text-muted"><i>Have any questions? Reach out to us at <a href="mailto:rrcwreckparade@gmail.com">rrcwreckparade@gmail.com</a> or <a href="mailto:rrchomecoming@gmail.com">rrchomecoming@gmail.com</a>.</i></p>
         </div>
     </div>
 </div>

@@ -25,15 +25,15 @@
 <div class="container mb-3">
     <div class="row">
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Andreea Juravschi</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Bethany McMorris</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:gtfcr2022@gmail.com"><b>Dean Plaskon</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Matthew Kistner</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:gtfcr2022@gmail.com"><b>Gabriel Armstrong</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Tyler Gavaletz</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
         </div>
     </div>
@@ -43,7 +43,7 @@
 <div class="container">
     <div class= 'blog-header'>
         <div class='col-12' style="text-align: center;">
-            <h1>6:30 AM October 8th</h1>
+            <h1>6:30 AM October 28th</h1>
         </div>
 <!--    </div>-->
 
@@ -53,7 +53,7 @@
         </div>
 <!--        sign up button-->
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-            <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/8351904">Sign Up</a>
+            <a class='btn btn-md btn-secondary' href="https://forms.gle/hrUzURL8h1V5mxdq8">Sign Up</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-sm-3'>
             <?php //If you change the name of the rules section further down, change the href here too. ?>
@@ -106,8 +106,8 @@
         [
             "image" => '/homecoming/images/fcr-002.jpg',
             "title" => 'Sign Ups',
-            "main" => 'The official 2022 Freshman Cake Race sign-up can be found here: 
-                                    <a href="https://gatech.campuslabs.com/engage/event/8351904">Freshman Cake Race Sign-up</a> 
+            "main" => 'The official 2023 Freshman Cake Race sign-up can be found here: 
+                                    <a href="https://forms.gle/hrUzURL8h1V5mxdq8">Freshman Cake Race Sign-up</a> 
                                     <i>Note: filling out the interest form did not sign you up for the Freshman Cake Race. 
                                     You must still complete this official sign-up.</i>'
 
@@ -118,7 +118,7 @@
             "main" => 'If you are an on-campus resident in a first-year dorm, 
             your RA will distribute your bib to you one or two days before the race. 
             Otherwise, a member will be in touch with you a few days before the race with pick-up details. 
-            Bibs WILL NOT be distributed on the morning of the race unless you email <a href="mailto:gtfcr2022@gmail.com"><b>gtfcr2022@gmail.com</b></a> with an accommodation request.'
+            Bibs WILL NOT be distributed on the morning of the race unless you email <a href="mailto:rrccakerace@gmail.com"><b>rrccakerace@gmail.com</b></a> with an accommodation request.'
         ]
     );
 
@@ -183,7 +183,7 @@ The full rule book can be found here: <a href="https://docs.google.com/document/
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <p class="text-muted"><i>Have any questions? Reach out to us at <a href="mailto:gtfcr2022@gmail.com">gtfcr2022@gmail.com</a> or <a href="mailto:rrchomecoming@gmail.com">rrchomecoming@gmail.com</a>.</i></p>
+            <p class="text-muted"><i>Have any questions? Reach out to us at <a href="mailto:rrccakerace@gmail.com">rrccakerace@gmail.com</a> or <a href="mailto:rrchomecoming@gmail.com">rrchomecoming@gmail.com</a>.</i></p>
         </div>
     </div>
 </div>

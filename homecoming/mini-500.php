@@ -27,15 +27,15 @@
 
     <div class="row">
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Andreea Juravschi</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Bethany McMorris</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:gtmini5002022@gmail.com"><b>Keshav Ramanathan</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Aastha Singh</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:gtmini5002022@gmail.com"><b>Melissa Braunstein</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Ajay Mathur</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
         </div>
     </div>
@@ -45,7 +45,7 @@ s
 <div class="container">
     <div class= 'blog-header'>
         <div class='col-12' style="text-align: center;">
-            <h1>5:30PM October 7th</h1>
+            <h1>5:30PM October 27th</h1>
         </div>
     <div class='row text-center'>
 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>-->
@@ -101,15 +101,19 @@ s
        To limit the amount of teams racing at one time, only four teams will race at a time in a time trial fashion. Each team will start at opposing sides of the field and 4 racers from each team will compete. Racers will complete a half lap before sanitizing their trikes and passing it along to the next rider. Every team will compete two laps around the track!
 
        We are excited to be able to adapt the Mini 500 to keep everyone involved safe. If you are interested in competing in the Mini 500 this year please fill out the form here: <a href="https://forms.gle/LCZJM4VhE3tvF3Sh8">Mini 500 Form</a>. Stay safe and race on!
-       '
+
+          "image" => '/homecoming/images/M51.jpg',
+                    "title" => 'Sign Ups',
+                    "main" => Sign-Ups open on Friday, September 2nd. You can sign up <a href="https://gatech.universitytickets.com/w/event.aspx?id=1914&r=8a10173f13e34f03832cae5ad05a7802">here</a>.
+                    Before registering, be sure you’re logged in, and then press “Get Tickets”. Scroll until you find Mini 500.
+                    Only one team member needs to sign up and pay the registration fee of $10.
+        '
 
                ],*/
                 [
                     "image" => '/homecoming/images/M51.jpg',
                     "title" => 'Sign Ups',
-                    "main" => 'Sign-Ups open on Friday, September 2nd. You can sign up <a href="https://gatech.universitytickets.com/w/event.aspx?id=1914&r=8a10173f13e34f03832cae5ad05a7802">here</a>. 
-                    Before registering, be sure you’re logged in, and then press “Get Tickets”. Scroll until you find Mini 500.
-                    Only one team member needs to sign up and pay the registration fee of $10.
+                    "main" => 'Details on sign-ups for fall 2023 will be available shortly.
 '
 
                 ],
@@ -175,7 +179,9 @@ s
                                  and bruises so we recommend wearing some form of bottom that covers your legs 
                                  (jeans, sweatpants, leggings) as well are wearing reinforcement on your shoes 
                                  (such as duct tape) or shoes you don’t care about because they will be hitting the 
-                                pavement and may get scuffed up!'
+                                pavement and may get scuffed up! With this year’s Mini 500 on Halloween weekend, 
+                                we encourage all racers to wear a costume under the shirts that will be distributed 
+                                on the day of the race!'
     ],
     [
         "image" => '/homecoming/images/M56.jpg',
@@ -214,7 +220,7 @@ s
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <p class="text-muted"><i>Have any questions? Reach out to us at <a href="mailto:gtmini5002022@gmail.com">gtmini5002022@gmail.com</a> or <a href="mailto:rrchomecoming@gmail.com">rrchomecoming@gmail.com</a>.</i></p>
+            <p class="text-muted"><i>Have any questions? Reach out to us at <a href="mailto:rrcmini500@gmail.com">rrcmini500@gmail.com</a> or <a href="mailto:rrchomecoming@gmail.com">rrchomecoming@gmail.com</a>.</i></p>
         </div>
     </div>
 </div>
