@@ -62,7 +62,7 @@
         <div class='row text-center'>
 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">-->
             <i>The Ramblin Reck Club’s sign-up form is for individual registrations. Organizations wishing to receive
-            points must also sign up for this event using SCPC’s Homecoming waiver, found at <a href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">this link</a></i>
+             points must also sign up for this event using SCPC’s Homecoming waiver, found at <a href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">this link</a></i>
         </div>
     </div>
     <hr class="mb-3">
@@ -82,7 +82,7 @@
         [
             "image" => '/homecoming/images/fcr-001.jpg',
             "title" => 'The Tradition',
-            "main" => 'The Freshman Cake Race is a half-mile race held before sunrise on the morning of the Homecoming game every year. This unique long-standing tradition is open to all <strong>first year</strong> Georgia Tech students. Each first year receives a cupcake at the end of the race. The male and female winners of the race receive a cake and are brought to the field during halftime of the Homecoming game where they are congratulated by Mr. and Ms. Georgia Tech. This race dates back to 1911, when the first Cake Race was held as an open cross-country run at Georgia Tech. Two years later, some of the faculty member’s wives started baking cakes for the winners, thus the name Cake Race was created. While the race’s original purpose was to scout men for the track team, today\'s participants are encouraged to run, jog, or walk. First years, sign up today to take part in one of Georgia Tech’s greatest traditions!'
+            "main" => 'The Freshman Cake Race is a half-mile race held before sunrise on the morning of the Homecoming game every year. This unique long-standing tradition is open to all <strong>first year</strong> Georgia Tech students. Each first year receives a cupcake at the end of the race. The male and female winners of the race receive a cake and are brought to the field during halftime of the Homecoming game where they are congratulated by the Ramblin’ Royalty. This race dates back to 1911, when the first Cake Race was held as an open cross-country run at Georgia Tech. Two years later, some of the faculty member’s wives started baking cakes for the winners, thus the name Cake Race was created. While the race’s original purpose was to scout men for the track team, today\'s participants are encouraged to run, jog, or walk. First years, sign up today to take part in one of Georgia Tech’s greatest traditions!'
         ],
  /*       [
             "image" => '/homecoming/images/fcr-003.jpg',
@@ -106,10 +106,10 @@
         [
             "image" => '/homecoming/images/fcr-002.jpg',
             "title" => 'Sign Ups',
-            "main" => 'The official 2023 Freshman Cake Race sign-up can be found here: 
+            "main" => '2023 Freshman Cake Race Interest Form can be found here: 
                                     <a href="https://forms.gle/hrUzURL8h1V5mxdq8">Freshman Cake Race Sign-up</a> 
                                     <i>Note: filling out the interest form did not sign you up for the Freshman Cake Race. 
-                                    You must still complete this official sign-up.</i>'
+                                    You must still complete the official sign-up.</i>'
 
         ],
         [
@@ -141,7 +141,7 @@
             "main" => 'Be sure to wear tennis shoes/sneakers and clothes that you would be comfortable running 
                             or walking in. Remember, you are encouraged to run or walk at your own pace. 
                             Depending on the temperature, make sure to dress in clothes that will keep you warm 
-                            (sweatshirt/jacket, pants, hats, gloves, etc).'
+                            (sweatshirt/jacket, pants, hats, gloves, etc). With this year’s cake race on Halloween weekend, we encourage all racers to wear a costume!'
         ],
         [
             "image" => '/homecoming/images/fcr-003.jpg',
@@ -154,7 +154,7 @@
 <li>Students are not allowed to litter the trash from cupcakes and cakes.</li> 
 </ul><p><strong>Any violations of these rules will result in disqualification of the participant and that participant’s organization will not receive points towards Homecoming. The violator’s organization will not be allowed to participate in Homecoming the following year.</strong> Violators will be brought to the Office of Student Integrity.</p>
 The full rule book can be found here: <a href="https://docs.google.com/document/d/1iWAjlXLN0hJ4s_TWiy6fEXVTar39WjkWMf89LXT8urM/edit?usp=sharing
-">FCR 2021 Rule Book
+">FCR 2023 Rule Book
 </a> '
         ]
     );

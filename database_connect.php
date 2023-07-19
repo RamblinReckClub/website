@@ -1,4 +1,4 @@
-<?php
+re<?php
 	$host = 'localhost';
 	$port = 3306;
 	$database = 'reck_club';

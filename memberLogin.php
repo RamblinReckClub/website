@@ -53,9 +53,9 @@ require "html_header_begin.txt";
 <?php
 require "html_header_end.txt";
 if (isset($_SESSION['memberID'])==1) {
-    print("<h3><script type=\"text/javascript\">printImage();</script></h3>");
+    ("<h3><script type=\"text/javascript\">printImage();</script></h3>");
     // print("<meta http-equiv=\"refresh\" ");
-    print("<h3>Login successful</h3>\n");
+    //print("<h3>Login successful</h3>\n");
     if($_SESSION['status']=="alumni"){
         print("content=\"1; url=history.php\">");
     } else{

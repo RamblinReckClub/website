@@ -56,7 +56,8 @@ s
             <a class='btn btn-md btn-primary' href="#race-day-info">Event Information</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-            <a class='btn btn-md btn-secondary' href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">Event Waiver</a>
+            <!--     <a class='btn btn-md btn-secondary' href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">Event Waiver</a>  >-->
+            <a class='btn btn-md btn-secondary' href="">Event Waiver</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
             <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1F6ufyRBopoD691_pbM7hZTcDtfPeTQ7O3-7YeA4ua20/edit?usp=sharing" target="_blank">Event Rules</a>
