@@ -381,7 +381,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $('.main').hover(function(){
-                $(this).text("August 28th").fadeIn("slow");
+                $(this).text("August 27th").fadeIn("slow");
             }, function() {
                 $(this).text("T-Night").fadeIn("slow");
             });
