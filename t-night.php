@@ -387,7 +387,7 @@
             });
         });
     </script>
-    <title>T-Night 2022 | Ramblin' Reck Club</title>
+    <title>T-Night 2023 | Ramblin' Reck Club</title>
 </head>
 <body style="">
 <div id="banner-wrap">
@@ -401,13 +401,13 @@
 <div id="wrapper">
     <div class="container">
         <div id="intro" class="clearfix">
-<!--            <div id="invitation">Ramblin' Reck Club is proud to present its annual traditions celebration on <span class="highlight">Sunday, August 28th</span> from <span class="highlight">7:00-9:00 pm</span> at McCamish Pavilion. You don't want to miss this exciting event!</div>
+<!--            <div id="invitation">Ramblin' Reck Club is proud to present its annual traditions celebration on <span class="highlight">Sunday, August 27th</span> from <span class="highlight">7:00-9:00 pm</span> at McCamish Pavilion. You don't want to miss this exciting event!</div>
                 <div id="invitation">Due to the COVID-19 pandemic, we have decided to postpone Traditions Night 2020 to the <span class="highlight">Spring 2021 semester</span>. Keep an eye out for an official date to be set for this exciting event!</div>-->
-                <div id="invitation">Kickoff the start of the new school year with Georgia Tech’s biggest celebration of the year. Located at Bobby Dodd Stadium, T-Night 2022 will feature food, games, giveaways, prizes, performances, and so much more. All members of the Tech community, from incoming first-years to returning PhD candidates, are invited to attend. T-Night 2022 is an event you won’t want to miss!</div>
+                <div id="invitation">Kickoff the start of the new school year with Georgia Tech’s biggest celebration of the year. Located at Bobby Dodd Stadium, T-Night 2023 will feature food, games, giveaways, prizes, performances, and so much more. All members of the Tech community, from incoming first-years to returning PhD candidates, are invited to attend. T-Night 2023 is an event you won’t want to miss!</div>
             <div id="schedule">
                 <h2>Schedule of Events</h2>
                 <ul>
-                    <li>Sunday, August 28th, 2022</span></li>
+                    <li>Sunday, August 27th, 2023</span></li>
                     <li>Traditions Festival - Callaway Plaza<span>5:30 PM</span></li>
                     <li>T-Night Show - Bobby Dodd<span>7:00 PM</span></li>
 <!--                    <li>Fireworks<span>9:00pm</span></li>-->
@@ -430,10 +430,11 @@
                 <div id="parent" class="sponsor"></div>
             </div>
             <div id="sponsor_block" align="center">
-                <div id="tiffs" class="sponsor"></div>
+                <div id="waho" class="sponsor"></div>
+                <!-- <div id="tiffs" class="sponsor"></div>
                 <div id="inspire" class="sponsor"></div>
                 <div id="HDC" class="sponsor"></div>
-                <div id="BWW" class="sponsor"></div>
+                <div id="BWW" class="sponsor"></div> -->
             </div>
         </div>
     </div>
