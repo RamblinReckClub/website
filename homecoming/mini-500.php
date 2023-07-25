@@ -31,11 +31,11 @@
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Aastha Singh</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Ajay Mathur</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Ajay Mathur</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Aastha Singh</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
         </div>
     </div>

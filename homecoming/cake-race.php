@@ -53,7 +53,7 @@
         </div>
 <!--        sign up button-->
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-            <a class='btn btn-md btn-secondary' href="https://forms.gle/hrUzURL8h1V5mxdq8">Sign Up</a>
+            <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/9145762">Sign Up</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-sm-3'>
             <?php //If you change the name of the rules section further down, change the href here too. ?>
@@ -106,8 +106,8 @@
         [
             "image" => '/homecoming/images/fcr-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '2023 Freshman Cake Race Interest Form can be found here: 
-                                    <a href="https://forms.gle/hrUzURL8h1V5mxdq8">Freshman Cake Race Sign-up</a> 
+            "main" => '2023 Freshman Cake Race Sign-ups can be found here: 
+                                    <a href="https://gatech.campuslabs.com/engage/event/9145762">Freshman Cake Race Sign-up</a> 
                                     <i>Note: filling out the interest form did not sign you up for the Freshman Cake Race. 
                                     You must still complete the official sign-up.</i>'
 
