@@ -119,7 +119,7 @@
     <h4 class="mb-3">Members</h4>
     <div class="row mb-3">
     <?php
-  $members = ['Abby Hart', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Andreea Juravschi', 'Andrew Norlin', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Brendan Mindiak', 'Bo Miller', 'Carolyn Braun', 'Carter Kubes', 'Charlie Hammer', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Gabriel Armstrong', 'Gal Ovadia', 'Grace Mallon', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Josh Fernandes', 'Kate Schutz', 'Keshav Ramanathan', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner',  'Melissa Braunstein', 'Michael DuBose', 'Miriam Guthrie', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Samuel Auborn', 'Sarah Wiedetz', 'Sean Alexander', 'Shawn McKelvey', 'Simran Patel', 'Sofia Eidizadeh', 'Sumayyah Ahmed', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Will Hancock'];
+  $members = ['Abby Hart', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Andreea Juravschi', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Bo Miller', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Gal Ovadia', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Josh Fernandes', 'Kate Schutz', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner',  'Melissa Braunstein', 'Michael DuBose', 'Miriam Guthrie', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Samuel Auborn', 'Sean Alexander', 'Simran Patel', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Will Hancock'];
     sort($members);
     chunkAndFormatArray($members, 6, function ($chunk) {
         echo "<div class=\"col-md-2 text-center\">";
