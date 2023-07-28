@@ -83,13 +83,12 @@ s
                     "image" => '/homecoming/images/M55.jpg',
                     "title" => 'The Tradition',
                     "main" => 'The Mini 500 is an annual 8 lap tricycle race that takes place around Peter’s Parking 
-                    Deck on the Friday afternoon before the Homecoming football game. It is one of Georgia Tech’s most 
-                    unique traditions put on by Ramblin’ Reck Club since 1969. Teams consist of seven members: four 
-                    racers and three pit crew who are responsible for maintenance and tire rotations. Each team is 
-                    required to rotate their front tire three times throughout the course of the race, typically 
-                    following the second, fourth, and sixth lap. All teams attempt to complete all 8 laps as quickly 
-                    as possible without destroying their tricycle.
-'
+                               Deck on the Friday afternoon before the Homecoming football game. It is one of Georgia Tech’s most 
+                               unique traditions put on by Ramblin’ Reck Club since 1969. Teams consist of seven members: four 
+                               racers and three pit crew who are responsible for maintenance and tire rotations. Each team is 
+                               required to rotate their front tire three times throughout the course of the race, typically 
+                               following the second, fourth, and sixth lap. All teams attempt to complete all 8 laps as quickly 
+                               as possible without destroying their tricycle.'
 
                 ],
         /*        [
@@ -144,7 +143,7 @@ s
         echo "<div class='row mb-3'>";
         echo "<div class='col-md-5 col-sm-12'><img class= \"img-fluid mb-3 mb-md-0\" src=\"" . $item["image"] . "\"/></div>";
         echo "<div class='col-md-7 col-sm-12'>";
-        echo "<h4>". $item["title"] . "</h4><p> " . $item["main"] . "<p></div>";
+        echo "<h4>". $item["title"] . "</h4><p> " . $item["main"] ."</p></div>";
         echo "</div>";
     }
 ?>
@@ -211,7 +210,7 @@ s
             echo "<div class='row mb-3'>";
             echo "<div class='col-md-5 col-sm-12'><img class= \"img-fluid mb-3 mb-md-0\" src=\"" . $item["image"] . "\"/></div>";
             echo "<div class='col-md-7 col-sm-12'>";
-            echo "<h4>". $item["title"] . "</h4><p> " . $item["main"] . "<p><br></div>";
+            echo "<h4>". $item["title"] . "</h4><p> " . $item["main"] . "</p></div>";
             echo "</div>";
         }
 

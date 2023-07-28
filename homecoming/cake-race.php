@@ -159,7 +159,7 @@ The full rule book can be found here: <a href="https://docs.google.com/document/
         ]
     );
 
-    echo "<div class= 'blog-header'>";
+    echo "<br><div class= 'blog-header'>";
     echo "<div class='col-12' style=\"text-align: center;\">";
     echo "<h1 id='race-day-logistics'>Race Day Logistics</h1></div></div><br>";
 
