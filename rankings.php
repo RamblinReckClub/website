@@ -21,7 +21,7 @@ $pageTitle = "Members";
 <div class="container">
 <div class="row mb-1">
     <div class="col-md-10">
-        <h3>Complete Individual Rankings</h3>
+        <h3>Members</h3>
     </div>
     <div class="col-md-2">
         <form>
@@ -44,10 +44,10 @@ $pageTitle = "Members";
         <table class="table table-hover table-sm mb-3">
             <thead>
                 <tr>
-                    <th scope="col">Rank</th>
+                    <!--<th scope="col">Rank</th> -->
                     <th scope="col">Name</th>
 <!--                    <td scope="col" align="right"><b>Total Events</b></td>-->
-                    <td scope="col" align="right"><b>Total Points</b></td>
+                    <!--<td scope="col" align="right"><b>Total Points</b></td>-->
                 </tr>
             </thead>
             <tbody>
@@ -57,16 +57,16 @@ $pageTitle = "Members";
                 //---------------------------------------------------
 
                 if($sortBy=="all") {
-                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status!='alumni' ORDER BY memberPoints DESC, lastName");
+                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status!='alumni' ORDER BY firstName DESC, lastName");
                         $query->setFetchMode(PDO::FETCH_ASSOC);
                 } elseif($sortBy=="members") {
-                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='member' ORDER BY memberPoints DESC, lastName");
+                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='member' ORDER BY firstName DESC, lastName");
                         $query->setFetchMode(PDO::FETCH_ASSOC);
                 } elseif($sortBy=="probates") {
-                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='probate' ORDER BY memberPoints DESC, lastName");
+                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='probate' ORDER BY firstName DESC, lastName");
                         $query->setFetchMode(PDO::FETCH_ASSOC);
                 } elseif($sortBy=="social") {
-                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='social' ORDER BY memberPoints DESC, lastName");
+                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='social' ORDER BY firstName DESC, lastName");
                         $query->setFetchMode(PDO::FETCH_ASSOC);
                 }
 

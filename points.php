@@ -58,14 +58,14 @@ while($row = $rank_query->fetch()) {
     <div class="row mb-3">
         <div class="col-md-6 col-sm-12">
             <div class="row">
-                <h2 class="col-12 float-left">Top 5</h2>
+                <h2 class="col-12 float-left">Top 10</h2>
             </div>
             <ul class="list-group">
                 <?php
 
                     $count = 1;
 
-                    $top5_query = $db->query("SELECT memberID, firstName, lastName, memberPoints FROM Member WHERE status!='alumni' ORDER BY memberPoints DESC, lastName LIMIT 5");
+                    $top5_query = $db->query("SELECT memberID, firstName, lastName, memberPoints FROM Member WHERE status!='alumni' ORDER BY memberPoints DESC, lastName LIMIT 10");
                     $top5_query->setFetchMode(PDO::FETCH_ASSOC);
 
                     while($row = $top5_query->fetch()){
@@ -78,10 +78,11 @@ while($row = $rank_query->fetch()) {
                     }
 
                 ?>
-
+                <!--
             </ul>
             <div class="row mt-2"><a class="col-12 text-center" href="rankings.php">Complete Rankings</a></div>
         </div>
+        -->
         <div class="col-md-6 col-sm-12">
             <div class="row">
                 <h2 class="col-12 float-left">Families</h2>
