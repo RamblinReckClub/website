@@ -119,7 +119,9 @@
     <h4 class="mb-3">Members</h4>
     <div class="row mb-3">
     <?php
-  $members = ['Abby Hart', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Andreea Juravschi', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Bo Miller', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Gal Ovadia', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Josh Fernandes', 'Kate Schutz', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner',  'Melissa Braunstein', 'Michael DuBose', 'Miriam Guthrie', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Samuel Auborn', 'Sean Alexander', 'Simran Patel', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Will Hancock'];
+
+  $members = ['Abby Hart', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Andreea Juravschi', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Bo Miller', 'Brendan Mindiak', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Gal Ovadia', 'Grace Mallon', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Josh Fernandes', 'Kate Schutz', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner',  'Melissa Braunstein', 'Michael DuBose', 'Miriam Guthrie', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Samuel Auborn', 'Sean Alexander', 'Simran Patel', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Will Hancock'];
+
     sort($members);
     chunkAndFormatArray($members, 6, function ($chunk) {
         echo "<div class=\"col-md-2 text-center\">";
@@ -134,7 +136,7 @@
     <h4 class="mb-3">Probates</h4>
     <div class="row mb-3">
         <?php
-        $probates = ['Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Annelise Lloyd', 'Arnav Mardia', 'Bo Batten', 'Evan Sunny', 'Hiba Kunwer', 'Kyle Ralyea', 'Lily Adlesick', 'Miller Daly', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Sadie Zeigler', 'Sofia Varmeziar', 'Tyler Gavaletz', 'Zack Mohr'];
+        $probates = ['Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Annelise Lloyd', 'Arnav Mardia', 'Evan Sunny', 'Hiba Kunwer', 'Kyle Ralyea', 'Lily Adlesick', 'Miller Daly', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Sadie Zeigler', 'Sofia Varmeziar', 'Tyler Gavaletz', 'Zack Mohr'];
         sort($probates);
         chunkAndFormatArray($probates,6, function ($chunk) {
             echo "<div class=\"col-md-2 text-center\">";
