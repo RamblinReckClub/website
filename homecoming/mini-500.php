@@ -60,7 +60,7 @@ s
             <a class='btn btn-md btn-secondary' href="">Event Waiver</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
-            <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1F6ufyRBopoD691_pbM7hZTcDtfPeTQ7O3-7YeA4ua20/edit?usp=sharing" target="_blank">Event Rules</a>
+            <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/13Lsk7ceHavoHJ64lCxBXjGJ8fRkDVRlgWGueNfSJJjo/edit?pli=1" target="_blank">Event Rules</a>
         </div>
 <!--        <div class='col-sm-4 col-xs-12'>-->
 <!--            <a class='btn btn-md btn-secondary' href="/assets/A-Guide-to-Mini-500.pdf" target="_blank">Guide to Mini 500</a>-->
@@ -113,7 +113,7 @@ s
                 [
                     "image" => '/homecoming/images/M51.jpg',
                     "title" => 'Sign Ups',
-                    "main" => 'Details on sign-ups for fall 2023 will be available shortly.
+                    "main" => 'Sign-ups will open on Engage on October 1st, 2023.
 '
 
                 ],
