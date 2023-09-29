@@ -11,7 +11,7 @@
         <h2 class="mb-3">The Reck</h2>
         <hr class="mb-3">
 
-    <img class="img-responsive mb-3" width="100%" src="reck2.jpg">
+    <img class="img-responsive mb-3" width="100%" src="/images/reck2.jpg">
 
     <p class="text-muted">For a deeper dive into the Reck's history, head over to our <a href="/reckhistory">history site</a>!</p>
     <p class="text-muted">To learn more about the Reck's drivers, click <a href="/reck/drivers.php">here</a>!</p>
