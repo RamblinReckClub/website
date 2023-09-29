@@ -6,15 +6,18 @@
 
 <body>
 <?php require "../partials/public-header.php" ?>
-<div class="container">
-    <h2 class="mb-3">The Reck</h2>
 
-    <img class="img-responsive mb-3" width="100%" src="/img/2023/ReckDukeWin.jpg">
+    <div class="container">
+        <h2 class="mb-3">The Reck</h2>
+        <hr class="mb-3">
+
+    <img class="img-responsive mb-3" width="100%" src="reck2.jpg">
 
     <p class="text-muted">For a deeper dive into the Reck's history, head over to our <a href="/reckhistory">history site</a>!</p>
     <p class="text-muted">To learn more about the Reck's drivers, click <a href="/reck/drivers.php">here</a>!</p>
 
     <h4 class="mb-3">Origins</h4>
+    <hr class="mb-3">
     <p>The earliest use of the term Ramblin’ Reck dates back to the late 19th and early 20th century. The Ramblin’ Reck with an ‘R’ refers to the vehicle mascot of Georgia Tech, while Ramblin’ Wreck with a ‘W’ refers to a student or the student body (“I’m a Ramblin’ Wreck from Georgia Tech and a helluva engineer.”).</p>
 
     <p>The song “I’m A Ramblin’ Wreck from Georgia Tech” was first written in 1893 by a Tech football player en route to play the Auburn Tigers. It was written to the music “Son of a Gambolier” by Charles Ives. The first published version of Ramblin’ Wreck came out in the first Blueprint in 1908. The song was titled “What causes Whitlock to Blush” and the words hell and helluva were censored from the lyrics. The final version of Ramblin’ Wreck was written, publicized, and copyrighted in 1919 by Frank Roman.</p>
@@ -33,6 +36,7 @@
     <p>After the second race was won by a racer averaging 51 miles per hour, the Tech administration decided to redesign the competition into a more peaceful parade of contraptions. The first Wreck Parade was held in 1932 and is still held to this day. The Wreck Parade was slightly interrupted by fuel rationing in World War II but was fully restored and retains almost all of the same rules since 1946.</p>
 
     <h4 class="mb-3">The Modern Reck</h4>
+    <hr class="mb-3">
 
     <p>In the 1940’s and 1950’s, Tech campus became a haven for shoddy, beat-up, and barely running student Recks. It was a rite of passage to own a Ramblin’ Reck. Dean Dull saw this passion for the classic automobile and channeled it into one of his many great endeavors. He went on a full scale search for a new official Ramblin’ Reck mascot. He wanted a pre-World War II Ford that could represent Georgia Tech’s rich engineering heritage.</p>
 
@@ -67,9 +71,9 @@
     <p>Local body shop Awesome Specialists out of Lawrenceville reworked the entire sheet steel body and repainted the car in classic Lincoln gold. The paint and primer was donated by PPG auto paints while a new set of tires was donated by Coker Tires out of Tennessee. Students in the mechanical engineering department repaired or remade several cosmetic details on the Reck with metal provided by Metal Supermarkets of Norcross. Eco Restorations of Austell reupholstered the seats with custom white vinyl featuring stitched 1952 yellow jackets. Eco also remade the entire white soft-top free of charge. The Landau irons were actually donated by University of Idaho official Marty Peterson. He mailed spare parts of his Model A collection from 2,500 miles away.</p>
 
     <p>The last touches were performed the night before the game. At 7:00 AM on September 8th, 2007, the Ramblin’ Reck was stowed away into the bleachers of Bobby Dodd Stadium. At two minutes and thirty seconds before kickoff, the Ramblin’ Reck burst out of the tunnel to the pleasure of 43,288 screaming Yellow Jacket fans, an attendance eerily similar to its first ever appearance at Bobby Dodd Stadium. The Ramblin’ Reck did not miss its 292nd consecutive home game and completed its 47th season on Grant Field in 2007.</p>
-
-    <hr class="mb-4">
-    <h4 class="mb-3">Have more questions about the Reck?</h4>
+    <br>
+   <!-- <hr class="mb-4">
+    <h4 class="mb-3">Have more questions about the Reck?</h4> -->
     <div class="row mb-2">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">

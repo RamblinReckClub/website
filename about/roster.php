@@ -8,8 +8,10 @@
 <body>
 <?php require "../partials/public-header.php" ?>
 <div class="container">
-    <h2 class="mb-3">2023 Roster</h2>
-    <h4 class="mb-4">Executive Board</h4>
+
+
+    <h4 class="mb-3">Executive Board</h4>
+    <hr class="mb-3">
     <div class="row">
         <div class="col-md-6">
             <p><strong>Faculty Advisor:</strong> <a href="mailto:estephens34@gatech.edu">Gerome Stephens</a></p>
@@ -24,8 +26,10 @@
             <p><strong>Member-at-Large:</strong> <a href="mailto:mguthrie31@gatech.edu">Miriam Guthrie</a></p>
         </div>
     </div>
-    <hr class="mb-3">
+
+    <br>
     <h4 class="mb-3">Chairs</h4>
+    <hr class="mb-3">
 
     <div class="row mb-3">
         <?php $chairs = array(
@@ -115,8 +119,9 @@
 
         ?>
     </div>
-    <hr class="mb-3">
+
     <h4 class="mb-3">Members</h4>
+    <hr class="mb-3">
     <div class="row mb-3">
     <?php
   $members = ['Abby Hart', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Andreea Juravschi', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Bo Miller', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Gal Ovadia', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Josh Fernandes', 'Kate Schutz', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner',  'Melissa Braunstein', 'Michael DuBose', 'Miriam Guthrie', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Samuel Auborn', 'Sean Alexander', 'Simran Patel', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Will Hancock'];
@@ -130,11 +135,12 @@
     });
     ?>
     </div>
-    <hr class="mb-3">
+
     <h4 class="mb-3">Probates</h4>
+    <hr class="mb-3">
     <div class="row mb-3">
         <?php
-        $probates = ['Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Annelise Lloyd', 'Arnav Mardia', 'Bo Batten', 'Evan Sunny', 'Hiba Kunwer', 'Kyle Ralyea', 'Lily Adlesick', 'Miller Daly', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Sadie Zeigler', 'Sofia Varmeziar', 'Tyler Gavaletz', 'Zack Mohr'];
+        $probates = ['Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Arnav Mardia', 'Bo Batten', 'Evan Sunny', 'Hiba Kunwer', 'Kyle Ralyea', 'Lily Adlesick', 'Miller Daly', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Sadie Zeigler', 'Sofia Varmeziar', 'Tyler Gavaletz', 'Zack Mohr'];
         sort($probates);
         chunkAndFormatArray($probates,6, function ($chunk) {
             echo "<div class=\"col-md-2 text-center\">";

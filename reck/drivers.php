@@ -8,11 +8,14 @@
 <body>
 <?php require "../partials/public-header.php" ?>
 <div class="container">
-<h2 class="mb-3">Drivers</h2>
+    <h2 class="mb-3">Drivers</h2>
+    <hr class="mb-3">
+
 <img class="img-responsive mb-3" width="100%" src="/img/2023/EvalynReckDriver.jpg">
 <p>Each year, one student is chosen from the ranks of the club to be the sole driver and primary caretaker of the Ramblin’ Reck. They are the only person with keys to the car, and the only person allowed to drive or transport the Reck. They know the ins and outs of the car better than the back of their hand and spends countless hours every week not only making sure that the car is running in tip-top shape, but also scheduling appearances, meeting with alumni and administration, and working on other projects in the best interest of the Reck. Despite the hard work, the job is perhaps the most meaningful and fulfilling on campus, and an unforgettable experience for every driver.</p>
 
 <h4 class="mb-3">The History of Drivers</h4>
+        <hr class="mb-3">
 <p class="text-muted">Since 1968, drivers have been selected by the Ramblin' Reck Club.</p>
 <div class="row">
     <?php
@@ -321,8 +324,7 @@
     });
     ?>
 </div>
-    <hr class="mb-4">
-    <h4 class="mb-3">Have more questions about the Reck?</h4>
+<br>
     <div class="row mb-2">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">

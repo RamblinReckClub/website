@@ -107,9 +107,8 @@
 
 
     <p>We wish you the best of luck during this recruitment process, and we look forward to meeting you soon. Thank you for considering joining the Ramblin’ Reck Club!</p>
-    <br>
     <hr class="mb-4">
-    <h4 class="mb-3">Have more questions about RECKruitment?</h4>
+
     <div class="row mb-2">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">

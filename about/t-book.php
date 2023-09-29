@@ -14,6 +14,7 @@
 
         <p class="mb-3">The T-book in its modern form has sections which provide an overview of the Ramblin’ Reck, GT history, traditions, Alumni, Fans and Spirit and Athletics.  Finally the T-book has been designed to be a resource to entering RATS by printing the guidelines to filling out RAT caps, the fight songs and a copy of the old RAT rules for those who want to participate.</p>
     <img class="img-responsive mb-3 d-block mx-auto" src="/img/promo/mantle-tbook.jpg" width="100%">
+    <hr class="mb-3">
 </div>
 
 <?php require "../partials/footer.php" ?>

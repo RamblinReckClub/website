@@ -56,8 +56,7 @@ s
             <a class='btn btn-md btn-primary' href="#race-day-info">Event Information</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-            <!--     <a class='btn btn-md btn-secondary' href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">Event Waiver</a>  >-->
-            <a class='btn btn-md btn-secondary' href="">Event Waiver</a>
+                <a class='btn btn-md btn-secondary' href="https://forms.gle/iW8N4gG9KkP9uNdbA">Event Waiver</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
             <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/13Lsk7ceHavoHJ64lCxBXjGJ8fRkDVRlgWGueNfSJJjo/edit?pli=1" target="_blank">Event Rules</a>
@@ -113,7 +112,7 @@ s
                 [
                     "image" => '/homecoming/images/M51.jpg',
                     "title" => 'Sign Ups',
-                    "main" => 'Sign-ups will open on Engage on October 1st, 2023.
+                    "main" => 'Sign-ups will open noon on October 2nd, 2023 <a href="https://forms.gle/iW8N4gG9KkP9uNdbA">here</a>.
 '
 
                 ],
