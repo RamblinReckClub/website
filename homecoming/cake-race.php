@@ -80,7 +80,7 @@
 
     $info1 = array(
         [
-            "image" => '/homecoming/images/fcr-001.jpg',
+            "image" => '/homecoming/images/cake_race_start.jpg',
             "title" => 'The Tradition',
             "main" => 'The Freshman Cake Race is a half-mile race held before sunrise on the morning of the Homecoming game every year. This unique long-standing tradition is open to all <strong>first year</strong> Georgia Tech students. Each first year receives a cupcake at the end of the race. The male and female winners of the race receive a cake and are brought to the field during halftime of the Homecoming game where they are congratulated by the Ramblin’ Royalty. This race dates back to 1911, when the first Cake Race was held as an open cross-country run at Georgia Tech. Two years later, some of the faculty member’s wives started baking cakes for the winners, thus the name Cake Race was created. While the race’s original purpose was to scout men for the track team, today\'s participants are encouraged to run, jog, or walk. First years, sign up today to take part in one of Georgia Tech’s greatest traditions!'
         ],
@@ -136,7 +136,7 @@
     <?php
     $info2 = array(
                [
-            "image" => '/homecoming/images/fcr-004.jpg',
+            "image" => '/homecoming/images/race_begins.jpg',
             "title" => 'Clothing Recommendations',
             "main" => 'Be sure to wear tennis shoes/sneakers and clothes that you would be comfortable running 
                             or walking in. Remember, you are encouraged to run or walk at your own pace. 
@@ -144,7 +144,7 @@
                             (sweatshirt/jacket, pants, hats, gloves, etc). With this year’s cake race on Halloween weekend, we encourage all racers to wear a costume!'
         ],
         [
-            "image" => '/homecoming/images/fcr-003.jpg',
+            "image" => '/homecoming/images/post_race.jpg',
             "title" => 'Race Rules',
             "main" => '<ul><li>Participants must start the race at the designated start line.</li>
 <li>No pushing or shoving is allowed during the race.</li>

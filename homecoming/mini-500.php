@@ -110,21 +110,21 @@ s
 
                ],*/
                 [
-                    "image" => '/homecoming/images/M51.jpg',
+                    "image" => '/homecoming/images/buzz_n_racer.jpg',
                     "title" => 'Sign Ups',
                     "main" => 'Sign-ups will open noon on October 2nd, 2023 <a href="https://forms.gle/iW8N4gG9KkP9uNdbA">here</a>.
 '
 
                 ],
                 [
-                    "image" => '/homecoming/images/M52.jpg',
+                    "image" => '/homecoming/images/fighting_freshmen_hill.jpg',
                     "title" => 'Tricycle Pickup',
                     "main" => 'Tricycles will be distributed a few weeks prior to the race to allow for proper modification. 
                     Please keep an eye out regarding further communication of exact dates and pick up location.'
 
                 ],
                 [
-                    "image" => '/homecoming/images/M53.jpg',
+                    "image" => '/homecoming/images/backwards_racer2.jpg',
                     "title" => 'Tricycle Modifications',
                     "main" => "Each team must paint their tricycle in order to participate. <b>RED TRICYCLES WILL NOT RACE.</b> 
                                  This is the only modification that a team must make, but it is highly encouraged that a 
@@ -164,7 +164,7 @@ s
 
     ],
     [
-        "image" => '/homecoming/images/M58.jpg',
+        "image" => '/homecoming/images/reck_club_finish.jpg',
         "title" => 'Racers',
         "main" => 'Each team will have four members who are deemed racers. They will take turns completing 
                                 a lap each until each racer has completed two laps for a total of eight laps done by 
@@ -172,7 +172,7 @@ s
                                 so just choose what works best for you!'
     ],
     [
-        "image" => '/homecoming/images/M57.jpg',
+        "image" => '/homecoming/images/clown_racer.jpg',
         "title" => 'Apparel',
         "main" => 'It is difficult to propel a tricycle as a full grown human and may result in a few scraps 
                                  and bruises so we recommend wearing some form of bottom that covers your legs 
@@ -183,7 +183,7 @@ s
                                 on the day of the race!'
     ],
     [
-        "image" => '/homecoming/images/M56.jpg',
+        "image" => '/homecoming/images/M53.jpg',
         "title" => 'Pit Crew',
         "main" => 'The team will also have 3 pit members who will remain in the pit and facilitate changes
                                 in drivers as well as the three front wheel rotations that must be performed 
@@ -191,7 +191,7 @@ s
 
     ],
     [
-        "image" => '/homecoming/images/M59.jpg',
+        "image" => '/homecoming/images/M56.jpg',
         "title" => 'The Wheel Rotation',
         "main" => 'After every two laps the team is required to perform a rotation of their front tire.
                                 This will be monitored by the pit boss assigned to the teams pit and completed after 
