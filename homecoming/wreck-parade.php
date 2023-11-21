@@ -18,7 +18,7 @@
 <div class="container mb-3">
     <div class="row">
         <div class="col-12">
-            <img class="img-fluid img-responsive" src="/homecoming/images/WreckParadeBanner2021.png">
+            <img class="img-fluid img-responsive" src="/homecoming/images/wreck_prade_2023.png">
         </div>
     </div>
 </div>
@@ -112,7 +112,7 @@
                         can be <a href="https://docs.google.com/document/d/1750Fd-Dy3bTbTPqHRJPLjuvdRNTichO7tuRg4_Pb3g4/edit?usp=share_link">found here.</a></p>'
         ],
         [
-            "image" => '/homecoming/images/wp-001.jpg',
+            "image" => '/homecoming/images/yellow_corvette.jpg',
             "title" => 'Categories',
             "main" => '<p>Wreck Parade features three categories for entries: classic car, fixed body and contraption. 
                                     Classic Car: A restored car which is over 25 years old.  This category is 
