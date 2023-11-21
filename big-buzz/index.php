@@ -14,7 +14,7 @@ $dt = new DateTime("now", new DateTimeZone($tz));
     <div class="py-3 text-center">
         <a href="../index.php"><img class="d-block mx-auto mb-4 mt-4" src="/img/brand/official-logo.png" alt="" width="150" height="150"></a>
         <h2>Request Big Buzz</h2>
-        <p class="lead">Big Buzz appearances are fulfilled at the discretion of the Ramblin' Reck Club. Please email Joey D'Adamio (jdadamio3@gatech.edu) with any questions or concerns. </p>
+        <p class="lead">Big Buzz appearances are fulfilled at the discretion of the Ramblin' Reck Club. Please email rrcbigbuzz@gmail.com with any questions or concerns. </p>
         <p><b>NOTE: This is NOT a request for Buzz the mascot, but rather it is to request a giant inflatable Buzz as seen in the picture below.</b></p>
         <p>You can request Buzz the mascot here: <a href="http://www.ramblinwreck.com/requests.html">http://www.ramblinwreck.com/requests.html</a></p>
         <img src="/img/promo/big-buzz.jpg" class="img img-responsive rounded" width="500px">
