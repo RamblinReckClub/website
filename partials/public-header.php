@@ -67,8 +67,9 @@
                         Requests
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/reck/request.php">Request the Reck</a>
-                        <a class="dropdown-item" href="/big-buzz">Request Big Buzz</a>
+                        <a class="dropdown-item" href="https://forms.gle/g8zbkHjxTujy8qNc8">Request the Reck</a>
+                        <a class="dropdown-item" href="https://forms.gle/CQBUucobQkKgMfU9A">Request Big Buzz</a>
+                        <a class="dropdown-item" href="https://forms.gle/y9VCxXJTAkUSC5wX9">Request the Garage</a>
                     </div>
                 </li>
                 <li class="nav-item">

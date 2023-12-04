@@ -12,7 +12,7 @@
     <p>Every spring semester, Ramblin’ Reck Club holds RECKruitment in order to take in a new class of probates (probationary members). These probates are selected from a pool of applicants who must first submit an application and attend a series of RECKruitment events.  Email <a href="mailto:membershipchair@reckclub.org">Eleanor Froula</a>, Ramblin' Reck Club Membership Chair, if you have questions or concerns. Find the breakdown of these events below:</p>
 
     <h4 class="mb-3">Overview of the 2024 Application Process and Timeline</h4>
-    <p class="mb-0">Timeline for the 2024 application process will be released soon!</p>
+    <p class="mb-0">Timeline for the 2024 application process will be released soon. To be notified when applications open, sign up for this <a href="https://forms.gle/zrW66Pyrn8eGi7aV8">email list!</a> </p>
 <!--
     <p class="mb-0">A full and complete application for membership includes:</p>
     // this line was commented out <p class="mt-0 text-muted"><i>Note: submission deadline and all event dates TBD for 2020</i></p>
@@ -51,7 +51,7 @@
 
 <h4 class="mb-2" id="written-application">Written Application</h4>
 
-<p>The 2024 Ramblin’ Reck Club application will open soon!</p>
+<p>The 2024 Ramblin’ Reck Club application will open on January 1, to be notified when applications open, sign up for this <a href="https://forms.gle/zrW66Pyrn8eGi7aV8">email list!</a> </p>
 <!--    <p>The 2024 Ramblin’ Reck Club application can be found <a href="https://forms.gle/fALhfb2TRUkKKTu76" target="blank">here</a>. A completed written application must be submitted no later than <strong>Tuesday, January 31st at 11:59pm</strong>.</p>
 
 <div class='row text-center'>
