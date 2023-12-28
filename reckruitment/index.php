@@ -50,8 +50,13 @@
 
 <h4 class="mb-2" id="written-application">Written Application</h4>
 
+<<<<<<< Updated upstream
 <!--<p>The 2020 Ramblin’ Reck Club application is now closed. Check back next December for 2021's application!</p>-->
     <p>The 2023 Ramblin’ Reck Club application can be found <a href="https://forms.gle/fALhfb2TRUkKKTu76" target="blank">here</a>. A completed written application must be submitted no later than <strong>Tuesday, January 31st at 11:59pm</strong>.</p>
+=======
+<p>The 2024 Ramblin’ Reck Club application will open on January 1st, to be notified when applications open, sign up for this <a href="https://forms.gle/zrW66Pyrn8eGi7aV8">email list!</a> </p>
+<!--    <p>The 2024 Ramblin’ Reck Club application can be found <a href="https://forms.gle/fALhfb2TRUkKKTu76" target="blank">here</a>. A completed written application must be submitted no later than <strong>Tuesday, January 31st at 11:59pm</strong>.</p>
+>>>>>>> Stashed changes
 
 <div class='row text-center'>
     <div class='col-sm col-xs-12 mb-5 mb-sm-0'>
