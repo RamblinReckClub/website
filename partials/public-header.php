@@ -67,14 +67,11 @@
                         Requests
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<<<<<<< Updated upstream
-                        <a class="dropdown-item" href="/reck/request.php">Request the Reck</a>
-                        <a class="dropdown-item" href="/big-buzz">Request Big Buzz</a>
-=======
+
                         <a class="dropdown-item" href="https://forms.gle/rCfXyiBLVtgfp9YS7">Request the Reck</a>
                         <a class="dropdown-item" href="https://forms.gle/CQBUucobQkKgMfU9A">Request Big Buzz</a>
                         <a class="dropdown-item" href="https://forms.gle/RUN4pcFVBLuDiTsn8">Request the Garage</a>
->>>>>>> Stashed changes
+
                     </div>
                 </li>
                 <li class="nav-item">
