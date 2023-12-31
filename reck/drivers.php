@@ -20,6 +20,11 @@
 <div class="row">
     <?php
     $drivers = [
+
+        [
+            "year" => "2024",
+            "name" => "Matthew Kistner"
+        ],
         [
             "year" => "2023",
             "name" => "Omar Khan"

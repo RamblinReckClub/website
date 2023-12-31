@@ -14,16 +14,17 @@
     <hr class="mb-3">
     <div class="row">
         <div class="col-md-6">
-            <p><strong>Faculty Advisor:</strong> <a href="mailto:estephens34@gatech.edu">Gerome Stephens</a></p>
-            <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Omar Khan</a></p>
-            <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Josh Fernandes</a></p>
-            <p><strong>Vice President:</strong> <a href="mailto:areitano3@gatech.edu">Austin Reitano</a></p>
+
+            <p><strong>Faculty Advisor:</strong> <a href="mailto:estephens34@gatech.edu">Dr. Kristina Clement</a></p> <!-- INSERT RIGHT EMAIL -->
+            <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Matthew Kistner</a></p>
+            <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Simran Patel</a></p>
+            <p><strong>Vice President:</strong> <a href="mailto:areitano3@gatech.edu">Matthew Aronin</a></p>
         </div>
         <div class="col-md-6">
-            <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Simran Patel</a></p>
-            <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Gal Ovadia</a></p>
-            <p><strong>Member-at-Large:</strong> <a href="mailto:aronco6@gatech.edu">Ainsley Ronco</a></p>
-            <p><strong>Member-at-Large:</strong> <a href="mailto:mguthrie31@gatech.edu">Miriam Guthrie</a></p>
+            <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Connor White</a></p>
+            <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Arnav Mardia</a></p>
+            <p><strong>Member-at-Large:</strong> <a href="mailto:aronco6@gatech.edu">Kyle Ralyea</a></p>
+            <p><strong>Member-at-Large:</strong> <a href="mailto:mguthrie31@gatech.edu">Mya Moffitt</a></p>
         </div>
     </div>
 
@@ -79,7 +80,7 @@
             ],
             [
                 "chair" => 'RECKruitment',
-                "name" => 'Charlie Hammer and Keshav Ramanathan'
+                "name" => 'Eleanor Froula'
             ],
             [
                 "chair" => 'T-Book',
@@ -124,7 +125,7 @@
     <hr class="mb-3">
     <div class="row mb-3">
     <?php
-  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Andreea Juravschi', 'Arnav Mardia', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Bo Miller', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Josh Fernandes', 'Kate Schutz', 'Kyle Ralyea', 'Lily Adlesick', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Sean Alexander', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson','Tyler Gavaletz', 'Will Hancock', 'Zack Mohr'];
+  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Arnav Mardia', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Kate Schutz', 'Kyle Ralyea', 'Lily Adlesick', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson','Tyler Gavaletz', 'Zack Mohr'];
     sort($members);
     chunkAndFormatArray($members, 6, function ($chunk) {
         echo "<div class=\"col-md-2 text-center\">";
