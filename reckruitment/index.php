@@ -52,14 +52,14 @@
 
 
 <!--<p>The 2024 Ramblin’ Reck Club application is now closed. Check back next December for 2025's application!</p>-->
-    <p>The 2024 Ramblin’ Reck Club application can be found <a href="http://tinyurl.com/rrcapp2024" target="blank">here</a>. A completed written application must be submitted no later than <strong>Wednesday, January 31st at 11:59pm</strong>.</p>
+    <p>The 2024 Ramblin’ Reck Club application can be found <a href="https://docs.google.com/forms/d/e/1FAIpQLSccAlBLTfa8IXV50ks-Q0o3vvgpgwmtR6VDpzdzwVMnNeYAVg/closedform" target="blank">here</a>. A completed written application must be submitted no later than <strong>Wednesday, January 31st at 11:59pm</strong>.</p>
 
     <!--<p>The 2024 Ramblin’ Reck Club application will open on January 1st, to be notified when applications open, sign up for this <a href="https://forms.gle/zrW66Pyrn8eGi7aV8">email list!</a> </p> -->
 
 
     <div class='row text-center'>
         <div class='col-sm col-xs-12 mb-5 mb-sm-0'>
-            <a class='btn btn-md btn-primary' href="hhttp://tinyurl.com/rrcapp2024" target="blank"><strong>APPLY HERE!</strong></a>
+            <a class='btn btn-md btn-primary' href="https://docs.google.com/forms/d/e/1FAIpQLSccAlBLTfa8IXV50ks-Q0o3vvgpgwmtR6VDpzdzwVMnNeYAVg/closedform" target="blank"><strong>APPLY HERE!</strong></a>
         </div>
     </div>
 
