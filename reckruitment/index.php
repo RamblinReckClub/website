@@ -18,8 +18,13 @@
     <ul>
         <li>A <a href="#written-application">written application</a> submitted by <strong>Wednesday, January 31st</strong></li>
         <li>Attendance at one of the three selected <a href="#gtky-events">“Get to Know You” (GTKY)</a> Events</li>
+    </ul>
+
+    <p class="mb-0">Upon proper completion of the application, invitations will be sent out for the next recruitment events:</p>
+
+    <ul>
         <li>Attendance at the <a href="#first-social">first social</a> on <strong>Monday, February 6th</strong></li>
-        <li><a href="#interviews">Interviews</a>, <strong>February 6th - February 8th</strong></li>
+        <li><a href="#interviews">Interviews</a> (Individual and Group), occurring <strong> February 6th - February 8th</strong></li>
         <li>Attendance at the <a href="#second-social">second social</a> on <strong>Saturday, February 10th</strong> (by invitation only)</li>
         <li>Attendance at the all-club Spring Retreat (Date TBD if selected to be a 2024 probate)</li>
     </ul>
@@ -95,7 +100,7 @@
     </ul> -->
     <p>There will be two time slots for the first social. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
 
-<h4 class="mb-2" id="interviews">Interviews (Mandatory)</h4>
+<h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
     <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We just want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social. All interview time slots will be between 6:00pm and 10:00pm on February 6th, 7th, and 8th. </p>
 
