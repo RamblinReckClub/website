@@ -93,7 +93,7 @@
         <!--    <li>Check back here in December 2019 for athletic social dates for the 2020 recruitment cycle!</li>-->
     </ul>
 
-<h4 class="mb-2" id="first-social">First Social (Mandatory)</h4>
+<h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
     <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be  on the evening of <strong>Monday, February 5th (Location TBA)</strong>.</p>
     <!-- <ul>
         <li><strong>First Social: Monday, February 6th</strong></li>
@@ -110,7 +110,7 @@
         <li><strong>Thursday, February 9th from 8:00pm-11:00pm</strong></li>
     </ul> -->
 
-<h4 class="mb-2" id="second-social">Second Social (Mandatory)</h4>
+<h4 class="mb-2" id="second-social">Second Social (Invite Only)</h4>
     <p>After all interviews have been conducted, the Membership Chairs will notify each applicant whether they will advance to the second round of RECKruitment. During this second round, applicants will attend a mandatory second social held from <strong>1:00pm-3:30pm on Saturday, February 10th</strong>. Further details for this event will be sent out to those invited applicants only.</p>
 
 <hr class="mb-3"> <!--    adds dividing line-->
