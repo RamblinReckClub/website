@@ -15,16 +15,16 @@
     <div class="row">
         <div class="col-md-6">
 
-            <p><strong>Faculty Advisor:</strong> <a href="mailto:estephens34@gatech.edu">Dr. Kristina Clement</a></p> <!-- INSERT RIGHT EMAIL -->
+            <p><strong>Faculty Advisor:</strong> <a href="mailto:kristina.clement@studentlife.gatech.edu">Dr. Kristina Clement</a></p>
             <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Matthew Kistner</a></p>
             <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Simran Patel</a></p>
-            <p><strong>Vice President:</strong> <a href="mailto:areitano3@gatech.edu">Matthew Aronin</a></p>
+            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Matthew Aronin</a></p>
         </div>
         <div class="col-md-6">
             <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Connor White</a></p>
             <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Arnav Mardia</a></p>
-            <p><strong>Member-at-Large:</strong> <a href="mailto:aronco6@gatech.edu">Kyle Ralyea</a></p>
-            <p><strong>Member-at-Large:</strong> <a href="mailto:mguthrie31@gatech.edu">Mya Moffitt</a></p>
+            <p><strong>Member-at-Large:</strong> <a href="mailto:kralyea@gatech.edu">Kyle Ralyea</a></p>
+            <p><strong>Member-at-Large:</strong> <a href="mailto:mmoffitt6@gatech.edu">Mya Moffitt</a></p>
         </div>
     </div>
 
