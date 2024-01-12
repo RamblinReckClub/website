@@ -108,13 +108,13 @@
 <div class="container">
     <div class="row mt-3 text-center mb-3">
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
-            <a class="btn btn-primary" href="https://docs.google.com/document/d/1e87hYj82Iq7S8y3JaOTsgdgKqw4uA2y_YsaLxv8BSBM/edit?usp=sharing">Traditions Checklist</a>
+            <a class="btn btn-primary" href="https://docs.google.com/document/d/1tDqAF7Z-3OBYn0S6oT52MKjJKYnMUUf_rnfldmddUZg/edit">Traditions Checklist</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
             <a class="btn btn-primary" href="https://forms.office.com/Pages/ResponsePage.aspx?id=u5ghSHuuJUuLem1_Mvqgg8dg6Ibui2xJvwQn33fUib1UM0VHREZOQ0VEQkxRTTRaRFpMODA3Qk1FSi4u">Submit a Tradition</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-sm-0'>
-            <a class="btn btn-primary" href="https://docs.google.com/document/d/1jjwOSCR-S3jLyGq6DaLLPIXChuH6GIfLy1kf7QSagdE/edit?usp=sharing">Prizes and Tiers</a>
+            <a class="btn btn-primary" href="https://docs.google.com/document/d/1FGSsF1qlbQXGxbcnnd3-Qa1wJqbMtrpJ6RhZEGmUqgE/edit">Prizes and Tiers</a>
         </div>
     </div>
         <div>
