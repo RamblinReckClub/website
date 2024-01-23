@@ -75,7 +75,7 @@
     <ul>
         <li><strong>Wednesday, January 10th at 7:00pm-8:00pm</strong> in <a href="https://studentcenter.gatech.edu/exhibition-hall-map" target="blank">Buckhead meeting room</a> (Exhibition Hall)</li>
         <li><strong>Thursday, January 18th at 6:00pm-7:00pm</strong> in <a href="https://studentcenter.gatech.edu/exhibition-hall-map" target="blank">Buckhead meeting room</a> (Exhibition Hall)</li>
-        <li><strong>Sunday, January 28th at 2:00pm-3:00pm</strong> on <a href="https://gatech.zoom.us/j/93977743734?pwd=T2FRS0srNnJ6TFZMV3psZGJZTTlTUT09" target="blank">Zoom.</a> </li>
+        <li><strong>Sunday, January 28th at 2:00pm-3:00pm</strong> on <a href="https://gatech.zoom.us/j/97512995783" target="blank">Zoom.</a> </li>
         <!-- CHANGE ZOOM LINK -->
         <!--    <li><strong>First Social: Monday, January 28th at 7:15pm (Mandatory)</strong></li>-->
 <!--  <li>Check back here in December 2024 for info session dates for the 2025 recruitment cycle!</li>-->
@@ -87,8 +87,8 @@
 
     <ul>
         <li><strong>Saturday, January 20th from 1:00pm-3:00pm</strong> outside the Reck Garage: Traditions Scavenger Hunt</li>
-        <li><strong>Tuesday, January 23rd from 7:00pm-9:00pm</strong> (Location TBA): Game Night</li>
-        <li><strong>Saturday, February 3rd from 5:30pm-8:00pm</strong> (Location TBA): Basketball Watch Party</li>
+        <li><strong>Tuesday, January 23rd from 7:00pm-9:00pm</strong> in the <a href="https://studentcenter.gatech.edu/student-center-maps" target="blank">Cypress Theater</a> (Student Center): Game Night</li>
+        <li><strong>Saturday, February 3rd from 5:30pm-8:00pm</strong> in the <a href="https://studentcenter.gatech.edu/student-center-maps" target="blank">Cypress Theater</a> (Student Center): Basketball Watch Party</li>
         <!--    <li><strong>Interviews: Tuesday, January 29th through Thursday, January 31st from 5:30-9pm (Mandatory)</strong></li>-->
         <!--    <li>Check back here in December 2019 for athletic social dates for the 2020 recruitment cycle!</li>-->
     </ul>
