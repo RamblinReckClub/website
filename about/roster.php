@@ -112,7 +112,7 @@
             [
                 "chair" => 'History and Traditions',
                 "name" => 'Nina Phelan',
-                "email" => ''
+                "email" => 'rrctraditions@gmail.com'
             ],
             [   "chair" => 'Diversity and Inclusion',
                 "name" => 'Aditya Prabhakar and Evan Sunny',
