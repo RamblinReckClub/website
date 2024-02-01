@@ -94,15 +94,15 @@
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
-    <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be  on the evening of <strong>Monday, February 5th (Location TBA)</strong>.</p>
+    <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be  on the evening of <strong>Monday, February 5th at The Alumni House.</strong></p>
     <!-- <ul>
         <li><strong>First Social: Monday, February 6th</strong></li>
     </ul> -->
-    <p>There will be two time slots for the first social. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
+    <p>There are two time slots for the firt social: <strong>7:00PM - 8:15PM</strong> and <strong>8:45PM - 10:00PM </strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
-    <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We just want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social. All interview time slots will be between 6:00pm and 10:00pm on February 6th, 7th, and 8th. </p>
+    <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We just want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social. All interview time slots will be between 6:00pm and 10:00pm on February 6th, 7th, and 8th. Interviews will be conducted in Bill Moore Student Success Center Skyboxes. </p>
 
      <!-- <ul>
         <li><strong>Tuesday, February 7th from 6:00pm-10:00pm</strong></li>
@@ -111,7 +111,7 @@
     </ul> -->
 
 <h4 class="mb-2" id="second-social">Second Social (Invite Only)</h4>
-    <p>After all interviews have been conducted, the Membership Chairs will notify each applicant whether they will advance to the second round of RECKruitment. During this second round, applicants will attend a mandatory second social held from <strong>1:00pm-3:30pm on Saturday, February 10th</strong>. Further details for this event will be sent out to those invited applicants only.</p>
+    <p>After all interviews have been conducted, applicants will be notified whether they will advance to the second round of RECKruitment. During this second round, applicants will attend a mandatory second social held from <strong>1:00PM - 3:30PM on Saturday, February 10th</strong>. Further details for this event will be sent out to those invited applicants only.</p>
 
 <hr class="mb-3"> <!--    adds dividing line-->
     <p>Any time conflicts with these events should be brought to the attention of <a href="mailto:membershipchair@reckclub.org">Eleanor Froula</a>, Ramblin’ Reck Club Recruitment Chair, no later than <strong>Wednesday, January 31st</strong>.</p>

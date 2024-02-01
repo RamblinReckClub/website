@@ -36,70 +36,87 @@
         <?php $chairs = array(
             [
                 "chair" => 'Alumni Relations',
-                "name" => 'Aggie Fowler'
+                "name" => 'Sam Auborn',
+                "email" => 'alumnirelations@reckclub.org'
             ],
             [
                 "chair" => 'Baseball',
-                "name" => 'Michael DuBose'
+                "name" => 'Abby Upton',
+                "email" => 'rrcbaseball@gmail.com'
             ],
             [
                 "chair" => 'Basketball',
-                "name" => 'Austin Gies'
+                "name" => 'Austin Gies',
+                "email" => 'rrcbasketball@gmail.com'
             ],
             [
                 "chair" => 'Big Buzz',
-                "name" => 'Joey D\'Adamio'
+                "name" => 'Miller Daly',
+                "email" => 'rrcbigbuzz@gmail.com'
             ],
             [
                 "chair" => 'Campus Outreach',
-                "name" => 'Sam Auborn'
+                "name" => 'Allie Abbott',
+                "email" => 'rrccampusoutreach@gmail.com'
             ],
             [
                 "chair" => 'Fundraising',
-                "name" => 'Matthew Kistner'
+                "name" => 'Nathan Dailey',
+                "email" => 'rrcfundraisingchair@gmail.com'
             ],
             [
                 "chair" => 'Football',
-                "name" => 'Susannah Gordon'
+                "name" => 'Nicholas Unger',
+                "email" => 'rrcfootball@gmail.com'
             ],
             [
                 "chair" => 'Homecoming',
-                "name" => 'Bethany McMorris'
+                "name" => 'Tirth Patel',
+                "email" => 'rrctechnologychair@gmail.com'
             ],
             [
-                "chair" => 'Non-Revenue Sports',
-                "name" => 'Connor White'
+                "chair" => 'Olympic Sports',
+                "name" => 'Abby Hart',
+                "email" => 'rrcolympicsports@gmail.com'
             ],
             [
                 "chair" => 'Public Relations',
-                "name" => 'Nisha Rockwell'
+                "name" => 'Carolyn Braun',
+                "email" => 'rrcpublicrelations@gmail.com'
             ],
             [
                 "chair" => 'Probate Guides',
-                "name" => 'Eleanor Froula and Jordan Lawson'
+                "name" => 'Susannah Gordon and Rohan Raman',
+                "email" => ''
             ],
             [
-                "chair" => 'RECKruitment',
-                "name" => 'Eleanor Froula'
+                "chair" => 'Recruitment',
+                "name" => 'Eleanor Froula',
+                "email" => ''
             ],
             [
                 "chair" => 'T-Book',
-                "name" => 'Matthew Aronin'
+                "name" => 'Zachary Mohr',
+                "email" => 'rrctbook@gmail.com'
             ],
             [
                 "chair" => 'T-Night',
-                "name" => 'Suraya John'
+                "name" => 'Sadie Zeigler',
+                "email" => 'rctnight@gmail.com'
             ],
             [
                 "chair" => 'Technology',
-                "name" => 'Tirth Patel'
+                "name" => 'Gal Ovadia',
+                "email" => 'rrctechnologychair@gmail.com'
             ],
             [
-                "chair" => 'Traditions',
-                "name" => 'Reid Spencer'
+                "chair" => 'History and Traditions',
+                "name" => 'Nina Phelan',
+                "email" => ''
             ],
             [   "chair" => 'Diversity and Inclusion',
-                "name" => 'Rohan Raman'
+                "name" => 'Aditya Prabhakar and Evan Sunny',
+                "email" => ''
              ]);
         uasort($chairs, function($a, $b) {
             if ($a["chair"] > $b["chair"]) {
@@ -113,7 +130,11 @@
         chunkAndFormatArray($chairs, 2, function ($chunk) {
             echo "<div class=\"col-md-6 text-center\">";
             foreach ($chunk as $item) {
-                echo "<p class='text-left'><strong>". $item["chair"] .":</strong> " . $item["name"] . "</p>";
+                if ($item["email"] == '') {
+                    echo "<p class='text-left'><strong>". $item["chair"] .":</strong> " . $item["name"] . "</p>";
+                } else {
+                    echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href=\"mailto:". $item["email"] . "\">". $item["name"] ."</a>";
+                }
             }
             echo "</div>";
         });
