@@ -92,7 +92,7 @@
             [
                 "chair" => 'Recruitment',
                 "name" => 'Eleanor Froula',
-                "email" => ''
+                "email" => 'membershipchair@reckclub.org'
             ],
             [
                 "chair" => 'T-Book',
