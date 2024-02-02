@@ -8,7 +8,7 @@
 <?php require "../partials/public-header.php" ?>
 <div class="container">
     <h2 class="mb-3">Probateship</h2>
-    <img class="img-responsive mb-2" src="/img/2023/probate_2022.jpeg" width="100%" alt="Picture of members of Probate Class 20">
+    <img class="img-responsive mb-2" src="/img/2024/probates.jpeg" width="100%" alt="Picture of members of Probate Class 20">
     <p>During RECKruitment each year, we fill a new class of probates to add to the club’s existing member base. Read below for more details about what it’s like during your probateship in Reck Club.</p>
     <h4 class="mb-4">What exactly is a probate?</h4>
     <p>A probate, short for probationary member, is someone who has been in Reck Club for less than a full year.</p>
