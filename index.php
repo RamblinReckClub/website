@@ -78,7 +78,7 @@
                     <p class="card-text mb-auto">Each year, one student is chosen from the ranks of the club to be the sole driver and primary caretaker of the Ramblin’ Reck.</p>
                     <a href="/reck/drivers.php">Read more</a>
                 </div>
-                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2023/DriverPic.jpg" style="width: 200px; height: 250px;" src="/img/2023/DriverPic.jpeg" data-holder-rendered="true">
+                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2023/DriverPic.jpg" style="width: 200px; height: 250px;" src="/img/2024/driver1.png" data-holder-rendered="true">
             </div>
         </div>
         <div class="col-md-6">
