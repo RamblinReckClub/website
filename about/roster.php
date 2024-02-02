@@ -47,7 +47,7 @@
             [
                 "chair" => 'Basketball',
                 "name" => 'Austin Gies',
-                "email" => 'rrcbasketball@gmail.com'
+                "email" => 'rrcbasketballchair@gmail.com'
             ],
             [
                 "chair" => 'Big Buzz',
@@ -72,7 +72,7 @@
             [
                 "chair" => 'Homecoming',
                 "name" => 'Tirth Patel',
-                "email" => 'rrctechnologychair@gmail.com'
+                "email" => 'rrchomecoming@gmail.com'
             ],
             [
                 "chair" => 'Olympic Sports',
@@ -130,7 +130,11 @@
         chunkAndFormatArray($chairs, 2, function ($chunk) {
             echo "<div class=\"col-md-6 text-center\">";
             foreach ($chunk as $item) {
-                if ($item["email"] == '') {
+                if ($item["chair"] == 'Diversity and Inclusion') {
+                    echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href='mailto:aprabhakar32@gatech.edu'>Aditya Prabhakar</a> and <a href='mailto:esunny7@gatech.edu'>Evan Sunny</a>";
+                } elseif  ($item["chair"] == 'Probate Guides') {
+                    echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href='mailto:sggordon77@gmail.com'>Susannah Gordon</a> and <a href='mailto:roraman199@gmail.com'>Rohan Raman</a>";
+                } elseif ($item["email"] == '') {
                     echo "<p class='text-left'><strong>". $item["chair"] .":</strong> " . $item["name"] . "</p>";
                 } else {
                     echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href=\"mailto:". $item["email"] . "\">". $item["name"] ."</a>";
@@ -146,7 +150,7 @@
     <hr class="mb-3">
     <div class="row mb-3">
     <?php
-  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Agatha Fowler', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Arnav Mardia', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Kate Schutz', 'Kyle Ralyea', 'Lily Adlesick', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Nisha Rockwell', 'Omar Khan', 'Reid Spencer', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson','Tyler Gavaletz', 'Zack Mohr'];
+  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Arnav Mardia', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Kate Schutz', 'Kyle Ralyea', 'Lily Adlesick', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Nisha Rockwell', 'Omar Khan', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson','Tyler Gavaletz', 'Zack Mohr', 'Nick Isaf'];
     sort($members);
     chunkAndFormatArray($members, 6, function ($chunk) {
         echo "<div class=\"col-md-2 text-center\">";
