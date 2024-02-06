@@ -102,7 +102,7 @@
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
-    <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We just want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social. All interview time slots will be between 6:00pm and 10:00pm on February 6th, 7th, and 8th. Interviews will be conducted in Bill Moore Student Success Center Skyboxes. </p>
+    <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We just want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social. All interview time slots will be between 6:00pm and 10:00pm on February 6th, 7th, and 8th. Interviews will be conducted in the Center for Student Engagement. </p>
 
      <!-- <ul>
         <li><strong>Tuesday, February 7th from 6:00pm-10:00pm</strong></li>
