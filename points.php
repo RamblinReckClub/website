@@ -88,7 +88,7 @@ while($row = $rank_query->fetch()) {
             </div>
             <ul class="list-group">
                 <?php
-                $family_query = $db->query("SELECT familyName, familyPoints FROM Family ORDER BY familyPoints DESC, familyName");
+                $family_query = $db->query("SELECT familyName, SUM(familyPoints, bonus_points) FROM Family ORDER BY SUM(familyPoints, bonus_points) DESC, familyName");
                 $family_query->setFetchMode(PDO::FETCH_ASSOC);
 
                 $var = 1;
