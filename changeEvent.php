@@ -88,9 +88,7 @@
 		$query = $db->prepare("SELECT SUM(points) AS pts FROM 
 								(SELECT SUM(pointValue) AS points FROM Member JOIN (AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID) ON Member.memberID = AttendsEvent.memberID WHERE Member.memFamilyID = :tempFamilyID AND (Member.status != 'alumni')
 								UNION ALL
-								SELECT SUM(pointValue) FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE AttendsEvent.familyID = :tempFamilyID AND AttendsEvent.memberID IS NULL) subquery
-                                UNION ALL
-                                SELECT SUM(bonus_amount) FROM family_bonuses WHERE family_name = :tempFamilyID");
+								SELECT SUM(pointValue) FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE AttendsEvent.familyID = :tempFamilyID AND AttendsEvent.memberID IS NULL) subquery");
 		$query->execute(array('tempFamilyID'=>$tempFamilyID));
 			$query->setFetchMode(PDO::FETCH_ASSOC);
 		$row = $query->fetch();
