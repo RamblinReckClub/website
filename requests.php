@@ -26,8 +26,8 @@
                 <img class="card-img-right img-fluid flex-auto d-none d-lg-block" src="/img/promo/big-buzz.jpg" data-holder-rendered="true" style="width: 200px; height: 250px;">
                 <div class="card-body d-flex flex-column align-items-start">
                     <h3 class="mb-1 text-dark">Big Buzz</h3>
-                    <p class="card-text mb-auto">If you would like to have Big Buzz appear at your event, please send in a request through the form below. Student organizations will be charged...</p>
-                    <a href="/big-buzz" class="btn btn-outline-secondary mt-2">Submit a Big Buzz request</a>
+                    <p class="card-text mb-auto">If you would like to have Big Buzz appear at your event, please send in a request through the form below.</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_BpENGaGoUHUWkO6Ct7SAgJ5kUuFhUGH5vS6d-buwtfOf1w/viewform" class="btn btn-outline-secondary mt-2">Submit a Big Buzz request</a>
                 </div>
             </div>
         </div>
