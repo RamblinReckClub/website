@@ -83,7 +83,7 @@
 
 <h4 class="mb-2" id="gtky-events">RRC “Get To Know You” Events (Mandatory)</h4>
 
-    <p>In order to provide applicants a casual setting to interact with Reck Clubbers and get a better feel for the kind of spirit Reck Club has for Georgia Tech, all applicants must attend one of the following Get To Know You events. Please note that applicants need only attend one of the following events in order to satisfy the recruitment requirements. Make sure to check in when you arrive, you do not need to stay for the entire event duration. </p>
+    <p>In order to provide applicants a casual setting to interact with Reck Clubbers and get a better feel for the kind of spirit Reck Club has for Georgia Tech, all applicants must attend one of the following Get To Know You events. Please note that applicants need only attend one of the following events in order to satisfy the Reckruitment requirements. Make sure to check in when you arrive, you do not need to stay for the entire event duration. </p>
 
     <ul>
         <li><strong>Saturday, January 20th from 1:00pm-3:00pm</strong> outside the Reck Garage: Traditions Scavenger Hunt</li>
