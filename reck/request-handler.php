@@ -54,7 +54,7 @@ $mailOptions = [
                 "<b>Distance from GT:</b> " . $eventDistanceAway . (strpos($eventDistanceAway, 'miles') ? '' : ' miles') . "\n" .
                 "<b>Event Details:</b> " . ((strlen($eventDetails) > 0) ? $eventDetails : "No additional information provided.") . "\n" .
                 "\n" .
-                "--\nThis email was sent automatically from reckclub.org. If you received this email in error, please contact technology@reckclub.org.")
+                "--\nThis email was sent automatically from reckclub.org. If you received this email in error, please contact secretary@reckclub.org.")
         ]
     ]
 ];
