@@ -111,7 +111,7 @@
             <a class="btn btn-primary" href="https://docs.google.com/document/d/1tDqAF7Z-3OBYn0S6oT52MKjJKYnMUUf_rnfldmddUZg/edit">Traditions Checklist</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
-            <a class="btn btn-primary" href="https://forms.office.com/Pages/ResponsePage.aspx?id=u5ghSHuuJUuLem1_Mvqgg8dg6Ibui2xJvwQn33fUib1UM0VHREZOQ0VEQkxRTTRaRFpMODA3Qk1FSi4u">Submit a Tradition</a>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeFsa5KJgGmsV-ZmXBrVUxfhycM9aOpa63jg88Xuft5WNVJVg/viewform">Submit a Tradition</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-sm-0'>
             <a class="btn btn-primary" href="https://docs.google.com/document/d/1FGSsF1qlbQXGxbcnnd3-Qa1wJqbMtrpJ6RhZEGmUqgE/edit">Prizes and Tiers</a>
@@ -133,7 +133,7 @@
 
         <div>
             <h2>Who do I contact if I have a question or want to suggest including a new tradition?</h2>
-            <p>For any questions or suggestions, send an email to <a href="mailto:help@reckclub.org?" style="color:#CBB57C">help@reckclub.org</a> and be sure to mention Tradition Keepers in the subject line. We are always looking to expand the list of traditions, so let us know if we missed any! Communications about when and where to pick up prizes will also come from this address.
+            <p>For any questions or suggestions, send an email to <a href="mailto:rrctraditions@gmail.com?" style="color:#CBB57C">rrctraditions@gmail.com</a> and be sure to mention Tradition Keepers in the subject line. We are always looking to expand the list of traditions, so let us know if we missed any! Communications about when and where to pick up prizes will also come from this address.
             </p>
             <p></p>
         </div>
