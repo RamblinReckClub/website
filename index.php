@@ -18,8 +18,8 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <picture>
-                    <source class="img-responsive d-block w-100" srcset="img/2024/josh.png" media="(min-width: 900px)" alt="Reck Club picture after 2023 Mini 500">
-                    <img class="img-responsive d-block w-100" src="img/2024/josh.png" alt="Reck Club picture after 2023 Mini 500">
+                    <source class="img-responsive d-block w-100" srcset="img/2024/josh.jpg" media="(min-width: 900px)" alt="Reck Club picture after 2023 Mini 500">
+                    <img class="img-responsive d-block w-100" src="img/2024/josh.jpg" alt="Reck Club picture after 2023 Mini 500">
                 </picture>
                 <div class="gradient">
                 </div>
