@@ -18,7 +18,7 @@
             <p><strong>Faculty Advisor:</strong> <a href="mailto:kristina.clement@studentlife.gatech.edu">Dr. Kristina Clement</a></p>
             <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Matthew Kistner</a></p>
             <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Simran Patel</a></p>
-            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Matthew Aronin</a></p>
+            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Sam Auborn</a></p>
         </div>
         <div class="col-md-6">
             <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Connor White</a></p>
