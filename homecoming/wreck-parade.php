@@ -25,16 +25,19 @@
 <div class="container mb-3">
     <div class="row">
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Bethany McMorris</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Tirth Patel</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Madison Meyers</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Lily Adlesick</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Zachary Mohr</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Ria Nayar</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
         </div>
     </div>
     <hr class="mb-3">
@@ -42,7 +45,7 @@
 <div class="container">
     <div class= 'blog-header'>
         <div class='col-12' style="text-align: center;">
-            <h1>9:00 AM October 28th</h1>
+            <h1>9:00 AM November 9th, 2024</h1>
         </div>
 
         <!--    </div>-->
@@ -53,7 +56,7 @@
             </div>
             <!--        sign up button-->
             <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-                <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/9412631">RSVP</a>
+                <a class='btn btn-md btn-secondary' href="">RSVPs open soon!</a>
             </div>
             <div class='col-sm-4 col-xs-12 mb-sm-3'>
                 <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1750Fd-Dy3bTbTPqHRJPLjuvdRNTichO7tuRg4_Pb3g4/edit?usp=share_link" target="_blank">Event Rules</a>
@@ -95,10 +98,11 @@
         [
             "image" => '/homecoming/images/wp-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '<p>Participants must first sign up through one of the following links:</p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLfhVANTcszmvK5SAdtBboyUk6Ccz6jbDF8KrwJwryCkne1g/viewform?usp=pp_url">Competing Organizations</a>
-                        </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4lwi5wDuvDaCE2mEZSe7kXhfuLcu8xWh9FrwW6s5M9Wf97A/viewform?usp=sf_link">Alumni Classic Cars</a>
-                        </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGHA5ddSMad7j3SydJk-7H4fLDDlOnEFaq_9pLQ5_wKFeuYQ/viewform?usp=sf_link">Enthusiast Entries</a>
-                        </p><p> And then RSVP with the Ramblin\' Reck Club at <a href="https://gatech.campuslabs.com/engage/event/9412631">this link</a>.'
+            "main" => 'Participants sign ups will open soon! Keep an eye out for updates',
+            // '<p>Participants must first sign up through one of the following links:</p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLfhVANTcszmvK5SAdtBboyUk6Ccz6jbDF8KrwJwryCkne1g/viewform?usp=pp_url">Competing Organizations</a>
+            //             </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4lwi5wDuvDaCE2mEZSe7kXhfuLcu8xWh9FrwW6s5M9Wf97A/viewform?usp=sf_link">Alumni Classic Cars</a>
+            //             </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGHA5ddSMad7j3SydJk-7H4fLDDlOnEFaq_9pLQ5_wKFeuYQ/viewform?usp=sf_link">Enthusiast Entries</a>
+            //             </p><p> And then RSVP with the Ramblin\' Reck Club at <a href="https://gatech.campuslabs.com/engage/event/9412631">this link</a>.'
             //<p>Participants must sign BOTH
               //          our waiver <a href="https://forms.gle/HhY5QLjPHhzyQGyq7">found here</a> and through SCPC
                 //        which can be found at <a href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">this link.</a> </p>'

@@ -25,16 +25,19 @@
 <div class="container mb-3">
     <div class="row">
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Bethany McMorris</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Tirth Patel</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Matthew Kistner</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Abby Upton</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Tyler Gavaletz</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Harrison Burnside</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>
         </div>
     </div>
     <hr class="mb-3">
@@ -43,7 +46,7 @@
 <div class="container">
     <div class= 'blog-header'>
         <div class='col-12' style="text-align: center;">
-            <h1>6:30 AM October 28th</h1>
+            <h1>6:30 AM November 9th, 2024</h1>
         </div>
 <!--    </div>-->
 
@@ -53,7 +56,7 @@
         </div>
 <!--        sign up button-->
         <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-            <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/9145762">Sign Up</a>
+            <a class='btn btn-md btn-secondary' href="">Sign ups open soon!</a>
         </div>
         <div class='col-sm-4 col-xs-12 mb-sm-3'>
             <?php //If you change the name of the rules section further down, change the href here too. ?>
@@ -62,7 +65,7 @@
         <div class='row text-center'>
 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">-->
             <i>The Ramblin Reck Club’s sign-up form is for individual registrations. Organizations wishing to receive
-             points must also sign up for this event using SCPC’s Homecoming waiver, found at <a href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">this link</a></i>
+             points must also sign up for this event using SCPC’s Homecoming waiver, found at <a href="https://gatech.universitytickets.com/w/event.aspx">this link</a></i>
         </div>
     </div>
     <hr class="mb-3">
@@ -106,11 +109,7 @@
         [
             "image" => '/homecoming/images/fcr-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '2023 Freshman Cake Race Sign-ups can be found here: 
-                                    <a href="https://gatech.campuslabs.com/engage/event/9145762">Freshman Cake Race Sign-up</a> 
-                                    <i>Note: filling out the interest form did not sign you up for the Freshman Cake Race. 
-                                    You must still complete the official sign-up.</i>'
-
+            "main" => '2024 Freshman Cake Race Sign-ups will open soon! Keep an eye out for updates.'
         ],
         [
             "image" => '/homecoming/images/fcr-005.jpg',
