@@ -590,7 +590,7 @@
                 <div id="schedule">
                     <h2>Schedule of Events</h2>
                     <ul>
-                        <li>Sunday, August 18th, 2023</span></li>
+                        <li>Sunday, August 18th, 2024</span></li>
                         <li>Traditions Festival - McCamish Parking Lot<span>5:00 PM</span></li>
                         <li>T-Night Show - McCamish Pavilion<span>6:30 PM</span></li>
                     </ul>
