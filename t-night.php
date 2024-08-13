@@ -319,6 +319,22 @@
             background: url('/img/t-night/waffle_house.png');
         }
 
+        #onyx {
+            background: url('/img/t-night/onyx.png');
+        }
+
+        #naanstop {
+            background: url('/img/t-night/naanstop.png');
+        }
+
+        #falcons {
+            background: url('/img/t-night/falcons.png');
+        }
+
+        #shake-shack {
+            background: url('/img/t-night/shake-shack.png');
+        }
+
         #athlete {
             background: url('/img/t-night/gatech_athletics.png');
         }
@@ -620,6 +636,11 @@
                 </div>
                 <div id="sponsor_block" align="center">
                     <div id="waho" class="sponsor"></div>
+                    <div id="onyx" class="sponsor"></div>
+                    <div id="naanstop" class="sponsor"></div>
+                    <div id="falcons" class="sponsor"></div>
+                    <div id="shake-shack" class="sponsor"></div>
+
                     <!-- <div id="tiffs" class="sponsor"></div>
                 <div id="inspire" class="sponsor"></div>
                 <div id="HDC" class="sponsor"></div>
