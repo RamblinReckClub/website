@@ -117,7 +117,7 @@
                 [
                     "image" => '/homecoming/images/fcr-002.jpg',
                     "title" => 'Sign Ups',
-                    "main" => '2024 Freshman Cake Race Sign-ups will open soon! Keep an eye out for updates.'
+                    "main" => '2024 Freshman Cake Race Sign-ups have opened! Sign up <a href="https://gatech.campuslabs.com/engage/event/10246587">here</a>.'
                 ],
                 [
                     "image" => '/homecoming/images/fcr-005.jpg',
