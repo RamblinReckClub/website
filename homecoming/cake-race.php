@@ -148,7 +148,7 @@
                     "main" => 'Be sure to wear tennis shoes/sneakers and clothes that you would be comfortable running 
                             or walking in. Remember, you are encouraged to run or walk at your own pace. 
                             Depending on the temperature, make sure to dress in clothes that will keep you warm 
-                            (sweatshirt/jacket, pants, hats, gloves, etc). With this year’s cake race on Halloween weekend, we encourage all racers to wear a costume!'
+                            (sweatshirt/jacket, pants, hats, gloves, etc).'
                 ],
                 [
                     "image" => '/homecoming/images/post_race.jpg',

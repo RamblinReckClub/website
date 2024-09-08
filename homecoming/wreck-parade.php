@@ -59,7 +59,7 @@
                 <a class='btn btn-md btn-secondary' href="">RSVPs open soon!</a>
             </div>
             <div class='col-sm-4 col-xs-12 mb-sm-3'>
-                <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1750Fd-Dy3bTbTPqHRJPLjuvdRNTichO7tuRg4_Pb3g4/edit?usp=share_link" target="_blank">Event Rules</a>
+                <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1T-4jFDMavnOe8nzJzrVIxHJT9tlbgGT1ZCEpak3N0bs/edit?usp=drive_link" target="_blank">Event Rules</a>
             </div>
             <div class='row text-center'>
                 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">-->

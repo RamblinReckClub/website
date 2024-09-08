@@ -187,9 +187,7 @@
                                  and bruises so we recommend wearing some form of bottom that covers your legs 
                                  (jeans, sweatpants, leggings) as well are wearing reinforcement on your shoes 
                                  (such as duct tape) or shoes you don’t care about because they will be hitting the 
-                                pavement and may get scuffed up! With this year’s Mini 500 on Halloween weekend, 
-                                we encourage all racers to wear a costume under the shirts that will be distributed 
-                                on the day of the race!'
+                                pavement and may get scuffed up!'
                 ],
                 [
                     "image" => '/homecoming/images/M53.jpg',
