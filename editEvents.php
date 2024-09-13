@@ -461,6 +461,7 @@
                                 <?php
                                 if($isFamilyEvent == "false" || $isFamilyEvent == "none") {
                                     echo "<select class=\"custom-select d-block w-100\" name=\"newPointValue\" id=\"newPointValue\">";
+                                    echo "<option value=\"0\"" . (($retrievedEvent['pointValue']==0) ? 'selected' : '') . ">0</option>";
                                     echo "<option value=\"5\"" . (($retrievedEvent['pointValue']==5) ? 'selected' : '') . ">5</option>";
                                     echo "<option value=\"10\"" . (($retrievedEvent['pointValue']==10) ? 'selected' : '') . ">10</option>";
                                     echo "<option value=\"15\"" . (($retrievedEvent['pointValue']==15) ? 'selected' : '') . ">15</option>";
