@@ -51,7 +51,7 @@
     <div class="container">
         <div class='blog-header'>
             <div class='col-12' style="text-align: center;">
-                <h1>November 8th, 2024</h1>
+                <h1>November 8th, 2024 at 5:00PM</h1>
             </div>
             <div class='row text-center'>
                 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>-->
@@ -62,7 +62,7 @@
                     <a class='btn btn-md btn-primary' href="#race-day-info">Event Information</a>
                 </div>
                 <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-                    <a class='btn btn-md btn-secondary' href="">Sign ups open soon!</a>
+                    <a class='btn btn-md btn-secondary' href="https://docs.google.com/forms/d/e/1FAIpQLSf0zaCPwgi3r77Ej0Mo5HU_7WSaqXv6dlEh4Pioy-yaPTkRHg/viewform">Sign up here!</a>
                 </div>
                 <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
                     <a class='btn btn-md btn-primary'
@@ -122,8 +122,7 @@
                 [
                     "image" => '/homecoming/images/buzz_n_racer.jpg',
                     "title" => 'Sign Ups',
-                    "main" => 'Sign ups have not opened yet. Keep an eye out for when sign ups open!'
-                    // "main" => 'Please click <a href="https://forms.gle/iW8N4gG9KkP9uNdbA">here</a> to sign up!
+                    "main" => 'Please click <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0zaCPwgi3r77Ej0Mo5HU_7WSaqXv6dlEh4Pioy-yaPTkRHg/viewform">here</a> to sign up!'
                 ],
                 [
                     "image" => '/homecoming/images/fighting_freshmen_hill.jpg',
@@ -166,7 +165,7 @@
                     "main" => 'The Race will be around Peters Parking Deck with the Pits for each team lining the 
                             Peters Parking Deck side of Fowler Street and the start being at the corner of Fowler St. 
                             and Bobby Dodd Way. Each team will receive an email with their assigned pit number. 
-                            The team will report to THEIR PIT between 5:00pm and 5:25PM and check in with their 
+                            The team will report to THEIR PIT between 4:30pm and 4:55PM and check in with their 
                             pit boss (A member of Ramblin Reck Club). Teams should arrive with their racers, pit crew, 
                             tricycles, and any approved tools required for wheel rotations. Mini 500 shirts will be 
                             provided at your assigned pit.'
