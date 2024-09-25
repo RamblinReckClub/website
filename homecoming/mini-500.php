@@ -66,7 +66,7 @@
                 </div>
                 <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
                     <a class='btn btn-md btn-primary'
-                        href="https://docs.google.com/document/d/13Lsk7ceHavoHJ64lCxBXjGJ8fRkDVRlgWGueNfSJJjo/edit?pli=1"
+                        href="https://docs.google.com/document/d/1uAHWLy-fwvqne7czwceORQ8dd-rK8VeTybIrVDpEFso/edit?usp=sharing"
                         target="_blank">Event Rules</a>
                 </div>
                 <!--        <div class='col-sm-4 col-xs-12'>-->
