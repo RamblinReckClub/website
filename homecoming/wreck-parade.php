@@ -56,7 +56,7 @@
             </div>
             <!--        sign up button-->
             <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-                <a class='btn btn-md btn-secondary' href="">RSVPs open soon!</a>
+                <a class='btn btn-md btn-secondary' href="https://docs.google.com/document/d/1yg6oxlcad2RNhP1eNJ5f8OjtK57U8odFfSMtP0XX15Y/">Register here!</a>
             </div>
             <div class='col-sm-4 col-xs-12 mb-sm-3'>
                 <a class='btn btn-md btn-primary' href="https://docs.google.com/document/d/1T-4jFDMavnOe8nzJzrVIxHJT9tlbgGT1ZCEpak3N0bs/edit?usp=drive_link" target="_blank">Event Rules</a>
