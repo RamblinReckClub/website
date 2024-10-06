@@ -98,7 +98,7 @@
         [
             "image" => '/homecoming/images/wp-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '<p>Participants can sign up<a href="https://docs.google.com/document/d/1yg6oxlcad2RNhP1eNJ5f8OjtK57U8odFfSMtP0XX15Y/edit">here</a>.',
+            "main" => '<p>Participants can sign up <a href="https://docs.google.com/document/d/1yg6oxlcad2RNhP1eNJ5f8OjtK57U8odFfSMtP0XX15Y/edit">here</a>.',
             // '<p>Participants must first sign up through one of the following links:</p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLfhVANTcszmvK5SAdtBboyUk6Ccz6jbDF8KrwJwryCkne1g/viewform?usp=pp_url">Competing Organizations</a>
             //             </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4lwi5wDuvDaCE2mEZSe7kXhfuLcu8xWh9FrwW6s5M9Wf97A/viewform?usp=sf_link">Alumni Classic Cars</a>
             //             </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGHA5ddSMad7j3SydJk-7H4fLDDlOnEFaq_9pLQ5_wKFeuYQ/viewform?usp=sf_link">Enthusiast Entries</a>
