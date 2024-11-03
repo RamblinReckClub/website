@@ -186,6 +186,7 @@ The full rule book can be found here: <a href="https://docs.google.com/document/
 
             ?>
         </div>
+        <?php include "sponsors.php"; ?>
 
         <div class="container">
             <div class="row">

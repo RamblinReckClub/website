@@ -17,7 +17,7 @@
                 <div class="card-body d-flex flex-column align-items-start">
                     <h3 class="mb-1 text-dark">The Ramblin' Reck</h3>
                     <p class="card-text mb-auto">When it is not being used for official Georgia Tech business and events, the Ramblin’ Reck is able to appear at events for Georgia Tech alumni and fans.</p>
-                    <a href="/reck/request.php" class="btn btn-outline-primary mt-2">Submit a Reck request</a>
+                    <a href="https://forms.gle/rCfXyiBLVtgfp9YS7" class="btn btn-outline-primary mt-2">Submit a Reck request</a>
                 </div>
             </div>
         </div>
