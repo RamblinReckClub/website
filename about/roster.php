@@ -46,7 +46,7 @@
             ],
             [
                 "chair" => 'Basketball',
-                "name" => 'Austin Gies',
+                "name" => 'Ajay Dakoriya',
                 "email" => 'rrcbasketballchair@gmail.com'
             ],
             [
@@ -91,7 +91,7 @@
             ],
             [
                 "chair" => 'Recruitment',
-                "name" => 'Eleanor Froula',
+                "name" => 'Simran Patel and Gal Ovadia',
                 "email" => 'membershipchair@reckclub.org'
             ],
             [
