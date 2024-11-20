@@ -150,7 +150,7 @@
     <hr class="mb-3">
     <div class="row mb-3">
     <?php
-  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Ainsley Ronco', 'Ajay Mathur', 'Allie Abbott', 'Arnav Mardia', 'Austin Gies', 'Austin Reitano', 'Bethany McMorris', 'Carolyn Braun', 'Connor White', 'Eleanor Froula', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Joey D\'Adamio', 'Jonathan Brooks', 'Jordan Lawson', 'Kate Schutz', 'Kyle Ralyea', 'Lily Adlesick', 'Madison Meyers', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Nisha Rockwell', 'Omar Khan', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson','Tyler Gavaletz', 'Zack Mohr', 'Nick Isaf'];
+  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Allie Abbott', 'Arnav Mardia', 'Austin Reitano', 'Carolyn Braun', 'Connor White', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Jordan Lawson', 'Kyle Ralyea', 'Lily Adlesick', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Tyler Gavaletz', 'Zack Mohr', 'Nick Isaf'];
     sort($members);
     chunkAndFormatArray($members, 6, function ($chunk) {
         echo "<div class=\"col-md-2 text-center\">";
