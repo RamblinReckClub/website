@@ -85,7 +85,7 @@
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
-    <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be  on the evening of <strong>Monday, February 10th.</strong> Location informatio will be sent to selected applicants.</p>
+    <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be  on the evening of <strong>Monday, February 10th.</strong> Location information will be sent to selected applicants.</p>
     <p>There are two time slots for the firt social: <strong>7:00PM - 8:15PM</strong> and <strong>8:45PM - 10:00PM </strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
