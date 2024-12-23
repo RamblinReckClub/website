@@ -37,7 +37,7 @@
 <p>Before applying be sure to read the following requirements:</p>
 
 <ul>
-    <li>Applicants may <strong>not</strong> graduate prior to December 2024.</li>
+    <li>Applicants may <strong>not</strong> graduate prior to December 2025.</li>
     <li>Applicants must be able to attend a weekly probate meeting on Monday evenings from 6-7 PM and then the full club meeting at 7 PM. Exceptions to this can be made, but very rarely.</li>
     <li>Spring 2025 out-of-town co-ops and study abroad students are not eligible to apply this RECKruitment season. Fall 2025 out-of-town co-ops and study abroad students will be dealt with on a case by case basis. Email <a href="mailto:membershipchair@reckclub.org">Simran Patel and Gal Ovadia</a>, Ramblin’ Reck Club Recruitment Chairs, if you have questions or concerns.</li>
 </ul>
@@ -55,8 +55,7 @@
 <h4 class="mb-2" id="written-application">Written Application</h4>
 
 
-<!--<p>The 2024 Ramblin’ Reck Club application is now closed. Check back next December for 2025's application!</p>-->
-    <p>The 2024 Ramblin’ Reck Club application can be found <a href="https://forms.gle/cdiEqBsiy84Dhbme6" target="blank">here</a>. A completed written application must be submitted no later than <strong>Sunday, February 2nd 2025 at 11:59pm</strong>.</p>
+    <p>The 2025 Ramblin’ Reck Club application can be found <a href="https://forms.gle/cdiEqBsiy84Dhbme6" target="blank">here</a>. A completed written application must be submitted no later than <strong>Sunday, February 2nd 2025 at 11:59pm</strong>.</p>
 
 
     <div class='row text-center'>
