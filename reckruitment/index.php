@@ -79,9 +79,9 @@
     <p>In order to provide applicants a casual setting to interact with Reck Clubbers and get a better feel for the kind of spirit Reck Club has for Georgia Tech, all applicants must attend one of the following Get To Know You events. Please note that applicants need only attend one of the following events in order to satisfy the recruitment requirements. Make sure to check in when you arrive, you do not need to stay for the entire event duration. </p>
 
     <ul>
-    <li><strong>Saturday, January 25th</strong> Time and Location TBD.</li>
-    <li><strong>Tuesday, January 28th</strong> Time and Location TBD.</li>
-    <li><strong>Thursday, February 6th</strong> Time and Location TBD.</li>
+    <li><strong>Saturday, January 25th.</strong> Time and Location TBD.</li>
+    <li><strong>Tuesday, January 28th.</strong> Time and Location TBD.</li>
+    <li><strong>Thursday, February 6th.</strong> Time and Location TBD.</li>
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
