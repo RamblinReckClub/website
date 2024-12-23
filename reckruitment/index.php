@@ -86,15 +86,15 @@
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
     <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be  on the evening of <strong>Monday, February 10th.</strong> Location information will be sent to selected applicants.</p>
-    <p>There are two time slots for the firt social: <strong>7:00PM - 8:15PM</strong> and <strong>8:45PM - 10:00PM </strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
+    <p>There are two time slots for the first social: <strong>7:00PM - 8:15PM</strong> and <strong>8:45PM - 10:00PM </strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
     <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social.</p>
      <ul>
-        <li><strong>Tuesday, February 11th from 7:30pm-11:00pm</strong></li>
-        <li><strong>Wednesday, February 12th from 7:30pm-11:00pm</strong></li>
-        <li><strong>Thursday, February 13th from 7:30pm-11:00pm</strong></li>
+        <li><strong>Tuesday, February 11th from 7:30pm-11:30pm</strong></li>
+        <li><strong>Wednesday, February 12th from 7:30pm-11:30pm</strong></li>
+        <li><strong>Thursday, February 13th from 7:30pm-11:30pm</strong></li>
     </ul>
     <p>Applicants selected for interviews will be notified with further details.</p>
 
