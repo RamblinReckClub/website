@@ -25,7 +25,8 @@
                         About Us
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/about">Club History</a>
+                        <a class="dropdown-item" href="/about">About the Club</a>
+                        <a class="dropdown-item" href="/about/history">Club History</a>
                         <a class="dropdown-item" href="/about/roster.php">Club Roster</a>
                         <a class="dropdown-item" href="/endowments.php">Endowments</a>
                         <a class="dropdown-item" href="/about/t-book.php">The T-Book</a>
