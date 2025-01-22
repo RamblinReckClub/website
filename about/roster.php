@@ -10,7 +10,7 @@
 <div class="container">
 
 
-    <h4 class="mb-3">Executive Board</h4>
+    <h4 class="mb-3">2024 Executive Board</h4>
     <hr class="mb-3">
     <div class="row">
         <div class="col-md-6">
@@ -29,7 +29,7 @@
     </div>
 
     <br>
-    <h4 class="mb-3">Chairs</h4>
+    <h4 class="mb-3">2024 Chairs</h4>
     <hr class="mb-3">
 
     <div class="row mb-3">
@@ -146,7 +146,7 @@
         ?>
     </div>
 
-    <h4 class="mb-3">Members</h4>
+    <h4 class="mb-3">2024 Members</h4>
     <hr class="mb-3">
     <div class="row mb-3">
     <?php
