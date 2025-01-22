@@ -73,17 +73,6 @@
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-primary">In Memoriam</strong>
-                    <h3 class="mb-1 text-dark">Michael Eckert</h3>
-                    <p class="card-text mb-auto">Michael Edwin Eckert (BME 1971) was born 05/31/1947 and died 11/28/2023. Ramblin' Reck Club is hosting a donation campaign in honor of Michael's life.</p>
-                    <a href="/temp_pages/michaelcampaign.php">Donate to the campaign</a>
-                </div>
-                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2024/Michael E Eckert.jpeg" style="width: 200px; height: 250px;" src="/img/2024/Michael E Eckert.jpeg" data-holder-rendered="true">
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                <div class="card-body d-flex flex-column align-items-start">
                     <strong class="d-inline-block mb-2 text-primary">The Reck</strong>
                     <h3 class="mb-1 text-dark">Drivers</h3>
                     <p class="card-text mb-auto">Each year, one student is chosen from the ranks of the club to be the sole driver and primary caretaker of the Ramblin’ Reck.</p>
@@ -116,17 +105,17 @@
                 </div>
             </div>
         </div>
-<!--        <div class="col-md-6">-->
-<!--            <div class="card flex-md-row mb-4 box-shadow h-md-250">-->
-<!--                <img class="card-img-left img-fluid flex-auto d-none d-md-block" src="/img/2023/Bookmobile_2.JPEG" style="width: 200px !important; height: 250px;" data-holder-rendered="true">-->
-<!--                <div class="card-body d-flex flex-column align-items-start">-->
-<!--                    <strong class="d-inline-block mb-2 text-primary">RECKruitment</strong>-->
-<!--                    <h3 class="mb-1 text-dark">Want to join the tradition?</h3>-->
-<!--                    <p class="card-text mb-auto">Learn more about what it is to be a part of Reck Club and kickstart your recruitment process!</p>-->
-<!--                    <a href="/reckruitment">Read more</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+       <div class="col-md-6">
+           <div class="card flex-md-row mb-4 box-shadow h-md-250">
+               <img class="card-img-left img-fluid flex-auto d-none d-md-block" src="/img/2023/Bookmobile_2.JPEG" style="width: 200px !important; height: 250px;" data-holder-rendered="true">
+               <div class="card-body d-flex flex-column align-items-start">
+                   <strong class="d-inline-block mb-2 text-primary">RECKruitment</strong>
+                   <h3 class="mb-1 text-dark">Want to join the tradition?</h3>
+                   <p class="card-text mb-auto">Learn more about what it is to be a part of Reck Club and kickstart your recruitment process!</p>
+                   <a href="/reckruitment">Read more</a>
+               </div>
+           </div>
+       </div>
     </div>
 </div>
 

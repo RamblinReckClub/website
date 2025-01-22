@@ -70,7 +70,7 @@
 
     <ul>
         <li><strong>Tuesday, January 14th at 7:30pm-8:30pm</strong> in Atlantic Theater (Student Center)</li>
-        <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> <span style="color: red;">Note that this session has been moved online due to the weather conditions</span> - <a href="https://gatech.zoom.us/j/96395382866" target="blank">Join with this link.</a></li>
+        <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> <span style="color: red; font-weight: bold;">This session has been moved online due to the weather conditions</span> - <a href="https://gatech.zoom.us/j/96395382866" target="blank">Join with this link.</a></li>
         <li><strong>Thursday, January 30th at 6:00pm-7:00pm</strong> virtually (link will be available here in days leading to the event).</li>
     </ul>
 
