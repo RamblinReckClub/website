@@ -72,6 +72,17 @@
     <div class="row mb-2">
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                <img class="card-img-left img-fluid flex-auto d-none d-md-block" src="/img/2023/Bookmobile_2.JPEG" style="width: 200px !important; height: 250px;" data-holder-rendered="true">
+                <div class="card-body d-flex flex-column align-items-start">
+                    <strong class="d-inline-block mb-2 text-primary">RECKruitment</strong>
+                    <h3 class="mb-1 text-dark">Want to join the tradition?</h3>
+                    <p class="card-text mb-auto">Learn more about what it is to be a part of Reck Club and kickstart your recruitment process!</p>
+                    <a href="/reckruitment">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
                     <strong class="d-inline-block mb-2 text-primary">The Reck</strong>
                     <h3 class="mb-1 text-dark">Drivers</h3>
@@ -105,17 +116,6 @@
                 </div>
             </div>
         </div>
-       <div class="col-md-6">
-           <div class="card flex-md-row mb-4 box-shadow h-md-250">
-               <img class="card-img-left img-fluid flex-auto d-none d-md-block" src="/img/2023/Bookmobile_2.JPEG" style="width: 200px !important; height: 250px;" data-holder-rendered="true">
-               <div class="card-body d-flex flex-column align-items-start">
-                   <strong class="d-inline-block mb-2 text-primary">RECKruitment</strong>
-                   <h3 class="mb-1 text-dark">Want to join the tradition?</h3>
-                   <p class="card-text mb-auto">Learn more about what it is to be a part of Reck Club and kickstart your recruitment process!</p>
-                   <a href="/reckruitment">Read more</a>
-               </div>
-           </div>
-       </div>
     </div>
 </div>
 
