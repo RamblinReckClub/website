@@ -70,8 +70,8 @@
 
     <ul>
         <li><strong>Tuesday, January 14th at 7:30pm-8:30pm</strong> in Atlantic Theater (Student Center)</li>
-        <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> in <a href="https://studentcenter.gatech.edu/exhibition-hall-map" target="blank">Centennial meeting room</a> (Exhibition Hall)</li>
-        <li><strong>Thursday, January 30th at 6:00pm-7:00pm</strong> on Teams (link will be available here in days leading to the event).</li>
+        <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> <span style="color: red;">Note that this session has been moved online due to the weather conditions</span> - <a href="https://gatech.zoom.us/j/96395382866" target="blank">Join with this link.</a></li>
+        <li><strong>Thursday, January 30th at 6:00pm-7:00pm</strong> virtually (link will be available here in days leading to the event).</li>
     </ul>
 
 <h4 class="mb-2" id="gtky-events">RRC “Get To Know You” Events (Mandatory)</h4>
@@ -79,7 +79,7 @@
     <p>In order to provide applicants a casual setting to interact with Reck Clubbers and get a better feel for the kind of spirit Reck Club has for Georgia Tech, all applicants must attend one of the following Get To Know You events. Please note that applicants need only attend one of the following events in order to satisfy the recruitment requirements. Make sure to check in when you arrive, you do not need to stay for the entire event duration. </p>
 
     <ul>
-    <li><strong>Saturday, January 25th.</strong> Time and Location TBD.</li>
+    <li><strong>Saturday, January 25th.</strong> Trivia Night - 12:00PM to 3:00PM @ Midtown Room in the Exhibition Hall</li>
     <li><strong>Tuesday, January 28th.</strong> Time and Location TBD.</li>
     <li><strong>Thursday, February 6th.</strong> Time and Location TBD.</li>
     </ul>
