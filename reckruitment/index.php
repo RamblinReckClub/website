@@ -80,8 +80,8 @@
 
     <ul>
     <li><strong>Saturday, January 25th.</strong> Trivia Night - 12:00PM to 3:00PM @ Midtown Room in the Exhibition Hall</li>
-    <li><strong>Tuesday, January 28th.</strong> Time and Location TBD.</li>
-    <li><strong>Thursday, February 6th.</strong> Time and Location TBD.</li>
+    <li><strong>Tuesday, January 28th.</strong> Board Game Night - 7:00PM to 9:00PM @ Klaus Atrium</li>
+    <li><strong>Thursday, February 6th.</strong> Women's Basketball Tailgate - 5:00PM - 6:45PM @ McCamish Pavilion</li>
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
