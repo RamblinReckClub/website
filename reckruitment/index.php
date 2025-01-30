@@ -71,7 +71,7 @@
     <ul>
         <li><strong>Tuesday, January 14th at 7:30pm-8:30pm</strong> in Atlantic Theater (Student Center)</li>
         <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> <span style="color: red; font-weight: bold;">This session has been moved online due to the weather conditions</span> - <a href="https://gatech.zoom.us/j/96395382866" target="blank">Join with this link.</a></li>
-        <li><strong>Thursday, January 30th at 6:00pm-7:00pm</strong> virtually <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjljNDNhOGItOGZjYy00OTFlLTliYWQtNDQ2MjNlZTA0N2Ex%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%22dd9bf83b-e2e0-438f-90ca-a97eb0f30ac9%22%7d" target="blank">Join with this link.</a></li>
+        <li><strong>Thursday, January 30th at 6:00pm-7:00pm</strong> virtually <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjljNDNhOGItOGZjYy00OTFlLTliYWQtNDQ2MjNlZTA0N2Ex%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%22dd9bf83b-e2e0-438f-90ca-a97eb0f30ac9%22%7d" target="_blank">Join with this link.</a></li>
     </ul>
 
 <h4 class="mb-2" id="gtky-events">RRC “Get To Know You” Events (Mandatory)</h4>
