@@ -68,6 +68,8 @@
 
     <p>For anyone interested in learning more about Ramblin’ Reck Club, what we are involved in on campus, opportunities within the Club, and the recruitment process, we will be hosting information sessions before the application deadline closes. Feel free to stop in and introduce yourself and get the low-down on all things RRC during the session. It is highly encouraged to attend one of these sessions to help you understand what this club is about, but if you cannot attend, this information will be provided after the meetings.</p>
 
+    <p><strong>If you were unable to attend an information session, the presentation slides are available <a href="https://drive.google.com/file/d/1ZKo2yF3s3rxrUvV3jm2r5U78j9OXTE1v/view?usp=sharing" target="_blank">here</a>.</strong></p>
+
     <ul>
         <li><strong>Tuesday, January 14th at 7:30pm-8:30pm</strong> in Atlantic Theater (Student Center)</li>
         <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> <span style="color: red; font-weight: bold;">This session has been moved online due to the weather conditions.</span></li>
