@@ -1,4 +1,15 @@
-<?php $pageTitle = "Spreading Joy Since 1930"; ?>
+<?php
+$pageTitle = "Spreading Joy Since 1930";
+
+// Check if "gatech" is in the HTTP_HOST and redirect to the alias domain
+if (stripos($_SERVER['HTTP_HOST'], 'gatech') !== false) {
+    // Redirect to the HTTPS version of the alias domain
+    $redirect_url = "https://reckclub.org"; // Replace with your alias domain
+    header("Location: $redirect_url", true, 301);
+    exit();
+}
+?>
+
 
 <!DOCTYPE html>
 <html>
@@ -89,7 +100,7 @@
                     <p class="card-text mb-auto">Each year, one student is chosen from the ranks of the club to be the sole driver and primary caretaker of the Ramblin’ Reck.</p>
                     <a href="/reck/drivers.php">Read more</a>
                 </div>
-                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2023/DriverPic.jpg" style="width: 200px; height: 250px;" src="/img/2024/driver1.png" data-holder-rendered="true">
+                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2025/josh-reck-sm.png" style="width: 200px; height: 250px;" src="/img/2025/josh-reck-sm.png" data-holder-rendered="true">
             </div>
         </div>
     </div>

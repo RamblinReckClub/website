@@ -20,7 +20,10 @@
 <div class="row">
     <?php
     $drivers = [
-
+        [
+            "year" => "2025",
+            "name" => "Josh Hembree"
+        ],
         [
             "year" => "2024",
             "name" => "Matthew Kistner"
