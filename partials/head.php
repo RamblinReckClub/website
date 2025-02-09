@@ -7,7 +7,10 @@
     <meta name="author" content="Ramblin' Reck Club">
     <title><?php echo $pageTitle. " | Ramblin' Reck Club" ?></title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.min.css?v=<?php echo filemtime(dirname(__FILE__, 2) . '/css/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="/css/main.css?v=<?php echo filemtime(dirname(__FILE__, 2) . '/css/main.css'); ?>">
     <link rel="stylesheet" href="/css/fontawesome-all.min.css?v=<?php echo filemtime(dirname(__FILE__, 2) . '/css/login.css'); ?>">
+
 </head>

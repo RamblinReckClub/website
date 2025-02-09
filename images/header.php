@@ -14,10 +14,10 @@
 		$email = $_SESSION['email'];
 		$phone = $_SESSION['phone'];
 		$twitter = $_SESSION['twitter'];
-                $streetAddress = $_SESSION['streetAddress'];
-                $city = $_SESSION['city'];
-                $state = $_SESSION['state'];
-                $zipCode = $_SESSION['zipCode'];
+        $streetAddress = $_SESSION['streetAddress'];
+        $city = $_SESSION['city'];
+        $state = $_SESSION['state'];
+        $zipCode = $_SESSION['zipCode'];
 		$status = $_SESSION['status'];
 		$joinYear = $_SESSION['joinYear'];
 		$gradYear = $_SESSION['gradYear'];

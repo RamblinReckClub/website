@@ -24,7 +24,8 @@ p{
 }
 
 p, ul{
-	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-family:"Montserrat", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-weight: 400; /* For Montserrat Light */
 	font-size-adjust:0.488;
 	font-style:normal;
 }
@@ -34,16 +35,16 @@ img{
 }
 
 h1, #pixels{
-	font-family:"Museo 900", Verdana, serif;
+	font-family: "Raleway", Verdana, serif;
+	font-weight: 900; /* For Raleway Black */
 	font-size-adjust:0.40;
-	font-weight:700;
 	font-style:normal;
 }
 
 h2{
-	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-family: "Nunito", Verdana, sans-serif;
+	font-weight: 400; /* For Nunito Regular */
 	font-size-adjust:0.531;
-	font-weight:500;
 	font-style:normal;
 }
 

@@ -4,6 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Why You Should Join Reck Club | Ramblin' Reck Club</title>
     <link href="/css/mini-style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
     <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript" src="/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="/js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="/js/jquery.localscroll-1.2.7-min.js"></script>
@@ -41,14 +44,24 @@
 </head>
 
 <body link="gold">
-<ul id="nav">
-    <li><a title="Next Section" href="#intro"><img alt="Link" src="/img/why/dot.png"></a></li>
-    <li><a title="Next Section" href="#second"><img alt="Link" src="/img/why/dot.png"></a></li>
-    <li><a title="Next Section" href="#third"><img alt="Link" src="/img/why/dot.png"></a></li>
-    <li><a title="Next Section" href="#fourth"><img alt="Link" src="/img/why/dot.png"></a></li>
-    <li><a title="Next Section" href="#fifth"><img alt="Link" src="/img/why/dot.png"></a></li>
-    <li><a title="Next Section" href="#sixth"><img alt="Link" src="/img/why/dot.png"></a></li>
-</ul>
+<!--<ul id="nav">-->
+<!--    <li><a title="Next Section" href="#intro"><img alt="Link" src="/img/why/dot.png"></a></li>-->
+<!--    <li><a title="Next Section" href="#second"><img alt="Link" src="/img/why/dot.png"></a></li>-->
+<!--    <li><a title="Next Section" href="#third"><img alt="Link" src="/img/why/dot.png"></a></li>-->
+<!--    <li><a title="Next Section" href="#fourth"><img alt="Link" src="/img/why/dot.png"></a></li>-->
+<!--    <li><a title="Next Section" href="#fifth"><img alt="Link" src="/img/why/dot.png"></a></li>-->
+<!--    <li><a title="Next Section" href="#sixth"><img alt="Link" src="/img/why/dot.png"></a></li>-->
+<!--</ul>-->
+<a style="text-decoration: none" href="/">
+    <div style="background: black; padding: 1em;">
+        <p style="text-align: center; padding: 0; margin: 0; color: white;">← Return to reckclub.org</p>
+    </div>
+</a>
+<!--<div>-->
+<!--    <p style="text-align: center; padding: 0; margin: 10px 0 10px 0; font-family: Raleway, serif;">-->
+<!--        <a href="/">← Return to reckclub.org</a>-->
+<!--    </p>-->
+<!--</div>-->
 <div id="intro">
     <div class="bg"></div>
     <div class="story">
@@ -101,7 +114,7 @@
 <div id="sixth">
     <div class="spirit">
         <div class="float-left"> <img src="/img/why/polo.png">
-            <p>The Ramblin’ Reck Club Membership Recruitment starts first thing in the spring semester. RECKruitment 2024 kicks off on Monday, January 1st with the launch of our application. Information can be found <a href="/reckruitment">here</a>! Please contact Eleanor Froula (RECKruitment Chair) at <a href="mailto:membershipchair@reckclub.org">membershipchair@reckclub.org</a> if you have any questions about the recruitment process, becoming a member, or just want to know more about our organization! Go Jackets and To Hell With <g id="52" data-gr-id="52" class="gr_ gr_52 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace">georgia</g>!</p> <center><a href="/reckruitment"><img width="300" src="/img/why/info_btn.png"></a></center>
+            <p>The Ramblin’ Reck Club Membership Recruitment starts first thing in the spring semester. RECKruitment 2024 kicks off on Monday, January 1st with the launch of our application. Information can be found <a href="/reckruitment">here</a>! Please contact our RECKruitment Chair at <a href="mailto:membershipchair@reckclub.org">membershipchair@reckclub.org</a> if you have any questions about the recruitment process, becoming a member, or just want to know more about our organization! Go Jackets and To Hell With <g id="52" data-gr-id="52" class="gr_ gr_52 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace">georgia</g>!</p> <center><a href="/reckruitment"><img width="300" src="/img/why/info_btn.png"></a></center>
         </div>
     </div><!--.story-->
 </div><!--#third-->
