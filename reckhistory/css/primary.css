@@ -10,23 +10,18 @@
     border-radius: 0;
 }
 
-/* Wrapper for the navbar with arrows */
-.navbar-container-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-/* Scrollable container */
 .navbar-container {
     overflow-x: auto;
     white-space: nowrap;
     scroll-behavior: smooth;
-    flex: 1;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
+    padding: 0; /* Ensure no extra padding in the container */
+    margin: 0; /* Remove unnecessary margins */
+}
+
+.navbar-container-wrapper {
+    position: relative;
+    overflow: hidden; /* Prevent overflow from the scroll arrows */
+    width: 100%; /* Ensure it spans the entire viewport width */
 }
 
 .navbar-container::-webkit-scrollbar {
@@ -35,7 +30,10 @@
 
 /* Style for list items */
 .rh-nav-item {
-    min-width: 100px; /* Set equal width */
+    flex: 0 0 auto;
+    min-width: 100px;
+    text-align: center;
+    padding: 0 0;
     margin-top: 10px;
 }
 
@@ -48,7 +46,6 @@
     text-decoration: none; /* Optional: Remove underline */
     color: #B3A369; /* Optional: Inherit color for flexibility */
 }
-
 
 .rh-nav-item.rh-active {
     /* Styles for .nav-item with .active */

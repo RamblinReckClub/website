@@ -2,18 +2,24 @@ const navbar = document.getElementById("scrollableNavbar");
 const leftArrow = document.getElementById("scrollLeft");
 const rightArrow = document.getElementById("scrollRight");
 
-// Function to update the visibility of arrows
+// Function to update arrow visibility
 function updateArrows() {
     const isScrollable = navbar.scrollWidth > navbar.clientWidth;
     leftArrow.classList.toggle("visible", isScrollable && navbar.scrollLeft > 0);
     rightArrow.classList.toggle("visible", isScrollable && navbar.scrollLeft < navbar.scrollWidth - navbar.clientWidth);
 }
 
-// Event listener for scrolling
-navbar.addEventListener("scroll", updateArrows);
+// Scroll on arrow click
+leftArrow.addEventListener("click", () => {
+    navbar.scrollBy({ left: -150, behavior: "smooth" });
+});
+rightArrow.addEventListener("click", () => {
+    navbar.scrollBy({ left: 150, behavior: "smooth" });
+});
 
-// Event listener for window resizing
+// Listen for scroll and resize events
+navbar.addEventListener("scroll", updateArrows);
 window.addEventListener("resize", updateArrows);
 
-// Initial check on page load
+// Initial update on page load
 updateArrows();
