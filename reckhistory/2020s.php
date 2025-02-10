@@ -1,112 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="The history of the Ramblin' Reck">
-    <meta name="author" content="Ramblin' Reck Club">
-    <title>2020s | Reck History | Ramblin' Reck Club</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="/reckhistory/css/main.css">
-    <link rel="stylesheet" href="/reckhistory/css/timeline.css">
-</head>
-
+<?php $pageTitle = "Reck History: 2020s" ?>
+<?php require "../partials/head.php" ?>
+<?php require "rh-head.php" ?>
 
 <body>
 
-<div class="masthead">
-    <div class="container-fluid">
-        <div class="heading">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <h1><a style="text-decoration:none;color:black;" href="http://reckclub.org">Ramblin' Reck Club</a> <small>History of the Reck</small></h1>
-        </div>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav nav-justified">
-            <li ><a href="/reckhistory/">Home</a></li>
+<?php require "../partials/public-header.php" ?>
+<?php include 'rh-header.php'; ?>
 
-
-
-
-            <li class=""><a href="/reckhistory/w-or-r/">Wreck or Reck?</a></li>
-
-
-
-
-
-
-
-            <li class=""><a href="/reckhistory/other-cars/">Other Cars</a></li>
-
-
-
-
-
-
-
-
-
-
-
-            <li class=""><a href="/reckhistory/pre-1960s/">Pre-1960s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/1960s/">1960s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/1970s/">1970s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/1980s/">1980s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/1990s/">1990s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/2000s/">2000s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/2010s/">2010s</a></li>
-
-
-
-
-
-            <li class="active"><a href="/reckhistory/2020s/">2020s</a></li>
-
-
-
-
-        </ul>
-    </div>
-</div>
 
 <div class="jumbotron">
     <div class="container">
@@ -145,11 +47,11 @@
     <div class="container">
         <ul class="timeline">
             <li>
-                <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
 
-                        <img class="img-responsive" src="/reckhistory/images/2020s/Bookmobile.jpg" />
+                        <img class="img-fluid" src="/reckhistory/images/2020s/Bookmobile.jpg" />
 
                         <h4 class="timeline-title">Start of Bookmobile</h4>
                         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2020</small></p>
@@ -163,11 +65,11 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
 
-                        <img class="img-responsive" src="/reckhistory/images/2020s/ReckOnIce.jpg" />
+                        <img class="img-fluid" src="/reckhistory/images/2020s/ReckOnIce.jpg" />
 
                         <h4 class="timeline-title">Reck on Ice!</h4>
                         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2021</small></p>
@@ -181,11 +83,11 @@
                 </div>
             </li>
             <li>
-                <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
 
-                        <img class="img-responsive" src="/reckhistory/images/2020s/ReckGarage.jpeg" />
+                        <img class="img-fluid" src="/reckhistory/images/2020s/ReckGarage.jpeg" />
 
                         <h4 class="timeline-title">Opening of the Reck Garage</h4>
                         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2023</small></p>
@@ -198,11 +100,11 @@
                 </div>
             </li>
             <li class="timeline-inverted">
-                <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
 
-                        <img class="img-responsive" src="/reckhistory/images/2020s/3000Miles.jpg" />
+                        <img class="img-fluid" src="/reckhistory/images/2020s/3000Miles.jpg" />
 
                         <h4 class="timeline-title">3,000 Mile Reck Driver!</h4>
                         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> November 4, 2024</small></p>
@@ -216,11 +118,11 @@
                 </div>
             </li>
             <li>
-                <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
 
-                        <img class="img-responsive" src="/reckhistory/images/2020s/2024Football.jpg" />
+                        <img class="img-fluid" src="/reckhistory/images/2020s/2024Football.jpg" />
 
                         <h4 class="timeline-title">2024 Football Season</h4>
                         <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2024</small></p>
@@ -233,18 +135,12 @@
             </li>
         </ul>
     </div>
-
 </div>
 
-<div class="container-fluid">
-    <footer class="footer text-center text-muted">
-        <p>© 2023 Ramblin' Reck Club. All Rights Reserved.</p>
-    </footer>
-</div>
-
-<script src="/reckhistory/js/jquery.min.js"></script>
-<script src="/reckhistory/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<?php require '../partials/footer.php'; ?>
+<?php require '../partials/scripts.php'; ?>
 <script src="/reckhistory/js/timeline.js"></script>
+<script src="/reckhistory/js/scrollyheader.js"></script>
 </body>
 
 </html>

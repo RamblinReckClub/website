@@ -1,112 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php $pageTitle = "Reck History: 2000s" ?>
+<?php require "../partials/head.php" ?>
+<?php require "rh-head.php" ?>
 
-    <meta name="description" content="The history of the Ramblin' Reck">
-    <meta name="author" content="Ramblin' Reck Club">
-    <title>2000s | Reck History | Ramblin' Reck Club</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="/reckhistory/css/main.css">
-    <link rel="stylesheet" href="/reckhistory/css/timeline.css">
-</head>
 
 
   <body>
 
-    <div class="masthead">
-    <div class="container-fluid">
-        <div class="heading">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <h1><a style="text-decoration:none;color:black;" href="http://reckclub.org">Ramblin' Reck Club</a> <small>History of the Reck</small></h1>
-        </div>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav nav-justified">
-            <li ><a href="/reckhistory/">Home</a></li>
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/w-or-r/">Wreck or Reck?</a></li>
-            
-            
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/other-cars/">Other Cars</a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/pre-1960s/">Pre-1960s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1960s/">1960s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1970s/">1970s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1980s/">1980s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1990s/">1990s</a></li>
-            
-            
-            
-            
-            
-            <li class="active"><a href="/reckhistory/2000s/">2000s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/2010s/">2010s</a></li>
+  <?php require "../partials/public-header.php" ?>
+  <?php include 'rh-header.php'; ?>
 
-
-
-
-
-            <li class=""><a href="/reckhistory/2020s/">2020s</a></li>
-
-
-
-
-        </ul>
-    </div>
-</div>
 
     <div class="jumbotron">
     <div class="container">
@@ -160,7 +65,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
@@ -189,7 +94,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -218,7 +123,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
@@ -239,7 +144,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -260,13 +165,13 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
                             
-                           <!-- <img class="img-responsive" src="http://www.ajc.com/rf/image_lowres/Pub/p2/AJC/2011/09/23/Images/photos.medleyphoto.2303619.jpg" />  -->
-                            <img class="img-responsive" src="/reckhistory/images/2000s/Final-Four.jpg" />
+                           <!-- <img class="img-fluid" src="http://www.ajc.com/rf/image_lowres/Pub/p2/AJC/2011/09/23/Images/photos.medleyphoto.2303619.jpg" />  -->
+                            <img class="img-fluid" src="/reckhistory/images/2000s/Final-Four.jpg" />
 
                             <h4 class="timeline-title">2004 Final Four</h4>
                           <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> April 3-5, 2004 (San Antonio, TX)</small></p>
@@ -289,12 +194,12 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
                                 
-                                <img class="img-responsive" src="https://assets.sbnation.com/assets/452000/72703372.jpg" />
+                                <img class="img-fluid" src="https://assets.sbnation.com/assets/452000/72703372.jpg" />
                                 
                             
                           <h4 class="timeline-title">2006 ACC Championship Game</h4>
@@ -316,7 +221,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
@@ -339,12 +244,12 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
                                 
-                                <img class="img-responsive" src="/reckhistory/images/2000s/2007-reck-accident.png" />
+                                <img class="img-fluid" src="/reckhistory/images/2000s/2007-reck-accident.png" />
                                 
                             
                           <h4 class="timeline-title">Highway accident damages Ramblin’ Wreck</h4>
@@ -366,12 +271,12 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
                             
-                            <img class="img-responsive" src="https://lh3.googleusercontent.com/-9QEHLQsttdM/UjsPm9zFGSI/AAAAAAAAAfQ/swTafom-qcU-b_NjiG2aioYUbOVobTk6wCHMYBhgL/s1600/MadMoney-033.jpg" />
+                            <img class="img-fluid" src="https://lh3.googleusercontent.com/-9QEHLQsttdM/UjsPm9zFGSI/AAAAAAAAAfQ/swTafom-qcU-b_NjiG2aioYUbOVobTk6wCHMYBhgL/s1600/MadMoney-033.jpg" />
                             
                           
                           <h4 class="timeline-title">The Reck on "Mad Money"</h4>
@@ -393,7 +298,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -414,7 +319,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
@@ -443,7 +348,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -466,7 +371,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
@@ -495,7 +400,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -525,15 +430,10 @@
 
 </div>
 
-    <div class="container-fluid">
-    <footer class="footer text-center text-muted">
-        <p>© 2023 Ramblin' Reck Club. All Rights Reserved.</p>
-    </footer>
-</div>
-
-    <script src="/reckhistory/js/jquery.min.js"></script>
-    <script src="/reckhistory/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="/reckhistory/js/timeline.js"></script>
+  <?php require '../partials/footer.php'; ?>
+  <?php require '../partials/scripts.php'; ?>
+  <script src="/reckhistory/js/timeline.js"></script>
+  <script src="/reckhistory/js/scrollyheader.js"></script>
   </body>
 
 </html>

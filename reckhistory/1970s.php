@@ -1,112 +1,15 @@
 <!DOCTYPE html>
 <html>
+<?php $pageTitle = "Reck History: 1970s" ?>
+<?php require "../partials/head.php" ?>
+<?php require "rh-head.php" ?>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="The history of the Ramblin' Reck">
-    <meta name="author" content="Ramblin' Reck Club">
-    <title>1970s | Reck History | Ramblin' Reck Club</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="/reckhistory/css/main.css">
-    <link rel="stylesheet" href="/reckhistory/css/timeline.css">
-</head>
 
 
   <body>
+  <?php require "../partials/public-header.php" ?>
+  <?php include 'rh-header.php'; ?>
 
-    <div class="masthead">
-    <div class="container-fluid">
-        <div class="heading">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <h1><a style="text-decoration:none;color:black;" href="http://reckclub.org">Ramblin' Reck Club</a> <small>History of the Reck</small></h1>
-        </div>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav nav-justified">
-            <li ><a href="/reckhistory/">Home</a></li>
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/w-or-r/">Wreck or Reck?</a></li>
-            
-            
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/other-cars/">Other Cars</a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/pre-1960s/">Pre-1960s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1960s/">1960s</a></li>
-            
-            
-            
-            
-            
-            <li class="active"><a href="/reckhistory/1970s/">1970s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1980s/">1980s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/1990s/">1990s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/2000s/">2000s</a></li>
-            
-            
-            
-            
-            
-            <li class=""><a href="/reckhistory/2010s/">2010s</a></li>
-
-
-
-
-
-            <li class=""><a href="/reckhistory/2020s/">2020s</a></li>
-
-
-
-
-        </ul>
-    </div>
-</div>
 
     <div class="jumbotron">
     <div class="container">
@@ -156,7 +59,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
 
@@ -165,7 +68,7 @@
                                   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jkYQ-jN_ODc?start=0&end=9"></iframe>
                               </div>
                         -->
-                            <img class="img-responsive" src="/reckhistory/images/1970s/1970-Sun-Bowl.jpg"/>
+                            <img class="img-fluid" src="/reckhistory/images/1970s/1970-Sun-Bowl.jpg"/>
 
                           <h4 class="timeline-title">1970 Sun Bowl</h4>
                           <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> December 19, 1970 (El Paso, TX)</small></p>
@@ -173,7 +76,7 @@
                         <div class="timeline-body">
                           <p>The Reck visits El Paso for the first time on one of its longest ever road trips, as the Yellow Jackets trounce the Texas Tech Red Raiders 17-9.</p>
                           
-                          <a href="http://www.sunbowl.org/the_sun_bowl_game/recap/37">Learn More »</a>
+                          <p><a href="http://www.sunbowl.org/the_sun_bowl_game/recap/37">Learn More »</a></p>
                           
                         </div>
                       </div>
@@ -186,7 +89,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -201,7 +104,6 @@
                         </div>
                         <div class="timeline-body">
                           <p>The Reck travels to Memphis as Tech battles Iowa State and eeks out a 31-30 win.</p>
-                          
                           <a href="https://web.archive.org/web/20150814193256/http://www.cyclones.com/pdf9/3655007.pdf?SPSID=48323&SPID=4653&DB_LANG=C&DB_OEM_ID=10700">Learn More »</a>
                           
                         </div>
@@ -215,7 +117,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                           
@@ -238,7 +140,7 @@
                     
                     
                     <li class="timeline-inverted">
-                      <div class="timeline-badge reck-gold"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge reck-gold"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
                             
@@ -261,7 +163,7 @@
                     
                     
                     <li>
-                      <div class="timeline-badge"><img class="img-responsive img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
+                      <div class="timeline-badge"><img class="img-fluid img-reck" src="/reckhistory/images/misc/white-reck.png"></div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
 
@@ -285,15 +187,10 @@
 
 </div>
 
-    <div class="container-fluid">
-    <footer class="footer text-center text-muted">
-        <p>© 2023 Ramblin' Reck Club. All Rights Reserved.</p>
-    </footer>
-</div>
-
-    <script src="/reckhistory/js/jquery.min.js"></script>
-    <script src="/reckhistory/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="/reckhistory/js/timeline.js"></script>
+  <?php require '../partials/footer.php'; ?>
+  <?php require '../partials/scripts.php'; ?>
+  <script src="/reckhistory/js/timeline.js"></script>
+  <script src="/reckhistory/js/scrollyheader.js"></script>
   </body>
 
 </html>

@@ -1,0 +1,172 @@
+.img-reck {
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    /*padding-top: 13px;*/
+    width: 85%;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+/* Wrapper for the navbar with arrows */
+.navbar-container-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Scrollable container */
+.navbar-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    flex: 1;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.navbar-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+/* Style for list items */
+.rh-nav-item {
+    min-width: 100px; /* Set equal width */
+    margin-top: 10px;
+}
+
+.rh-nav-item a {
+    display: block; /* Make the link a block element */
+    width: 100%; /* Fill the entire width of the parent <li> */
+    height: 100%; /* Fill the entire height of the parent <li> */
+    text-align: center; /* Center-align text */
+    padding: 10px 10px; /* Maintain padding for spacing */
+    text-decoration: none; /* Optional: Remove underline */
+    color: #B3A369; /* Optional: Inherit color for flexibility */
+}
+
+
+.rh-nav-item.rh-active {
+    /* Styles for .nav-item with .active */
+    background: #B3A369;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.rh-nav-item.rh-active a {
+    /* Styles for .nav-item with .active */
+    color: white
+}
+
+.rh-nav-item:not(.rh-active) {
+    /* Styles for .nav-item without .active */
+    background: white;
+}
+
+.rh-nav-item:not(.rh-active):hover {
+    /* Styles for .nav-item without .active */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: whitesmoke;
+}
+
+/* Arrows */
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 24px;
+    padding: 8px 12px;
+    cursor: pointer;
+    z-index: 2;
+    display: none; /* Hidden by default */
+}
+
+/* Arrow buttons */
+.scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 2;
+    display: none; /* Hidden by default */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific arrow positions */
+.scroll-arrow.left {
+    left: 5px;
+}
+
+.scroll-arrow.right {
+    right: 5px;
+}
+
+/* Icon inside the button */
+.scroll-arrow i {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Show the arrows when needed */
+.scroll-arrow.visible {
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url(../fonts/glyphicons-halflings-regular.eot);
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(../fonts/glyphicons-halflings-regular.woff) format("woff"), url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg"); }
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+.glyphicon-time:before {
+    content: "\e023"; }
+
+.h1, h1 {
+    font-size: 36px; }
+
+.h2, h2 {
+    font-size: 30px; }
+
+.h3, h3 {
+    font-size: 24px; }
+
+.h4, h4 {
+    font-size: 18px; }
+
+.h5, h5 {
+    font-size: 14px; }
+
+.h6, h6 {
+    font-size: 12px; }
+
+.small {
+    color: #808080;
+}
+
+body {
+    font-size: 14px;
+}
