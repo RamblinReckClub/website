@@ -24,36 +24,35 @@
     </div>
     <div class="container mb-3">
         <div class="row">
-            <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Tirth
-                            Patel</b></a></p>
+            <div class="col-12 text-center">
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
                 <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
             </div>
-            <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Abby Upton</b></a>
-                </p>
-                <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
-                <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>
-            </div>
-            <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Harrison
-                            Burnside</b></a></p>
-                <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
-                <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>
-            </div>
+<!--            <div class="col-4 text-center">-->
+<!--                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Abby Upton</b></a>-->
+<!--                </p>-->
+<!--                <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>-->
+<!--                <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>-->
+<!--            </div>-->
+<!--            <div class="col-4 text-center">-->
+<!--                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Harrison-->
+<!--                            Burnside</b></a></p>-->
+<!--                <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>-->
+<!--                <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>-->
+<!--            </div>-->
         </div>
         <hr class="mb-3">
     </div>
 
     <div class="container">
         <div class='blog-header'>
-            <div class='col-12' style="text-align: center;">
-                <h1>6:30 AM November 9th, 2024</h1>
-            </div>
+<!--            <div class='col-12' style="text-align: center;">-->
+<!--                <h1>6:30 AM November 9th, 2024</h1>-->
+<!--            </div>-->
             <!--    </div>-->
 
-            <div class='row text-center'>
+            <div class='row text-center d-none'>
                 <div class='col-sm-4 col-xs-12 mb-0 mb-sm-3'>
                     <a class='btn btn-md btn-primary' href="#race-day-logistics">Event Information</a>
                 </div>
@@ -74,7 +73,7 @@
                             href="https://gatech.universitytickets.com/w/event.aspx">this link</a></i>
                 </div>
             </div>
-            <hr class="mb-3">
+            <hr class="mb-3 d-none">
 
             <div class="container">
                 <div class="row justify-content-center">

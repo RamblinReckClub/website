@@ -26,34 +26,32 @@
     <div class="container mb-3">
 
         <div class="row">
-            <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Tirth
-                            Patel</b></a></p>
+            <div class="col-12 text-center">
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
                 <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
             </div>
-            <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Gal Ovadia</b></a>
-                </p>
-                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
-                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
-            </div>
-            <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Kaitlyn Park</b></a>
-                </p>
-                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
-                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
-            </div>
+<!--            <div class="col-4 text-center">-->
+<!--                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Gal Ovadia</b></a>-->
+<!--                </p>-->
+<!--                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>-->
+<!--                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>-->
+<!--            </div>-->
+<!--            <div class="col-4 text-center">-->
+<!--                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Kaitlyn Park</b></a>-->
+<!--                </p>-->
+<!--                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>-->
+<!--                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>-->
+<!--            </div>-->
         </div>
         <hr class="mb-3">
     </div>
-    s
     <div class="container">
         <div class='blog-header'>
-            <div class='col-12' style="text-align: center;">
+            <div class='col-12 d-none' style="text-align: center;">
                 <h1>November 8th, 2024 at 5:00PM</h1>
             </div>
-            <div class='row text-center'>
+            <div class='row text-center d-none'>
                 <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>-->
                 <!--            <a class='btn btn-md btn-secondary' href="#race-day-info">Race Day Info</a>-->
                 <!--        </div>-->
@@ -73,7 +71,7 @@
                 <!--            <a class='btn btn-md btn-secondary' href="/assets/A-Guide-to-Mini-500.pdf" target="_blank">Guide to Mini 500</a>-->
                 <!--        </div>-->
             </div>
-            <hr class="mb-3">
+            <hr class="mb-3 d-none">
             <div class="container">
                 <div class="row justify-content-center">
                     <div margin="col-4">

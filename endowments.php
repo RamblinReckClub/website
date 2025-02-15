@@ -1,5 +1,10 @@
 <?php $pageTitle = "Endowments"; ?>
 
+<?php
+header("Location: /", true, 302);
+exit();
+?>
+
 <!DOCTYPE html>
 <html>
 <?php require "partials/head.php" ?>

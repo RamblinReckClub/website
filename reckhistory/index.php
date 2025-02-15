@@ -24,30 +24,30 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h2>The Quest for the Reck</h2>
             <img src="/reckhistory/images/misc/reck-front.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
             <p>In memory of Dean Floyd Field's Model T, Dean of Students Jim Dull searched for a suitable pre-WWII car to become the official mascot of Georgia Tech.</p>
             <p><a class="btn btn-outline-dark" href="/reckhistory/1960s.php" role="button">Dull's quest for the Reck »</a></p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h2>The Reck's Debut</h2>
             <img src="/reckhistory/images/1960s/1961-reck-debut.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
             <p>The Reck was formally introduced as Georgia Tech's mascot when it led the football team out on to Grant Field for the 1961 homecoming game versus Rice University.</p>
             <p><a class="btn btn-outline-dark" href="/reckhistory/1960s.php" role="button">Learn more about 9/30/1961 »</a></p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <h2>The Reck Today</h2>
             <img src="/reckhistory/images/2010s/2017-reck-biotech-quad.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
             <p>How is the Reck used today? Learn how present-day Reck Club members showcase the Reck to the student body.</p>
             <p><a class="btn btn-outline-dark" href="/reckhistory/2020s.php" role="button">Recent Events »</a></p>
         </div>
-        <div class="col-md-3">
-            <h2>Funding the Reck</h2>
-            <img src="/reckhistory/images/misc/1981entrance.jpg" class="img-responsive img-thumbnail" alt="Responsive image">
-            <p>Want to help the Reck on its mission to spread joy?</p>
-            <p><a class="btn btn-outline-dark" href="/endowments.php" role="button">Donate today »</a></p>
-        </div>
+<!--        <div class="col-md-3">-->
+<!--            <h2>Funding the Reck</h2>-->
+<!--            <img src="/reckhistory/images/misc/1981entrance.jpg" class="img-responsive img-thumbnail" alt="Responsive image">-->
+<!--            <p>Want to help the Reck on its mission to spread joy?</p>-->
+<!--            <p><a class="btn btn-outline-dark" href="/endowments.php" role="button">Donate today »</a></p>-->
+<!--        </div>-->
     </div>
 </div>
 
