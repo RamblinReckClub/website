@@ -17,8 +17,9 @@
 	}
 	
 	if($var == false) {
+        $newPasswordHash = password_hash($_POST['password'], PASSWORD_BCRYPT);
 		$query = $db->prepare("INSERT INTO Member (username, password, firstName, lastName, status) VALUES (:username, :password, :firstName, :lastName, :status)");
-		$query->execute(array('username'=>$_POST['username'], 'password'=>md5($_POST['password']), 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'status'=>$_POST['status']));
+		$query->execute(array('username'=>$_POST['username'], 'password'=>$newPasswordHash, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'status'=>$_POST['status']));
 	
 		echo "<h3>Member Created</h3>";
 		echo "<meta http-equiv=\"refresh\" content=\"2; url=manageMembers.php\">";

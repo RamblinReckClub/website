@@ -1,42 +1,62 @@
 <?php
 require "database_connect.php";
 
-$query = $db->prepare("SELECT * FROM Member WHERE username=:username AND password=:password");
-$query->execute(array('username'=>$_POST['username'], 'password'=>md5($_POST['password'])));
-$query->setFetchMode(PDO::FETCH_ASSOC);
-$count = $query->rowCount();
-
-if ($count==1) {
-    $row = $query->fetch();
+function successfulLogin($user) {
+    // Start the session
     session_start();
-    $_SESSION['memberID'] = $row['memberID'];
-    $_SESSION['username'] = $row['username'];
-    $_SESSION['firstName'] = $row['firstName'];
-    $_SESSION['lastName'] = $row['lastName'];
-    $_SESSION['email'] = $row['email'];
-    $_SESSION['twitter'] = $row['twitter'];
-    $_SESSION['phone'] = $row['phone'];
-    $_SESSION['streetAddress'] = $row['streetAddress'];
-    $_SESSION['city'] = $row['city'];
-    $_SESSION['state'] = $row['state'];
-    $_SESSION['zipCode'] = $row['zipCode'];
-    $_SESSION['status'] = $row['status'];
-    $_SESSION['joinYear'] = $row['joinYear'];
-    $_SESSION['gradYear'] = $row['gradYear'];
-    $_SESSION['gradMonth'] = $row['gradMonth'];
-    $_SESSION['reckerPair'] = $row['reckerPair'];
-    $_SESSION['memFamilyID'] = $row['memFamilyID'];
-    $_SESSION['isAdmin'] = $row['isAdmin'];
-    $_SESSION['isSecretary'] = $row['isSecretary'];
-    $_SESSION['isTreasurer'] = $row['isTreasurer'];
-    $_SESSION['isVP'] = $row['isVP'];
-    $_SESSION['isEventAdmin'] = $row['isEventAdmin'];
-    $_SESSION['memberPoints'] = $row['memberPoints'];
-    $_SESSION['mandatoryEventCount'] = $row['mandatoryEventCount'];
-    $_SESSION['sportsEventCount'] = $row['sportsEventCount'];
-    $_SESSION['socialEventCount'] = $row['socialEventCount'];
-    $_SESSION['workEventCount'] = $row['workEventCount'];
-} else {}
+    // Now load the session variables
+    $_SESSION['memberID'] = $user['memberID'];
+    $_SESSION['username'] = $user['username'];
+    $_SESSION['firstName'] = $user['firstName'];
+    $_SESSION['lastName'] = $user['lastName'];
+    $_SESSION['email'] = $user['email'];
+    $_SESSION['twitter'] = $user['twitter'];
+    $_SESSION['phone'] = $user['phone'];
+    $_SESSION['streetAddress'] = $user['streetAddress'];
+    $_SESSION['city'] = $user['city'];
+    $_SESSION['state'] = $user['state'];
+    $_SESSION['zipCode'] = $user['zipCode'];
+    $_SESSION['status'] = $user['status'];
+    $_SESSION['joinYear'] = $user['joinYear'];
+    $_SESSION['gradYear'] = $user['gradYear'];
+    $_SESSION['gradMonth'] = $user['gradMonth'];
+    $_SESSION['reckerPair'] = $user['reckerPair'];
+    $_SESSION['memFamilyID'] = $user['memFamilyID'];
+    $_SESSION['isAdmin'] = $user['isAdmin'];
+    $_SESSION['isSecretary'] = $user['isSecretary'];
+    $_SESSION['isTreasurer'] = $user['isTreasurer'];
+    $_SESSION['isVP'] = $user['isVP'];
+    $_SESSION['isEventAdmin'] = $user['isEventAdmin'];
+    $_SESSION['memberPoints'] = $user['memberPoints'];
+    $_SESSION['mandatoryEventCount'] = $user['mandatoryEventCount'];
+    $_SESSION['sportsEventCount'] = $user['sportsEventCount'];
+    $_SESSION['socialEventCount'] = $user['socialEventCount'];
+    $_SESSION['workEventCount'] = $user['workEventCount'];
+}
+
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+$query = $db->prepare("SELECT * FROM Member WHERE username=:username");
+$query->execute(array('username'=>$username));
+$query->setFetchMode(PDO::FETCH_ASSOC);
+$user = $query->fetch();
+
+if ($user) {
+    $storedHash = $user['password'];
+    $passwordType = $user['passwordType'];
+
+    if ($passwordType === 'md5' && md5($password) === $storedHash) {
+        // Successful md5 login. Time to upgrade the hash to bcrypt!
+        $newPasswordHash = password_hash($password, PASSWORD_BCRYPT);
+        $passwordUpdateQuery = $db->prepare("UPDATE Member SET password=:password, passwordType='bcrypt' WHERE username=:username");
+        $passwordUpdateQuery->execute(array('password'=>$newPasswordHash, 'username'=>$username));
+        successfulLogin($user);
+    } elseif ($passwordType === 'bcrypt' && password_verify($password, $storedHash)) {
+        // Successful bcrypt login
+        successfulLogin($user);
+    }
+}
 
 require "html_header_begin.txt";
 ?>

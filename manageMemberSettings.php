@@ -22,10 +22,10 @@
 	if($_POST['reckerPair']=="") { $_POST['reckerPair'] = NULL; }
 
 	if($_POST['password'] != "") {
-        $resetPassword = md5($_POST['password']);
-		$query = $db->prepare("UPDATE Member SET username=:username, password=:password, firstName=:firstName, lastName=:lastName, email=:email, phone=:phone, twitter=:twitter, streetAddress=:streetAddress, 
+        $newPasswordHash = password_hash($_POST['password'], PASSWORD_BCRYPT);
+		$query = $db->prepare("UPDATE Member SET username=:username, password=:password, passwordType='bcrypt', firstName=:firstName, lastName=:lastName, email=:email, phone=:phone, twitter=:twitter, streetAddress=:streetAddress, 
 			city=:city, state=:state, zipCode=:zipCode, joinYear=:joinYear, gradMonth=:gradMonth, gradYear=:gradYear, reckerPair=:reckerPair, status=:status WHERE memberID = :memberID");
-		$query->execute(array('username'=>$_POST['username'], 'password'=>$resetPassword, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'email'=>$_POST['email'], 'phone'=>$_POST['phone'], 'twitter'=>$_POST['twitter'], 
+		$query->execute(array('username'=>$_POST['username'], 'password'=>$newPasswordHash, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'email'=>$_POST['email'], 'phone'=>$_POST['phone'], 'twitter'=>$_POST['twitter'],
 			'streetAddress'=>$_POST['streetAddress'], 'city'=>$_POST['city'], 'state'=>$_POST['state'], 'zipCode'=>$_POST['zipCode'], 'joinYear'=>$_POST['joinYear'], 
 			'gradMonth'=>$_POST['gradMonth'], 'gradYear'=>$_POST['gradYear'], 'reckerPair'=>$_POST['reckerPair'], 'status'=>$_POST['status'], 'memberID'=>$_POST['memberID']));
 	} else {
