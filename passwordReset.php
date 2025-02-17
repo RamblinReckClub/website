@@ -16,8 +16,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user = $query->fetch();
 
     $password = $_POST["password"];
-    $newPassword = $_POST['password-new'];
-    $confirmPassword = $_POST['password-confirm'];
+    $newPassword = $_POST['passwordNew'];
+    $confirmPassword = $_POST['passwordConfirm'];
     $storedHash = $user['password'];
     $passwordType = $user['passwordType'];
 
@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="card-body">
 
             <?php if (isset($error)) echo "<div class='alert alert-danger'>$error</div>"; ?>
-            <form class="form-signin" action="passwordReset.php" method="POST">
+            <form name="resetform" id="resetform" class="form-signin" onsubmit="return passwordCheck();" action="passwordReset.php" method="POST">
                 <img class="mb-4 login-image" src="/img/brand/official-logo.png" alt="">
                 <div class="message-space"></div>
                 <h1 class="mb-3 font-weight-normal">Reset Password</h1>
@@ -117,26 +117,44 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <br>
                 <label for="password" class="sr-only">New Password</label>
-                <input type="password" id="password-new" maxlength="32" name="password-new" class="form-control" placeholder="New Password" required>
+                <input type="password" id="passwordNew" maxlength="32" name="passwordNew" class="form-control" placeholder="New Password" required>
                 <div class="invalid-feedback">
                     Please enter your new password.
                 </div>
                 <label for="password" class="sr-only">Confirm Password</label>
-                <input type="password" id="password-confirm" maxlength="32" name="password-confirm" class="form-control" placeholder="Confirm Password" required>
+                <input type="password" id="passwordConfirm" maxlength="32" name="passwordConfirm" class="form-control" placeholder="Confirm Password" required>
                 <div class="invalid-feedback">
                     Please enter your new password again.
                 </div>
 
                 <br>
 
-                <button type="submit" class="btn btn-lg btn-primary btn-block mb-1">Update Password</button>
+                <input type="submit" class="btn btn-lg btn-primary btn-block mb-1" value="Update Password">
             </form>
         </div>
     </div>
 </div>
 
+<script>
+    function hasWhiteSpace(s) {
+        return s.indexOf(' ') >= 0;
+    }
+    function passwordCheck() {
+        if (hasWhiteSpace(document.resetform.passwordNew.value)) {
+            alert("Error: Password cannot contain a space. Try again.");
+            document.resetform.passwordNew.focus();
+            return false;
+        }
+        if (document.resetform.passwordNew.value !== document.resetform.passwordConfirm.value) {
+            alert("Error: Passwords do not match. Try again.");
+            document.resetform.passwordNew.focus();
+            return false;
+        }
+        return true;
+    }
+</script>
 
-<?php require "partials/scripts.php"; ?>
+<?php //require "partials/scripts.php"; ?>
 
 </body>
 </html>

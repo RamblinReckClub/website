@@ -341,11 +341,11 @@
         return s.indexOf(' ') >= 0;
     }
     function passwordCheck() {
-        // if (hasWhiteSpace(document.thisform.newPassword.value)) {
-        //     alert("Error: Password cannot contain a space. Try again.");
-        //     document.thisform.newPassword.focus();
-        //     return false;
-        // }
+        if (hasWhiteSpace(document.thisform.newPassword.value)) {
+            alert("Error: Password cannot contain a space. Try again.");
+            document.thisform.newPassword.focus();
+            return false;
+        }
         if (document.thisform.newPassword.value != document.thisform.confirmPassword.value) {
             alert("Error: Password does not match. Try again.");
             document.thisform.newPassword.focus();
