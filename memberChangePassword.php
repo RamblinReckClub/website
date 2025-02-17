@@ -8,7 +8,7 @@
 
     $newPasswordHash = password_hash($_POST['newPassword'], PASSWORD_BCRYPT);
 	
-	$query = $db->prepare("UPDATE Member SET password=:password, passwordType='bcrypt' WHERE memberID=:memberID");
+	$query = $db->prepare("UPDATE Member SET password=:password, passwordType='bcrypt', passwordIsTemp=0 WHERE memberID=:memberID");
 	$query->execute(array('password'=>$newPasswordHash, 'memberID'=>$_POST["memberID"]));
 	
 	print("<h3>Password Changed</h3>");

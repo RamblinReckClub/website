@@ -2,6 +2,17 @@
 require "database_connect.php";
 
 function successfulLogin($user, $db) {
+
+//    if ($user['passwordIsTemp'] == 1) {
+//        // Store user ID in a temporary session variable
+//        session_start();
+//        $_SESSION['username'] = $user['username'];
+//
+//        // Redirect to password reset page
+//        header("Location: passwordReset.php?resetRequired=1&error=none");
+//        exit;
+//    }
+
     // Mark the last successful login datetime
     $currentTimestamp = date('Y-m-d H:i:s');
     $query = $db->prepare("UPDATE Member SET lastLogin = :lastLogin WHERE memberID = :memberID");
