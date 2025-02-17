@@ -1,7 +1,15 @@
 <?php
 require "database_connect.php";
 
-function successfulLogin($user) {
+function successfulLogin($user, $db) {
+    // Mark the last successful login datetime
+    $currentTimestamp = date('Y-m-d H:i:s');
+    $query = $db->prepare("UPDATE Member SET lastLogin = :lastLogin WHERE memberID = :memberID");
+    $query->execute([
+        ':lastLogin' => $currentTimestamp,
+        ':memberID'  => $user['memberID']
+    ]);
+
     // Start the session
     session_start();
     // Now load the session variables
@@ -51,10 +59,10 @@ if ($user) {
         $newPasswordHash = password_hash($password, PASSWORD_BCRYPT);
         $passwordUpdateQuery = $db->prepare("UPDATE Member SET password=:password, passwordType='bcrypt' WHERE username=:username");
         $passwordUpdateQuery->execute(array('password'=>$newPasswordHash, 'username'=>$username));
-        successfulLogin($user);
+        successfulLogin($user, $db);
     } elseif ($passwordType === 'bcrypt' && password_verify($password, $storedHash)) {
         // Successful bcrypt login
-        successfulLogin($user);
+        successfulLogin($user, $db);
     }
 }
 

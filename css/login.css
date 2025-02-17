@@ -16,7 +16,33 @@ body {
 	justify-content: center;
 	padding-top: 40px;
 	padding-bottom: 40px;
-	background-color: #ffffff;
+	background-color: #f4f4f4; /* Light gray background */
+	/*height: 100vh;*/
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.card {
+	background: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 400px;
+	text-align: center;
+}
+
+.card-body {
+	padding: 0;
+}
+
+.copyright-notice {
+	font-size: 12px;
 }
 
 .form-signin {
@@ -35,6 +61,22 @@ body {
 	padding: 10px;
 	font-size: 16px;
 }
+
+.form-control {
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	padding: 12px;
+	font-size: 16px;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+	border-color: #b7a770;
+	box-shadow: 0 0 8px rgb(234, 227, 206);
+	outline: none;
+}
+
+
 .form-signin .form-control:focus {
 	z-index: 2;
 }
@@ -47,4 +89,9 @@ body {
 	margin-bottom: 10px;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
+}
+
+.login-image {
+	max-height: 125px;
+	max-width: 125px;
 }
