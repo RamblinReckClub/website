@@ -118,6 +118,7 @@ if($selectedMember != "none") {
                     <option value="member">Member</option>
                     <option value="social">Social</option>
                     <option value="alumni">Alumni</option>
+                    <option value="alumni">Faculty</option>
                     </select>
                 </div>
             </div>

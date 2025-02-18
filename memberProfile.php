@@ -179,7 +179,9 @@
                         <select class="custom-select d-block w-100" name="status" <?php echo $readonlyStatus; ?>>
                             <option value="probate" <?php if ($currentMember['status'] == 'probate') echo "selected";?>>Probate</option>
                             <option value="member" <?php if ($currentMember['status'] == 'member') echo "selected";?>>Member</option>
+                            <option value="social" <?php if ($currentMember['status'] == 'social') echo "selected";?>>Social</option>
                             <option value="alumni" <?php if ($currentMember['status'] == 'alumni') echo "selected";?>>Alumni</option>
+                            <option value="faculty" <?php if ($currentMember['status'] == 'faculty') echo "selected";?>>Faculty</option>
                         </select>
                         <?php else: ?>
                         <input type="text" class="form-control" size=15 maxlength=5 name="status" value="<?php echo ucfirst($currentMember['status']); ?>" <?php echo $readonlyStatus; ?>>
