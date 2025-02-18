@@ -57,7 +57,7 @@ $pageTitle = "Members";
                 //---------------------------------------------------
 
                 if($sortBy=="all") {
-                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status!='alumni' ORDER BY memberPoints DESC, lastName");
+                    $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status IN ('social', 'member', 'probate') ORDER BY memberPoints DESC, lastName");
                         $query->setFetchMode(PDO::FETCH_ASSOC);
                 } elseif($sortBy=="members") {
                     $query = $db->query("SELECT firstName, lastName, memberPoints, memberID, mandatoryEventCount, sportsEventCount, socialEventCount, workEventCount FROM Member WHERE status='member' ORDER BY memberPoints DESC, lastName");

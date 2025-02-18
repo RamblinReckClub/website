@@ -16,7 +16,11 @@ $eventCount = $mandatoryEventCount + $sportsEventCount + $socialEventCount + $wo
 //CALCULATE RANK
 //--------------
 
-$rank_query = $db->query("SELECT memberID, memberPoints FROM Member WHERE status!='alumni' ORDER BY memberPoints DESC, lastName");
+$rank_query = $db->query("
+                    SELECT memberID, memberPoints 
+                    FROM Member 
+                    WHERE status!='alumni'
+                    ORDER BY memberPoints DESC, lastName");
 $rank_query->setFetchMode(PDO::FETCH_ASSOC);
 
 $count1 = 0;
@@ -33,9 +37,13 @@ while($row = $rank_query->fetch()) {
 //----------------------------------
 
 ?>
+
+
 <div class="container">
     <div class="mb-3" style="background: #b3a369; border-radius: 5px; border-color: #B3A369;">
+
         <div class="row p-4">
+            <?php if (isset($_SESSION['status']) && in_array($_SESSION['status'], ['member', 'probate', 'social'])) : ?>
             <div class="col-lg-4">
 
                 <h1 class="text-center display-1 mb-0 text-light">
@@ -43,14 +51,20 @@ while($row = $rank_query->fetch()) {
                 </h1>
                 <h5 class="text-center" style="color:#E6E7E8;">TOTAL POINTS</h5>
             </div>
+
             <div class="col-lg-4">
                 <h1 class="text-center display-1 mb-0 text-light"><?php echo($rank); ?></h1>
                 <h5 class="text-center" style="color:#E6E7E8;">RANK</h5>
             </div>
+
             <div class="col-lg-4">
                 <h1 class="text-center display-1 mb-0 text-light"><?php echo($eventCount); ?></h1>
                 <h5 class="text-center" style="color:#E6E7E8;">EVENTS</h5>
             </div>
+
+            <?php elseif ($_SESSION['status'] == "faculty") : ?>
+                <h1 class="text-center text-light">Faculty Account</h1>
+            <?php endif; ?>
         </div>
     </div>
 </div>
@@ -64,8 +78,12 @@ while($row = $rank_query->fetch()) {
                 <?php
 
                     $count = 1;
-
-                    $top5_query = $db->query("SELECT memberID, firstName, lastName, memberPoints FROM Member WHERE status!='alumni' ORDER BY memberPoints DESC, lastName LIMIT 5");
+                    $top5_query = $db->query("
+                        SELECT memberID, firstName, lastName, memberPoints 
+                        FROM Member 
+                        WHERE status IN ('social', 'member', 'probate')  
+                        ORDER BY memberPoints DESC, lastName 
+                        LIMIT 5");
                     $top5_query->setFetchMode(PDO::FETCH_ASSOC);
 
                     while($row = $top5_query->fetch()){

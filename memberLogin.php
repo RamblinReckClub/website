@@ -96,10 +96,13 @@ if (isset($_SESSION['memberID'])==1) {
     // print("<meta http-equiv=\"refresh\" ");
     //print("<h3>Login successful</h3>\n");
     if($_SESSION['status']=="alumni"){
-        print("content=\"1; url=history.php\">");
+        session_destroy();
+        print("<h3>Login successful! Alumni accounts are currently disabled.</h3>");
+        print("<meta http-equiv=\"refresh\" ");
+        print("content=\"2; url=history.php\">");
     } else{
-        //print("content=\"1; url=points.php\">");
-        header('Location: points.php');exit();
+        print("content=\"1; url=points.php\">");
+    header('Location: points.php');exit();
     }
 } else {
     print("<h3>Login failed</h3>\n");
