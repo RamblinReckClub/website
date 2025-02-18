@@ -1,5 +1,6 @@
 <?php $pageTitle = "Roster"; ?>
 <?php require "../utils/array_formatter.php"; ?>
+<?php require "../database_connect.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -10,38 +11,38 @@
 <div class="container">
 
 
-    <h4 class="mb-3">2024 Executive Board</h4>
+    <h4 class="mb-3">2025 Executive Board</h4>
     <hr class="mb-3">
     <div class="row">
         <div class="col-md-6">
 
             <p><strong>Faculty Advisor:</strong> <a href="mailto:kristina.clement@studentlife.gatech.edu">Dr. Kristina Clement</a></p>
-            <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Matthew Kistner</a></p>
-            <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Simran Patel</a></p>
-            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Sam Auborn</a></p>
+            <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Josh Hembree</a></p>
+            <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Mya Moffitt</a></p>
+            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Nathan Dailey</a></p>
         </div>
         <div class="col-md-6">
-            <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Connor White</a></p>
-            <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Arnav Mardia</a></p>
-            <p><strong>Member-at-Large:</strong> <a href="mailto:kralyea@gatech.edu">Kyle Ralyea</a></p>
-            <p><strong>Member-at-Large:</strong> <a href="mailto:mmoffitt6@gatech.edu">Mya Moffitt</a></p>
+            <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Bodan Pittman</a></p>
+            <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Abby Hart</a></p>
+            <p><strong>Member-at-Large:</strong> Jacob Manuel</p>
+            <p><strong>Member-at-Large:</strong> Ria Nayar</p>
         </div>
     </div>
 
     <br>
-    <h4 class="mb-3">2024 Chairs</h4>
+    <h4 class="mb-3">2025 Chairs</h4>
     <hr class="mb-3">
 
     <div class="row mb-3">
         <?php $chairs = array(
             [
                 "chair" => 'Alumni Relations',
-                "name" => 'Sam Auborn',
+                "name" => 'Hiba Kunwer',
                 "email" => 'alumnirelations@reckclub.org'
             ],
             [
                 "chair" => 'Baseball',
-                "name" => 'Abby Upton',
+                "name" => 'Daniel Wood',
                 "email" => 'rrcbaseball@gmail.com'
             ],
             [
@@ -51,42 +52,42 @@
             ],
             [
                 "chair" => 'Big Buzz',
-                "name" => 'Miller Daly',
+                "name" => 'Anaya Desai',
                 "email" => 'rrcbigbuzz@gmail.com'
             ],
             [
                 "chair" => 'Campus Outreach',
-                "name" => 'Allie Abbott',
+                "name" => 'Sof Zambrano Molina',
                 "email" => 'rrccampusoutreach@gmail.com'
             ],
             [
                 "chair" => 'Fundraising',
-                "name" => 'Nathan Dailey',
+                "name" => 'Allie Abbott',
                 "email" => 'rrcfundraisingchair@gmail.com'
             ],
             [
                 "chair" => 'Football',
-                "name" => 'Nicholas Unger',
+                "name" => 'Holland Feeney',
                 "email" => 'rrcfootball@gmail.com'
             ],
             [
                 "chair" => 'Homecoming',
-                "name" => 'Tirth Patel',
+                "name" => 'Sadie Zeigler',
                 "email" => 'rrchomecoming@gmail.com'
             ],
             [
                 "chair" => 'Olympic Sports',
-                "name" => 'Abby Hart',
+                "name" => 'Emma Pickles',
                 "email" => 'rrcolympicsports@gmail.com'
             ],
             [
                 "chair" => 'Public Relations',
-                "name" => 'Carolyn Braun',
+                "name" => 'Sophia Umaña',
                 "email" => 'rrcpublicrelations@gmail.com'
             ],
             [
                 "chair" => 'Probate Guides',
-                "name" => 'Susannah Gordon and Rohan Raman',
+                "name" => 'Kyle Ralyea and Nina Phelan',
                 "email" => ''
             ],
             [
@@ -96,26 +97,26 @@
             ],
             [
                 "chair" => 'T-Book',
-                "name" => 'Zachary Mohr',
+                "name" => 'Toby Russell',
                 "email" => 'rrctbook@gmail.com'
             ],
             [
                 "chair" => 'T-Night',
-                "name" => 'Sadie Zeigler',
+                "name" => 'Harrison Burnside',
                 "email" => 'rctnight@gmail.com'
             ],
             [
                 "chair" => 'Technology',
-                "name" => 'Gal Ovadia',
+                "name" => 'Steven Baker',
                 "email" => 'rrctechnologychair@gmail.com'
             ],
             [
                 "chair" => 'History and Traditions',
-                "name" => 'Nina Phelan',
+                "name" => 'Victoria Geyling',
                 "email" => 'rrctraditions@gmail.com'
             ],
             [   "chair" => 'Diversity and Inclusion',
-                "name" => 'Aditya Prabhakar and Evan Sunny',
+                "name" => 'Camille Merchant',
                 "email" => ''
              ]);
         uasort($chairs, function($a, $b) {
@@ -130,11 +131,7 @@
         chunkAndFormatArray($chairs, 2, function ($chunk) {
             echo "<div class=\"col-md-6 text-center\">";
             foreach ($chunk as $item) {
-                if ($item["chair"] == 'Diversity and Inclusion') {
-                    echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href='mailto:aprabhakar32@gatech.edu'>Aditya Prabhakar</a> and <a href='mailto:esunny7@gatech.edu'>Evan Sunny</a>";
-                } elseif  ($item["chair"] == 'Probate Guides') {
-                    echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href='mailto:sggordon77@gmail.com'>Susannah Gordon</a> and <a href='mailto:roraman199@gmail.com'>Rohan Raman</a>";
-                } elseif ($item["email"] == '') {
+                if ($item["email"] == '') {
                     echo "<p class='text-left'><strong>". $item["chair"] .":</strong> " . $item["name"] . "</p>";
                 } else {
                     echo "<p class='text-left'><strong>". $item["chair"] .":</strong> <a href=\"mailto:". $item["email"] . "\">". $item["name"] ."</a>";
@@ -146,11 +143,22 @@
         ?>
     </div>
 
-    <h4 class="mb-3">2024 Members</h4>
+    <h4 class="mb-3">2025 Members</h4>
     <hr class="mb-3">
     <div class="row mb-3">
     <?php
-  $members = ['Abby Hart', 'Aastha Singh', 'Abby Upton', 'Aditya Prabhakar', 'Allie Abbott', 'Arnav Mardia', 'Austin Reitano', 'Carolyn Braun', 'Connor White', 'Erin Prusener', 'Evalyn Edwards', 'Evan Sunny', 'Gal Ovadia', 'Hiba Kunwer', 'Jordan Lawson', 'Kyle Ralyea', 'Lily Adlesick', 'Matthew Aronin', 'Matthew Kistner', 'Melissa Braunstein', 'Michael DuBose', 'Miller Daly', 'Miriam Guthrie', 'Mya Moffitt', 'Nathan Dailey', 'Nick Unger', 'Nina Phelan', 'Rohan Raman', 'Sadie Zeigler', 'Samuel Auborn', 'Simran Patel', 'Sofia Varmeziar', 'Suraya John', 'Susannah Gordon',  'Tirth Patel', 'Trey Dobson', 'Tyler Gavaletz', 'Zack Mohr', 'Nick Isaf'];
+    // SQL query to get first and last names where status is "member" or "social"
+    $query = $db->prepare("
+        SELECT CONCAT(firstName, ' ', lastName) AS fullName 
+        FROM Member 
+        WHERE status IN ('member', 'social') 
+        ORDER BY firstName
+    ");
+    $query->execute();
+
+    // Fetch all results as a simple indexed array
+    $members = $query->fetchAll(PDO::FETCH_COLUMN);
+
     sort($members);
     chunkAndFormatArray($members, 6, function ($chunk) {
         echo "<div class=\"col-md-2 text-center\">";
