@@ -201,7 +201,7 @@
                     echo 'Events minimum met?';
                     echo '</td>';
                     echo '<td colspan="3">';
-                    echo  (($events - $mandatory) >= 15) ? "Yes" : "<b>No</b>";
+                    echo  (($events - $mandatory) >= 20) ? "Yes" : "<b>No</b>";
                     echo  "</td></tr>";
 
                     echo '<tr>';
