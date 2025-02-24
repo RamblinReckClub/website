@@ -1,3 +1,5 @@
+<?php require "set_session_vars_full.php"; ?>
+<?php if ($isEventAdmin || $isAdmin): ?>
 <div class="container mb-3">
     <div class="row">
         <div class="col-12">
@@ -82,3 +84,4 @@
         </div>
     </div>
 </div>
+<?php endif ?>
