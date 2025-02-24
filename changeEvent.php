@@ -105,8 +105,7 @@
 	}
 
 	echo "<h3>Event Updated</h3>";
-//	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php?dateMonth=".$_POST['newDateMonth']."&dateDay=".$_POST['newDateDay']."&eventID=".$_POST['eventID']."\">";
-	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php\">";
+	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php?dateMonth=".$_POST['newDateMonth']."&dateDay=".$_POST['newDateDay']."&eventID=".$_POST['selectedEventID']."\">";
 
 	require "html_footer.txt";
 ?>

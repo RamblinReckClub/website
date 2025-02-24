@@ -9,7 +9,7 @@
 	require "html_header_begin.txt";
 	require "html_header_end.txt";
 
-	$tempEventID = $_POST['eventID'];
+	$tempEventID = $_POST['selectedEventID'];
 	
 	$query = $db->prepare("DELETE FROM Event WHERE eventID=:tempEventID");
 	$query->execute(array('tempEventID'=>$tempEventID));
