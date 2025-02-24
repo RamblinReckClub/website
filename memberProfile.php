@@ -268,7 +268,7 @@
             </form>
         </div>
 
-        <?php if ($currentMemberId == $memberID || $isAdmin): ?>
+        <?php if ($isAdmin): ?>
         <div class="row">
             <div class="col-12">
                 <hr class="mb-4">
@@ -287,6 +287,14 @@
                     </div>
                     <input class="btn btn-primary btn-md float-right" type="submit" value="Change Password">
                 </form>
+            </div>
+        </div>
+        <?php elseif ($currentMemberId == $memberID): ?>
+        <div class="row">
+            <div class="col-12">
+                <hr class="mb-4">
+                <h4 class="mb-3">Change Password</h4>
+                <p><a href="memberPasswordReset.php">Change your password →</a></p>
             </div>
         </div>
         <?php endif; ?>

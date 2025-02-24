@@ -3,15 +3,19 @@ require "database_connect.php";
 
 function successfulLogin($user, $db) {
 
-//    if ($user['passwordIsTemp'] == 1) {
-//        // Store user ID in a temporary session variable
-//        session_start();
-//        $_SESSION['username'] = $user['username'];
-//
-//        // Redirect to password reset page
-//        header("Location: passwordReset.php?resetRequired=1&error=none");
-//        exit;
-//    }
+    $currentDate = new DateTime();
+    $passwordExpiration = new DateTime($user['passwordExpiration']);
+    error_log($currentDate->format('Y-m-d H:i:s'));
+    error_log($passwordExpiration->format('Y-m-d H:i:s'));
+    if ($passwordExpiration <= $currentDate) {
+        // Store user ID in a temporary session variable
+        session_start();
+        $_SESSION['username'] = $user['username'];
+
+        // Redirect to password reset page
+        header("Location: memberPasswordReset.php?resetRequired=1&error=none");
+        exit;
+    }
 
     // Mark the last successful login datetime
     $currentTimestamp = date('Y-m-d H:i:s');

@@ -1,52 +1,3 @@
-<?php
-
-require "database_connect.php";
-session_start();
-
-if (!isset($_SESSION['username'])) {
-    header("Location: memberLoginForm.php");
-    exit;
-}
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
-    $query = $db->prepare("SELECT password, passwordType FROM Member WHERE username=:username");
-    $query->execute(array('username'=>$_SESSION['username']));
-    $query->setFetchMode(PDO::FETCH_ASSOC);
-    $user = $query->fetch();
-
-    $password = $_POST["password"];
-    $newPassword = $_POST['passwordNew'];
-    $confirmPassword = $_POST['passwordConfirm'];
-    $storedHash = $user['password'];
-    $passwordType = $user['passwordType'];
-
-    if (($passwordType === 'md5' && md5($password) === $storedHash) ||
-        ($passwordType === 'bcrypt' && password_verify($password, $storedHash))) {
-
-        if ($newPassword !== $confirmPassword) {
-            header("Location: passwordReset.php?error=ipc");
-            exit;
-        } else {
-            $hashedPassword = password_hash($newPassword, PASSWORD_BCRYPT);
-
-            // Update the password and remove the reset flag
-            $query = $db->prepare("UPDATE Member SET password=:password, passwordIsTemp=0 WHERE username=:username");
-            $query->execute(['password' => $hashedPassword, 'username' => $_SESSION['username']]);
-
-            // Start session and redirect to dashboard
-            session_destroy();
-            header("Location: /memberLoginForm.php");
-            exit;
-        }
-    } else {
-        header("Location: passwordReset.php?error=ia");
-        exit;
-    }
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,13 +18,69 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </head>
 
+<?php
+
+require "database_connect.php";
+session_start();
+
+function redirectWithMessage($message, $url, $delay = 2) {
+    print("<h3>$message</h3>\n");
+    print("<meta http-equiv=\"refresh\" content=\"$delay; url=$url\">");
+    exit;
+}
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    if (!isset($_SESSION['username'])) {
+        redirectWithMessage("You aren't logged in anymore! Please log in and try again.", "memberLoginForm.php");
+    }
+
+    $query = $db->prepare("SELECT password, passwordType FROM Member WHERE username=:username");
+    $query->execute(array('username'=>$_SESSION['username']));
+    $query->setFetchMode(PDO::FETCH_ASSOC);
+    $user = $query->fetch();
+
+//    $password = $_POST["password"];
+    $newPassword = $_POST['passwordNew'];
+    $confirmPassword = $_POST['passwordConfirm'];
+    $storedHash = $user['password'];
+    $passwordType = $user['passwordType'];
+
+    if ($newPassword !== $confirmPassword) {
+        redirectWithMessage("Passwords must match, please try again.", "memberPasswordReset.php?error=ipc");
+    } else if (md5($newPassword) == $storedHash || password_verify($newPassword, $storedHash)) {
+        redirectWithMessage("New password cannot be the same as the old password!", "memberPasswordReset.php");
+    } else if (strlen($newPassword) < 8) {
+        redirectWithMessage("Password must be 8 characters or longer!", "memberPasswordReset.php");
+    } else {
+        $hashedPassword = password_hash($newPassword, PASSWORD_BCRYPT);
+
+        // Update the password and remove the reset flag
+        $query = $db->prepare("UPDATE Member SET password=:password, passwordExpiration=null WHERE username=:username");
+        $query->execute(['password' => $hashedPassword, 'username' => $_SESSION['username']]);
+
+        // Start session and redirect to dashboard
+        session_destroy();
+        redirectWithMessage("Password changed successfully!", "points.php");
+    }
+} else {
+    if (!isset($_SESSION['username'])) {
+        print("<h3>Must log in first to access this page!</h3>\n");
+        print("<meta http-equiv=\"refresh\" ");
+        print("content=\"2; url=memberLoginForm.php\">");
+        exit;
+    }
+}
+
+?>
+
 <body>
 <div class="container text-center">
     <div class="card">
         <div class="card-body">
 
             <?php if (isset($error)) echo "<div class='alert alert-danger'>$error</div>"; ?>
-            <form name="resetform" id="resetform" class="form-signin" onsubmit="return passwordCheck();" action="passwordReset.php" method="POST">
+            <form name="resetform" id="resetform" class="form-signin" onsubmit="return passwordCheck();" action="memberPasswordReset.php" method="POST">
                 <img class="mb-4 login-image" src="/img/brand/official-logo.png" alt="">
                 <div class="message-space"></div>
                 <h1 class="mb-3 font-weight-normal">Reset Password</h1>
@@ -82,14 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="alert alert-warning d-flex align-items-center" role="alert">
                         <div>
                             You must change your password to access your account.
-                        </div>
-                    </div>
-                <?php endif; ?>
-
-                <?php if (($_GET['error'] ?? 0) == 'ia'): ?>
-                    <div class="alert alert-danger d-flex align-items-center" role="alert">
-                        <div>
-                            The username or password is incorrect.
                         </div>
                     </div>
                 <?php endif; ?>
@@ -109,11 +108,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input disabled type="text" maxlength="32" name="username" id="username" class="form-control" placeholder="Username"
                        value="<?php if (isset($_SESSION['username'])) echo $_SESSION['username']; ?>" required>
 
-                <label for="password" class="sr-only">Old Password</label>
-                <input type="password" id="password" maxlength="32" name="password" class="form-control" placeholder="Old Password" required>
-                <div class="invalid-feedback">
-                    Please enter your old password.
-                </div>
+<!--                <label for="password" class="sr-only">Old Password</label>-->
+<!--                <input type="password" id="password" maxlength="32" name="password" class="form-control" placeholder="Old Password" required>-->
+<!--                <div class="invalid-feedback">-->
+<!--                    Please enter your old password.-->
+<!--                </div>-->
 
                 <br>
                 <label for="password" class="sr-only">New Password</label>
