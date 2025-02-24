@@ -132,6 +132,9 @@ while($row = $rank_query->fetch()) {
                     <th scope="col">Date</th>
                     <th scope="col">Name</th>
                     <th scope="col" style="text-align:right !important;">Points</th>
+                    <?php if ($isAdmin || $isEventAdmin): ?>
+                        <th scope="col" style="text-align:right;"></th>
+                    <?php endif; ?>
                 </tr>
                 </thead>
                 <tbody>
@@ -182,19 +185,31 @@ while($row = $rank_query->fetch()) {
                             'work'      => 'event-type-work',
                             default     => '',
                         };
+
+                        $editLink = "editEvents.php?dateMonth={$row['dateMonth']}&dateDay={$row['dateDay']}&eventID={$eventID}";
+
                         ?>
                         <tr id="event-<?= $eventID ?>">
                             <th scope="row">
                                 <input id="event<?= $count ?>" class="event-checkbox" type="checkbox" name="<?= $eventID ?>" <?= $isChecked ?>>
                                 <label for="event<?= $count ?>"></label>
                             </th>
+
                             <td><?= $row['dateMonth'] ?>-<?= $row['dateDay'] ?></td>
                             <td>
                                 <a href="/event.php?id=<?= $eventID ?>"><?= htmlspecialchars($row['eventName']) ?></a>
                                 <?= $row['isBonus'] ? '<span class="text-muted">(BONUS)</span>' : '' ?>
                                 <span class="badge badge-primary <?= $typeClass ?>"><?= htmlspecialchars($row['type']) ?></span>
+
                             </td>
                             <td align="right"><?= $row['pointValue'] ?></td>
+                            <?php if ($isAdmin || $isEventAdmin): ?>
+                            <td align="right">
+                                <a href="<?= $editLink ?>">
+                                    <i class="bi bi-pencil"></i>
+                                </a>
+                            </td>
+                            <?php endif; ?>
                         </tr>
                         <?php
                         $count++;
@@ -219,7 +234,12 @@ while($row = $rank_query->fetch()) {
 
 </div>
 
-<?php require "eventAdminContainer.php" ?>
+<?php if ($isEventAdmin || $isAdmin): ?>
+    <div class="container mb-4">
+        <h4>Create Event</h4>
+        <?php require "createEventForm.php" ?>
+    </div>
+<?php endif; ?>
 
 <?php require "partials/footer.php"; ?>
 <?php require "partials/scripts.php"; ?>

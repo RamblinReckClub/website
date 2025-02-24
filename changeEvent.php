@@ -8,6 +8,8 @@
 	
 	require "html_header_begin.txt";
 	require "html_header_begin.txt";
+    error_log("EVENT ID!!!");
+    error_log($_POST['eventID']);
 
     $newbonusvar = isset($_POST['newIsBonus']) ? $_POST['newIsBonus'] : '';
     if($newbonusvar == 'on') {
@@ -103,7 +105,8 @@
 	}
 
 	echo "<h3>Event Updated</h3>";
-	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php?dateMonth=".$_POST['newDateMonth']."&dateDay=".$_POST['newDateDay']."&eventID=".$_POST['eventID']."\">";
+//	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php?dateMonth=".$_POST['newDateMonth']."&dateDay=".$_POST['newDateDay']."&eventID=".$_POST['eventID']."\">";
+	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php\">";
 
 	require "html_footer.txt";
 ?>

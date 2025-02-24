@@ -1,31 +1,17 @@
 <?php require "set_session_vars_full.php"; ?>
 <?php if ($isEventAdmin || $isAdmin): ?>
-<div class="container mb-3">
-    <div class="row">
-        <div class="col-12">
-<!--            <h2 style="background: linear-gradient(to left, #b39937, #9c864a); -webkit-background-clip: text; color: transparent; display: inline;">-->
-<!--                Event Admin-->
-<!--            </h2>-->
-
-            <h2 >
-                Event Admin
-            </h2>
-        </div>
-    </div>
 
     <form action="createEvent.php" method="POST" class="mt-3">
-        <h4>
-            Create New Event
-        </h4>
+
         <div class="row g-0 align-items-center">
 
             <!-- Event Name -->
-            <div class="col-lg-3">
+            <div class="col-lg-3 mb-1">
                 <input type="text" name="eventName" class="form-control" placeholder="Event Name" required>
             </div>
 
             <!-- Date Group: Month, Day, Year (Inline) -->
-            <div class="col-lg-4 d-flex align-items-center">
+            <div class="col-lg-4 d-flex align-items-center mb-1">
 
                 <!-- Month -->
                 <select name="dateMonth" class="form-control me-1" required>
@@ -50,7 +36,7 @@
             </div>
 
             <!-- Event Type -->
-            <div class="col-lg-3 d-flex align-items-center">
+            <div class="col-lg-3 d-flex align-items-center mb-1">
                 <select name="type" class="form-control me-1" required>
                     <option value="">Type</option>
                     <option value="mandatory">Mandatory</option>
@@ -73,15 +59,16 @@
                 </div>
                 <input type="submit" class="btn btn-primary" value="Add">
             </div>
+
+
         </div>
     </form>
 
 
-    <div class="row mt-3">
-        <div class="col-12">
-            <h4>Additional Event Management</h4>
-            <a href="/editEvents.php" class="btn btn-outline-secondary mr-2">Edit and Remove Events</a>
-        </div>
-    </div>
-</div>
+<!--    <div class="row mt-3">-->
+<!--        <div class="col-12">-->
+<!--            <h4>Additional Event Management</h4>-->
+<!--            <a href="/editEvents.php" class="btn btn-outline-secondary mr-2">Edit and Remove Events</a>-->
+<!--        </div>-->
+<!--    </div>-->
 <?php endif ?>

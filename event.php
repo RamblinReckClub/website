@@ -1,7 +1,7 @@
 <?php
 require "logged_in_check.php";
 require "database_connect.php";
-
+require "set_session_vars_full.php";
 require "html_header_begin.txt";
 ?>
 <title>Event Attendance | Ramblin' Reck Club</title>
@@ -29,7 +29,9 @@ require "html_header_begin.txt";
     $currentEventBonusStatus = $row['isBonus'];
     $currentEventFamilyStatus = $row['isFamilyEvent'];
     $currentEventType = $row['type'];
-    echo "<a href=\"editEvents.php?dateMonth=" . $currentEventMonth . "&dateDay=" . $currentEventDay . "&eventID=" . $currentEventId . "\">Edit Event</a><br/><br/>";
+    if ($isAdmin || $isEventAdmin) {
+        echo "<a href=\"editEvents.php?dateMonth=" . $currentEventMonth . "&dateDay=" . $currentEventDay . "&eventID=" . $currentEventId . "\">Edit Event</a><br/><br/>";
+    }
 ?>
 </div>
     <table align="center">
