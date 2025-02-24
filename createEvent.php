@@ -27,7 +27,13 @@
 	$query->execute(array('eventName'=>$_POST['eventName'], 'dateYear'=>$_POST['dateYear'], 'dateMonth'=>$_POST['dateMonth'], 'dateDay'=>$_POST['dateDay'], 'pointValue'=>$_POST['pointValue'], 'bonus'=>$bonus, 'family'=>$family, 'type'=>$_POST['type']));
 
 	echo "<h3>Event Created</h3>";
-	echo "<meta http-equiv=\"refresh\" content=\"2; url=editEvents.php\">";
+    if (isset($_SERVER['HTTP_REFERER'])) {
+        $previousPage = $_SERVER['HTTP_REFERER'];
+        echo "<meta http-equiv=\"refresh\" content=\"2; url=$previousPage\">";
+    } else {
+        echo "<meta http-equiv=\"refresh\" content=\"2; url=points.php\">";
+    }
 
-	require "html_footer.txt";
+
+require "html_footer.txt";
 ?>

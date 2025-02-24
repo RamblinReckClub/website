@@ -144,6 +144,9 @@ if($month=='all') {
     echo "</form>";
 ?>
 </div>
+<div class="container">
+    <?php require "eventAdminContainer.php" ?>
+</div>
 <?php require "partials/footer.php"; ?>
 <?php require "partials/scripts.php"; ?>
 </body>

@@ -120,6 +120,7 @@ while($row = $rank_query->fetch()) {
             <div class="row mt-2"><a class="col-12 text-center" href="families.php">Family Rankings</a></div>
         </div>
     </div>
+
     <form action="updatePoints.php" method="POST">
     <div class="row">
         <div class="col-12">
@@ -136,56 +137,73 @@ while($row = $rank_query->fetch()) {
                 <tbody>
                 <?php
                 $today = getdate();
-                $currentday = $today['mday'];
-                $currentmonth = $today['mon'];
-                $currentyear = $today['year'];
+                $currentDate = "{$today['mon']}/{$today['mday']}/{$today['year']}";
 
-                $events_query = $db->query("SELECT * FROM Event WHERE isFamilyEvent = '0' AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear ),'%m/%d/%Y') <= STR_TO_DATE(CONCAT($currentmonth,'/',$currentday,'/',$currentyear ),'%m/%d/%Y') ORDER BY dateYear DESC, dateMonth DESC, dateDay DESC, eventName LIMIT 0, 10");
-                $events_query->setFetchMode(PDO::FETCH_ASSOC);
+                // 1️⃣ Fetch events
+                $events_query = $db->query("
+                    SELECT * 
+                    FROM Event 
+                    WHERE isFamilyEvent = '0' 
+                    AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear), '%m/%d/%Y') <= STR_TO_DATE('$currentDate', '%m/%d/%Y') 
+                    ORDER BY dateYear DESC, dateMonth DESC, dateDay DESC, eventName 
+                    LIMIT 10
+                ");
+                $events = $events_query->fetchAll(PDO::FETCH_ASSOC);
 
-                $rowcount = $events_query->rowCount();
-                $count = 1;
+                // 2️⃣ Get event IDs
+                $eventIDs = array_column($events, 'eventID');
+                if ($eventIDs) {
+                    $eventIDList = implode(',', $eventIDs);
 
-                if($rowcount==0){
-                    echo "There are currently no events.";
+                    // 3️⃣ Fetch all attendance records for these events
+                    $attends_query = $db->query("
+                        SELECT eventID 
+                        FROM AttendsEvent 
+                        WHERE eventID IN ($eventIDList) AND memberID = $memberID
+                    ");
+                    $attendedEvents = array_column($attends_query->fetchAll(PDO::FETCH_ASSOC), 'eventID');
                 } else {
-                    while($row = $events_query->fetch()){
-                        $tempEventID = $row['eventID'];
-                        $attends_query = $db->query("SELECT * FROM AttendsEvent WHERE eventID = $tempEventID AND memberID = $memberID");
-                        $attends_query->setFetchMode(PDO::FETCH_ASSOC);
-                        $num_results3 = $attends_query->rowCount();
-                        echo "<tr id=\"event-" . $row['eventID'] ."\">";
-                        echo "<th scope='row'><input id=\"event".$count."\" class='event-checkbox' type=\"checkbox\" name=\"";
-                        echo $row['eventID'];
-                        echo "\" ";
-                        if($num_results3 == 1) {
-                            echo " CHECKED";
-                        } else { }
-                        echo "></th><label for=\"event".$count."\"></label>";
-                        echo "<td>".$row['dateMonth']."-".$row['dateDay']."</td><td><a href='/event.php?id=". $row['eventID']."'>".$row['eventName'] . "</a>";
-                        if($row['isBonus'] == 1) {
-                            echo " <span class=\"text-muted\">(BONUS)</span>";
-                        } else { }
-                        $typeClass = '';
-                        if ($row['type'] == 'mandatory') {
-                            $typeClass = 'event-type-mandatory';
-                        } else if ($row['type'] == 'sports') {
-                            $typeClass = 'event-type-sports';
-                        } else if ($row['type'] == 'social') {
-                            $typeClass = 'event-type-social';
-                        } else if ($row['type'] == 'work') {
-                            $typeClass = 'event-type-work';
-                        } else {
-                            $typeClass = '';
-                        }
-                        echo " <span class=\"badge badge-primary " . $typeClass ."\">" . $row['type'] ."</span></td>";
-                        echo "</div><td align='right'>".$row['pointValue']."</td></tr>";
-                        $count++;
-                    }
-                    echo "<input type=\"hidden\" name=\"query_bound\" value=\"recent\">";
+                    $attendedEvents = [];
                 }
-                ?>
+
+                if (empty($events)): ?>
+                    <tr><td colspan="4">There are currently no events.</td></tr>
+                <?php else:
+                    $count = 1;
+                    foreach ($events as $row):
+                        $eventID = $row['eventID'];
+                        $isChecked = in_array($eventID, $attendedEvents) ? 'checked' : '';
+
+                        // Event type badge class
+                        $typeClass = match ($row['type']) {
+                            'mandatory' => 'event-type-mandatory',
+                            'sports'    => 'event-type-sports',
+                            'social'    => 'event-type-social',
+                            'work'      => 'event-type-work',
+                            default     => '',
+                        };
+                        ?>
+                        <tr id="event-<?= $eventID ?>">
+                            <th scope="row">
+                                <input id="event<?= $count ?>" class="event-checkbox" type="checkbox" name="<?= $eventID ?>" <?= $isChecked ?>>
+                                <label for="event<?= $count ?>"></label>
+                            </th>
+                            <td><?= $row['dateMonth'] ?>-<?= $row['dateDay'] ?></td>
+                            <td>
+                                <a href="/event.php?id=<?= $eventID ?>"><?= htmlspecialchars($row['eventName']) ?></a>
+                                <?= $row['isBonus'] ? '<span class="text-muted">(BONUS)</span>' : '' ?>
+                                <span class="badge badge-primary <?= $typeClass ?>"><?= htmlspecialchars($row['type']) ?></span>
+                            </td>
+                            <td align="right"><?= $row['pointValue'] ?></td>
+                        </tr>
+                        <?php
+                        $count++;
+                    endforeach;
+                    ?>
+                    <input type="hidden" name="query_bound" value="recent">
+                <?php endif; ?>
                 </tbody>
+
             </table>
         </div>
     </div>
@@ -198,9 +216,35 @@ while($row = $rank_query->fetch()) {
         </div>
     </div>
     </form>
+
 </div>
+
+<?php require "eventAdminContainer.php" ?>
+
 <?php require "partials/footer.php"; ?>
 <?php require "partials/scripts.php"; ?>
+
+<!-- Bootstrap Datepicker Script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+
+
+
+<script>
+    // Initialize the datepicker
+    document.addEventListener("DOMContentLoaded", function() {
+        const datepicker = document.querySelector('.datepicker');
+        if (datepicker) {
+            new bootstrap.Datepicker(datepicker, {
+                format: 'mm/dd/yyyy',
+                autoclose: true,
+                todayHighlight: true
+            });
+        }
+    });
+</script>
 
 </body>
 
