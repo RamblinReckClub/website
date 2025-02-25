@@ -29,8 +29,8 @@ if (stripos($_SERVER['HTTP_HOST'], 'gatech') !== false) {
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <picture>
-                    <source class="img-responsive d-block w-100" srcset="img/2023/Mini_500_2023_pic1_EDITED.jpeg" media="(min-width: 900px)" alt="Reck Club picture after 2023 Mini 500">
-                    <img class="img-responsive d-block w-100" src="img/2023/Mini_500_2023_pic1_EDITED.jpeg" alt="Reck Club picture after 2023 Mini 500">
+                    <source class="img-responsive d-block w-100" srcset="img/2023/Mini_500_2023_pic1_EDITED_small.jpg" media="(min-width: 900px)" alt="Reck Club picture after 2023 Mini 500">
+                    <img class="img-responsive d-block w-100" src="img/2023/Mini_500_2023_pic1_EDITED_small.jpg" alt="Reck Club picture after 2023 Mini 500">
                 </picture>
                 <div class="gradient">
                 </div>
