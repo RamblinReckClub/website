@@ -16,16 +16,25 @@
                 <!-- Month -->
                 <select name="dateMonth" class="form-control me-1" required>
                     <option value="">Month</option>
-                    <?php foreach (range(1, 12) as $month): ?>
-                        <option value="<?= $month ?>"><?= date('F', mktime(0, 0, 0, $month, 1)) ?></option>
+                    <?php
+                    $currentMonth = date('n'); // Get current month (1-12)
+                    foreach (range(1, 12) as $month): ?>
+                        <option value="<?= $month ?>" <?= ($month == $currentMonth) ? 'selected' : '' ?>>
+                            <?= date('F', mktime(0, 0, 0, $month, 1)) ?>
+                        </option>
                     <?php endforeach; ?>
                 </select>
+
 
                 <!-- Day -->
                 <select name="dateDay" class="form-control me-1" required>
                     <option value="">Day</option>
-                    <?php foreach (range(1, 31) as $day): ?>
-                        <option value="<?= $day ?>"><?= $day ?></option>
+                    <?php
+                    $currentDay = date('j'); // Get current day (1-31)
+                    foreach (range(1, 31) as $day): ?>
+                        <option value="<?= $day ?>" <?= ($day == $currentDay) ? 'selected' : '' ?>>
+                            <?= $day ?>
+                        </option>
                     <?php endforeach; ?>
                 </select>
 
