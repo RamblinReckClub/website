@@ -7,7 +7,7 @@
 
             <!-- Event Name -->
             <div class="col-lg-3 mb-1">
-                <input type="text" name="eventName" class="form-control" placeholder="Event Name" required>
+                <input type="text" name="eventName" class="form-control" placeholder="Event Name" maxlength="32" required>
             </div>
 
             <!-- Date Group: Month, Day, Year (Inline) -->
