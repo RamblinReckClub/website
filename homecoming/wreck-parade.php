@@ -24,21 +24,21 @@
 </div>
 <div class="container mb-3">
     <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-4 text-center">
             <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
             <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
         </div>
-<!--        <div class="col-4 text-center">-->
-<!--            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Lily Adlesick</b></a></p>-->
-<!--            <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>-->
-<!--            <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>-->
-<!--        </div>-->
-<!--        <div class="col-4 text-center">-->
-<!--            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Ria Nayar</b></a></p>-->
-<!--            <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>-->
-<!--            <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>-->
-<!--        </div>-->
+        <div class="col-4 text-center">
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Daniel Wood</b></a></p>
+            <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
+        </div>
+        <div class="col-4 text-center">
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Kaeyshia Kesh</b></a></p>
+            <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
+            <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
+        </div>
     </div>
     <hr class="mb-3">
 </div>
@@ -98,22 +98,16 @@
         [
             "image" => '/homecoming/images/wp-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '<p>Participants can sign up <a href="https://docs.google.com/document/d/1yg6oxlcad2RNhP1eNJ5f8OjtK57U8odFfSMtP0XX15Y/edit">here</a>.',
-            // '<p>Participants must first sign up through one of the following links:</p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLfhVANTcszmvK5SAdtBboyUk6Ccz6jbDF8KrwJwryCkne1g/viewform?usp=pp_url">Competing Organizations</a>
-            //             </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4lwi5wDuvDaCE2mEZSe7kXhfuLcu8xWh9FrwW6s5M9Wf97A/viewform?usp=sf_link">Alumni Classic Cars</a>
-            //             </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGHA5ddSMad7j3SydJk-7H4fLDDlOnEFaq_9pLQ5_wKFeuYQ/viewform?usp=sf_link">Enthusiast Entries</a>
-            //             </p><p> And then RSVP with the Ramblin\' Reck Club at <a href="https://gatech.campuslabs.com/engage/event/9412631">this link</a>.'
-            //<p>Participants must sign BOTH
-              //          our waiver <a href="https://forms.gle/HhY5QLjPHhzyQGyq7">found here</a> and through SCPC
-                //        which can be found at <a href="https://gatech.universitytickets.com/w/event.aspx?id=1837&p=1">this link.</a> </p>'
-
+            "main" => '<p>Fill out a non-binding interest form to get the latest updates!</p>
+                        <p><a href="https://forms.gle/MeQTNipxYsC8riky8" target="_blank">Interest form for campus organizations and Greek life</a></p>
+                        <p><a href="https://forms.gle/7mmjAzPh7B67rVrGA" target="_blank">Interest form for alumni</a></p>'
         ],
         [
             "image" => '/homecoming/images/wp-003.jpg',
             "title" => 'Logistics',
             "main" => '<p>The Wreck parade will begin at the McCamish Parking Lot and proceed up Fowler street finishing
-                        across Ferst Drive. The parade will commence at 9:00 AM on October 28th. A full list of the rules
-                        can be <a href="https://docs.google.com/document/d/1750Fd-Dy3bTbTPqHRJPLjuvdRNTichO7tuRg4_Pb3g4/edit?usp=share_link">found here.</a></p>'
+                        across Ferst Drive. The parade will commence at 9:00 AM on October 25th. A full list of the rules
+                        can be <a href="https://docs.google.com/document/d/1tAiMtG2cwk08twGsu3dNhR_1-c19Y6ATc0dp6I4tx5Y/edit?usp=sharing">found here.</a></p>'
         ],
         [
             "image" => '/homecoming/images/yellow_corvette.jpg',
