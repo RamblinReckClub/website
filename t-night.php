@@ -602,8 +602,6 @@
                     booths, free t-shirts and food, games, and more! The event continues with an electric show inside
                     McCamish featuring performance groups, speakers, and your chance to learn the fight song and alma
                     mater! Come join us for a night to remember! All are welcome!
-
-                    Questions? Contact <a href="mailto:rrctnight@gmail.com">rrctnight@gmail.com</a>
                 </div>
                 <div id="schedule">
                     <h2>Schedule of Events</h2>
@@ -627,28 +625,31 @@
                     the Ramblin' Reck Club seeks to instill a sense of pride in students along with knowledge of our
                     school's past. And there's no better way to get excited about football season than a block party
                     with all your fellow students!</p>
+                <p>
+                    Questions? Contact <a href="mailto:rrctnight@gmail.com">rrctnight@gmail.com</a>
+                </p>
                 <p></p>
             </div>
-            <div id="sponsors">
-                <h2 align="center">Put on by Ramblin' Reck Club with the support of its sponsors:</h2>
-                <div id="sponsor_block" align="center">
-                    <div id="athlete" class="sponsor"></div>
-                    <div id="reck-club" class="sponsor"></div>
-                    <div id="parent" class="sponsor"></div>
-                </div>
-                <div id="sponsor_block" align="center">
-                    <div id="waho" class="sponsor"></div>
-                    <div id="onyx" class="sponsor"></div>
-                    <div id="naanstop" class="sponsor"></div>
-                    <div id="falcons" class="sponsor"></div>
-                    <div id="shake-shack" class="sponsor"></div>
-
-                    <!-- <div id="tiffs" class="sponsor"></div>
-                <div id="inspire" class="sponsor"></div>
-                <div id="HDC" class="sponsor"></div>
-                <div id="BWW" class="sponsor"></div> -->
-                </div>
-            </div>
+<!--            <div id="sponsors">-->
+<!--                <h2 align="center">Put on by Ramblin' Reck Club with the support of its sponsors:</h2>-->
+<!--                <div id="sponsor_block" align="center">-->
+<!--                    <div id="athlete" class="sponsor"></div>-->
+<!--                    <div id="reck-club" class="sponsor"></div>-->
+<!--                    <div id="parent" class="sponsor"></div>-->
+<!--                </div>-->
+<!--                <div id="sponsor_block" align="center">-->
+<!--                    <div id="waho" class="sponsor"></div>-->
+<!--                    <div id="onyx" class="sponsor"></div>-->
+<!--                    <div id="naanstop" class="sponsor"></div>-->
+<!--                    <div id="falcons" class="sponsor"></div>-->
+<!--                    <div id="shake-shack" class="sponsor"></div>-->
+<!---->
+<!--                    <!-- <div id="tiffs" class="sponsor"></div>-->
+<!--                <div id="inspire" class="sponsor"></div>-->
+<!--                <div id="HDC" class="sponsor"></div>-->
+<!--                <div id="BWW" class="sponsor"></div> -->-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
         <div class="container">
             <footer>© Copyright <?php echo date('Y'); ?> Ramblin' Reck Club. All Rights Reserved.</footer>
