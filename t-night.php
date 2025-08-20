@@ -575,13 +575,13 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('.main').hover(function () {
-                $(this).text("August 18th").fadeIn("slow");
+                $(this).text("August 24").fadeIn("slow");
             }, function () {
                 $(this).text("T-Night").fadeIn("slow");
             });
         });
     </script>
-    <title>T-Night 2024 | Ramblin' Reck Club</title>
+    <title>T-Night 2025 | Ramblin' Reck Club</title>
 </head>
 
 <body style="">
@@ -602,13 +602,15 @@
                     booths, free t-shirts and food, games, and more! The event continues with an electric show inside
                     McCamish featuring performance groups, speakers, and your chance to learn the fight song and alma
                     mater! Come join us for a night to remember! All are welcome!
+
+                    Questions? Contact <a href="mailto:rrctnight@gmail.com">rrctnight@gmail.com</a>
                 </div>
                 <div id="schedule">
                     <h2>Schedule of Events</h2>
                     <ul>
-                        <li>Sunday, August 18th, 2024</span></li>
-                        <li>Traditions Festival - McCamish Parking Lot<span>5:00 PM</span></li>
-                        <li>T-Night Show - McCamish Pavilion<span>6:30 PM</span></li>
+                        <li>Sunday, August 24, 2025</span></li>
+                        <li>Traditions Festival - McCamish Parking Lot<span>4:00 PM</span></li>
+                        <li>T-Night Show - McCamish Pavilion<span>6:00 PM</span></li>
                     </ul>
                 </div>
             </div>

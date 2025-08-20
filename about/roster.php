@@ -103,7 +103,7 @@
             [
                 "chair" => 'T-Night',
                 "name" => 'Harrison Burnside',
-                "email" => 'rctnight@gmail.com'
+                "email" => 'rrctnight@gmail.com'
             ],
             [
                 "chair" => 'Technology',
