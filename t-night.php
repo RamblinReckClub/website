@@ -630,26 +630,7 @@
                 </p>
                 <p></p>
             </div>
-<!--            <div id="sponsors">-->
-<!--                <h2 align="center">Put on by Ramblin' Reck Club with the support of its sponsors:</h2>-->
-<!--                <div id="sponsor_block" align="center">-->
-<!--                    <div id="athlete" class="sponsor"></div>-->
-<!--                    <div id="reck-club" class="sponsor"></div>-->
-<!--                    <div id="parent" class="sponsor"></div>-->
-<!--                </div>-->
-<!--                <div id="sponsor_block" align="center">-->
-<!--                    <div id="waho" class="sponsor"></div>-->
-<!--                    <div id="onyx" class="sponsor"></div>-->
-<!--                    <div id="naanstop" class="sponsor"></div>-->
-<!--                    <div id="falcons" class="sponsor"></div>-->
-<!--                    <div id="shake-shack" class="sponsor"></div>-->
-<!---->
-<!--                    <!-- <div id="tiffs" class="sponsor"></div>-->
-<!--                <div id="inspire" class="sponsor"></div>-->
-<!--                <div id="HDC" class="sponsor"></div>-->
-<!--                <div id="BWW" class="sponsor"></div> -->-->
-<!--                </div>-->
-<!--            </div>-->
+
         </div>
         <div class="container">
             <footer>© Copyright <?php echo date('Y'); ?> Ramblin' Reck Club. All Rights Reserved.</footer>
