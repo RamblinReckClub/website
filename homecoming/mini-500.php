@@ -26,23 +26,23 @@
     <div class="container mb-3">
 
         <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-4 text-center">
                 <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
                 <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
             </div>
-<!--            <div class="col-4 text-center">-->
-<!--                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Gal Ovadia</b></a>-->
-<!--                </p>-->
-<!--                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>-->
-<!--                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>-->
-<!--            </div>-->
-<!--            <div class="col-4 text-center">-->
-<!--                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Kaitlyn Park</b></a>-->
-<!--                </p>-->
-<!--                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>-->
-<!--                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>-->
-<!--            </div>-->
+            <div class="col-4 text-center">
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Ajay Dakoriya</b></a>
+                </p>
+                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
+                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
+            </div>
+            <div class="col-4 text-center">
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Kaylie Afshani</b></a>
+                </p>
+                <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
+                <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
+            </div>
         </div>
         <hr class="mb-3">
     </div>
@@ -120,7 +120,7 @@
                 [
                     "image" => '/homecoming/images/buzz_n_racer.jpg',
                     "title" => 'Sign Ups',
-                    "main" => 'Please click <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0zaCPwgi3r77Ej0Mo5HU_7WSaqXv6dlEh4Pioy-yaPTkRHg/viewform">here</a> to sign up!'
+                    "main" => 'Sign ups will be available on Engage beginning Monday, September 15.'
                 ],
                 [
                     "image" => '/homecoming/images/fighting_freshmen_hill.jpg',
