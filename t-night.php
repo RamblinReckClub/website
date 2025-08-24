@@ -596,7 +596,7 @@
     <div id="wrapper">
         <div class="container">
             <div id="intro" class="clearfix">
-                <div id="invitation">Kickoff the new school year with tons of excitement at T-Night 2024! Come learn all
+                <div id="invitation">Kickoff the new school year with tons of excitement at T-Night 2025! Come learn all
                     about Georgia Tech spirit and traditions and get ready to cheer on the Jackets all season long!
                     T-Night begins with a festival made up of fun and interactive student organization and traditions
                     booths, free t-shirts and food, games, and more! The event continues with an electric show inside
