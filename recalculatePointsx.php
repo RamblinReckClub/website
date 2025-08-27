@@ -93,7 +93,7 @@
         $query2->execute(array('famnum'=>$famnum, 'tempFamilyID'=>$tempFamilyID));
     }
 	echo "<h3>Points Recalculated</h3>";
-	echo "<meta http-equiv=\"refresh\" content=\"2; url=manageWebsite.php\">";
+	echo "<meta http-equiv=\"refresh\" content=\"2; url=points.php\">";
 
 	require "html_footer.txt";
 ?>
