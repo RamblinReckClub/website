@@ -106,6 +106,17 @@ $pageTitle = "Manage Website";
 
     <div class="row mb-3 align-content-between">
         <div class="col-md-3 col-sm-4">
+            <form name="recalculatePoints" action="recalculatePointsx.php" method="POST">
+                <input type=submit class="btn btn-block bnt-md btn-secondary" value="Recalculate Points">
+            </form>
+        </div>
+        <div class="col-md-9 col-sm-8">
+            <p class="text-muted">Use this to recalculate member points for the current semester's events. Do this at the beginning of a new semester.</p>
+        </div>
+    </div>
+
+    <div class="row mb-3 align-content-between">
+        <div class="col-md-3 col-sm-4">
             <form name="revertDatabase" action="revertDatabasex.php" method="POST">
                 <input type=submit class="btn btn-block bnt-md btn-danger" value="Revert Database Backup" onClick="return confirmSubmitRevert()">
             </form>
@@ -123,7 +134,7 @@ $pageTitle = "Manage Website";
                 </form>
             </div>
             <div class="col-md-9 col-sm-8">
-                <p class="text-muted">WARNING: This will delete all events in the database. Use only to reset points for a new semester.</p>
+                <p class="text-muted">WARNING: This will delete all events in the database. Use literally never because now we'll just leave old events in the database.</p>
             </div>
     </div>
 

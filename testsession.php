@@ -2,5 +2,5 @@
 
 session_start();
 $_SESSION['test']="test";
-header('Location: winning.php');
+header('Location: session.php');
 exit();

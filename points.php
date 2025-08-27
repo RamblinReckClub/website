@@ -144,11 +144,15 @@ while($row = $rank_query->fetch()) {
 
                 // 1️⃣ Fetch events
                 $events_query = $db->query("
-                    SELECT * 
-                    FROM Event 
-                    WHERE isFamilyEvent = '0' 
-                    AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear), '%m/%d/%Y') <= STR_TO_DATE('$currentDate', '%m/%d/%Y') 
-                    ORDER BY dateYear DESC, dateMonth DESC, dateDay DESC, eventName 
+                    SELECT *
+                    FROM Event
+                    WHERE isFamilyEvent = '0'
+                      AND (
+                            (MONTH(CURDATE()) BETWEEN 1 AND 7  AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7)
+                         OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12)
+                          )
+                      AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear), '%m/%d/%Y') <= CURDATE()
+                    ORDER BY dateYear DESC, dateMonth DESC, dateDay DESC, eventName
                     LIMIT 10
                 ");
                 $events = $events_query->fetchAll(PDO::FETCH_ASSOC);
