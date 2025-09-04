@@ -105,8 +105,8 @@
         [
             "image" => '/homecoming/images/wp-003.jpg',
             "title" => 'Logistics',
-            "main" => '<p>The Wreck parade will begin at the McCamish Parking Lot and proceed up Fowler street finishing
-                        across Ferst Drive. The parade will commence at 9:00 AM on October 25th. A full list of the rules
+            "main" => '<p>The Wreck Parade will begin at the McCamish Parking Lot and proceed up Fowler street finishing
+                        across Ferst Drive. The parade will commence at 9:30 AM on October 25th. A full list of the rules
                         can be <a href="https://docs.google.com/document/d/1tAiMtG2cwk08twGsu3dNhR_1-c19Y6ATc0dp6I4tx5Y/edit?usp=sharing">found here.</a></p>'
         ],
         [
