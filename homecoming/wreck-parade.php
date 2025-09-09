@@ -98,14 +98,26 @@
         [
             "image" => '/homecoming/images/wp-002.jpg',
             "title" => 'Sign Ups',
-            "main" => '<p>Fill out a non-binding interest form to get the latest updates!</p>
-                        <p><a href="https://forms.gle/MeQTNipxYsC8riky8" target="_blank">Interest form for campus organizations and Greek life</a></p>
-                        <p><a href="https://forms.gle/7mmjAzPh7B67rVrGA" target="_blank">Interest form for alumni</a></p>'
+//            "main" => '<p>Fill out a non-binding interest form to get the latest updates!</p>
+//                        <p><a href="https://forms.gle/MeQTNipxYsC8riky8" target="_blank">Interest form for campus organizations and Greek life</a></p>
+//                        <p><a href="https://forms.gle/7mmjAzPh7B67rVrGA" target="_blank">Interest form for alumni</a></p>'
+            "main" => '<p>Sign ups are officially live!</p> 
+                  
+                        <p>Entries competing for Homecoming points - 
+                            <a href="https://docs.google.com/forms/d/1ooCsLkVGMd8dFVLcerV8nuZm8xwYK7pmZJgpetwMRW4/edit">sign up here!</a></p>
+                        <p>Enthusiasts unite! Alumni fixed bodies and contraptions, non-point entries of all types - 
+                            <a href="https://docs.google.com/forms/d/1ZLNbycp0YVU2fR6oIx8jcM3QGdnP9fhvXtNfjXuUleA/edit">sign up here!</a></p>
+                        <p>Alumni, if you are entering a classic car in the parade - 
+                            <a href="https://docs.google.com/forms/d/1fTAdI5wGGEcLp1o6q46ReAbNOKB_bNAFvN0R0dg1v8M/edit">sign up here!</a></p>
+                        
+                        <p><strong>Students:</strong> in addition to filling out the applicable form above, please RSVP via Engage
+                            <a href="https://gatech.campuslabs.com/engage/event/11556360">here!</a></p>
+                        '
         ],
         [
             "image" => '/homecoming/images/wp-003.jpg',
             "title" => 'Logistics',
-            "main" => '<p>The Wreck Parade will begin at the McCamish Parking Lot and proceed up Fowler street finishing
+            "main" => '<p>The Wreck Parade will begin at the McCamish Parking Lot and proceed up Fowler Street, finishing
                         across Ferst Drive. The parade will commence at 9:30 AM on October 25th. A full list of the rules
                         can be <a href="https://docs.google.com/document/d/1tAiMtG2cwk08twGsu3dNhR_1-c19Y6ATc0dp6I4tx5Y/edit?usp=sharing">found here.</a></p>'
         ],

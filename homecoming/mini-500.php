@@ -48,28 +48,23 @@
     </div>
     <div class="container">
         <div class='blog-header'>
-            <div class='col-12 d-none' style="text-align: center;">
-                <h1>November 8th, 2024 at 5:00PM</h1>
+            <div class='col-12' style="text-align: center;">
+                <h2 class="mb-3">October 24, 2025, at 5:00PM</h2>
             </div>
-            <div class='row text-center d-none'>
-                <!--        <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>-->
-                <!--            <a class='btn btn-md btn-secondary' href="#race-day-info">Race Day Info</a>-->
-                <!--        </div>-->
-                <!--        to go back to 3 buttons, change primary to secondary, change the 6 to 4 on the col-sm-6-->
-                <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
-                    <a class='btn btn-md btn-primary' href="#race-day-info">Event Information</a>
-                </div>
-                <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-                    <a class='btn btn-md btn-secondary' href="https://docs.google.com/forms/d/e/1FAIpQLSf0zaCPwgi3r77Ej0Mo5HU_7WSaqXv6dlEh4Pioy-yaPTkRHg/viewform">Sign up here!</a>
+            <div class='row text-center'>
+                <div class='col-sm-2 hidden-xs'>
                 </div>
                 <div class='col-sm-4 col-xs-12 mb-3 mb-sm-0'>
                     <a class='btn btn-md btn-primary'
-                        href="https://docs.google.com/document/d/1uAHWLy-fwvqne7czwceORQ8dd-rK8VeTybIrVDpEFso/edit?usp=sharing"
+                        href="https://docs.google.com/document/d/1n8cB2LkEQScFQIMqORdMnoE1BkgFDC25UV8tUjXMK3s/edit?tab=t.0"
                         target="_blank">Event Rules</a>
                 </div>
-                <!--        <div class='col-sm-4 col-xs-12'>-->
-                <!--            <a class='btn btn-md btn-secondary' href="/assets/A-Guide-to-Mini-500.pdf" target="_blank">Guide to Mini 500</a>-->
-                <!--        </div>-->
+                <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
+                    <a class='btn btn-md btn-secondary disabled' href="https://www.google.com/search?q=nothing">Sign Up Here!</a>
+                </div>
+            </div>
+            <div class='row text-center font-weight-bold'>
+                <p>Sign-ups will be published here on Monday, September 15, at 9:00 AM. Registration will be limited to 60 teams.</p>
             </div>
             <hr class="mb-3 d-none">
             <div class="container">
@@ -98,25 +93,6 @@
                                as possible without destroying their tricycle.'
 
                 ],
-                /*        [
-                      "image" => '/homecoming/images/M59.jpg',
-                       "title" => 'COVID Update',
-                       "main" => 'In light of the COVID-19 situation, this year\'s Mini 500 has undergone some new changes to keep participants and spectators healthy. However, the spirit and fun of one of Georgia Tech’s most beloved traditions will be upheld!
-
-               The event itself has been moved from Peters Parking Deck to the track around the Stamps Recreation Fields. This change will allow for entrance monitoring of participants and spectators. Every person entering the premises will have a standard temperature check and must be wearing a face covering.
-
-               To limit the amount of teams racing at one time, only four teams will race at a time in a time trial fashion. Each team will start at opposing sides of the field and 4 racers from each team will compete. Racers will complete a half lap before sanitizing their trikes and passing it along to the next rider. Every team will compete two laps around the track!
-
-               We are excited to be able to adapt the Mini 500 to keep everyone involved safe. If you are interested in competing in the Mini 500 this year please fill out the form here: <a href="https://forms.gle/LCZJM4VhE3tvF3Sh8">Mini 500 Form</a>. Stay safe and race on!
-
-                  "image" => '/homecoming/images/M51.jpg',
-                            "title" => 'Sign Ups',
-                            "main" => Sign-Ups open on Friday, September 2nd. You can sign up <a href="https://gatech.universitytickets.com/w/event.aspx?id=1914&r=8a10173f13e34f03832cae5ad05a7802">here</a>.
-                            Before registering, be sure you’re logged in, and then press “Get Tickets”. Scroll until you find Mini 500.
-                            Only one team member needs to sign up and pay the registration fee of $10.
-                '
-
-                       ],*/
                 [
                     "image" => '/homecoming/images/buzz_n_racer.jpg',
                     "title" => 'Sign Ups',
@@ -154,7 +130,6 @@
             ?>
         </div>
         <div class="container">
-
             <?php
             $info2 = array(
                 [
@@ -163,8 +138,8 @@
                     "main" => 'The Race will be around Peters Parking Deck with the Pits for each team lining the 
                             Peters Parking Deck side of Fowler Street and the start being at the corner of Fowler St. 
                             and Bobby Dodd Way. Each team will receive an email with their assigned pit number. 
-                            The team will report to THEIR PIT between 4:30pm and 4:55PM and check in with their 
-                            pit boss (A member of Ramblin Reck Club). Teams should arrive with their racers, pit crew, 
+                            The team will report to THEIR PIT between 4:15 PM and 4:45 PM and check in with their 
+                            pit boss (A member of Ramblin\' Reck Club). Teams should arrive with their racers, pit crew, 
                             tricycles, and any approved tools required for wheel rotations. Mini 500 shirts will be 
                             provided at your assigned pit.'
 
@@ -208,7 +183,6 @@
             echo "<div class='col-12' style=\"text-align: center;\">";
             echo "<h1 id='race-day-info'>Race Day Info</h1></div></div><br>";
 
-
             foreach ($info2 as $item) {
                 echo "<div class='row mb-3'>";
                 echo "<div class='col-md-5 col-sm-12'><img class= \"img-fluid mb-3 mb-md-0\" src=\"" . $item["image"] . "\"/></div>";
@@ -216,7 +190,6 @@
                 echo "<h4>" . $item["title"] . "</h4><p> " . $item["main"] . "</p></div>";
                 echo "</div>";
             }
-
             ?>
         </div>
 
