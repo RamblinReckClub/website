@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class='row text-center font-weight-bold'>
-                <p>Sign-ups will be published here on Monday, September 15, at 9:00 AM. Registration will be limited to 60 teams.</p>
+                <p class="col-12 text-center">Sign-ups will be published here on Monday, September 15, at 9:00 AM. Registration will be limited to 60 teams.</p>
             </div>
             <hr class="mb-3 d-none">
             <div class="container">
@@ -93,11 +93,11 @@
                                as possible without destroying their tricycle.'
 
                 ],
-                [
-                    "image" => '/homecoming/images/buzz_n_racer.jpg',
-                    "title" => 'Sign Ups',
-                    "main" => 'Sign ups will be available on Engage beginning Monday, September 15.'
-                ],
+//                [
+//                    "image" => '/homecoming/images/buzz_n_racer.jpg',
+//                    "title" => 'Sign Ups',
+//                    "main" => 'Sign ups will be available beginning Monday, September 15.'
+//                ],
                 [
                     "image" => '/homecoming/images/fighting_freshmen_hill.jpg',
                     "title" => 'Tricycle Pickup',
