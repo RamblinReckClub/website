@@ -11,7 +11,7 @@
                     <a class="blog-header-logo text-dark text-center" href="/">Ramblin' Reck Club</a>
                 </div>
                 <div class="col-3">
-                    <a class="float-right btn btn-sm btn-outline-primary" href="/points.php">Log In</a>
+                    <a class="float-right btn btn-sm btn-outline-primary" href="/points.php">Member Login</a>
                 </div>
             </div>
         </div>

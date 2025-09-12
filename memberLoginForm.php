@@ -46,7 +46,7 @@
                     Please enter your password.
                 </div>
                 <button class="btn btn-lg btn-primary btn-block mb-1" type="submit">Sign in</button>
-                <a class="btn btn-link" href="mailto:technology@reckclub.org?subject=Create%20account">Don't have an account?</a>
+<!--                <a class="btn btn-link" href="mailto:technology@reckclub.org?subject=Create%20account">Don't have an account?</a>-->
                 <p class="mt-3 text-muted copyright-notice">© <?php echo date('Y'); ?> Ramblin' Reck Club. All Rights Reserved.</p>
             </form>
         </div>
