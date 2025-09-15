@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class='row text-center font-weight-bold'>
-                <p class="col-12 text-center">Sign-ups will be published here on Monday, September 15, at 9:00 AM. Registration will be limited to 60 teams.</p>
+                <p class="col-12 text-center">Sign-ups will be available on Monday, September 15, at 9:00 AM via the link above. Registration will be limited to 60 teams.</p>
             </div>
             <hr class="mb-3 d-none">
             <div class="container">
