@@ -60,7 +60,7 @@
                         target="_blank">Event Rules</a>
                 </div>
                 <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-                    <a class='btn btn-md btn-secondary disabled' href="https://www.google.com/search?q=nothing">Sign Up Here!</a>
+                    <a class='btn btn-md btn-secondary' href="https://docs.google.com/forms/d/e/1FAIpQLSdkdqG5M56hQi9Ravivd7lGUJQQyCEH3mgkgL36WxaFgrrG0w/viewform?usp=sharing&ouid=118047400844715118771">Sign Up Here!</a>
                 </div>
             </div>
             <div class='row text-center font-weight-bold'>
