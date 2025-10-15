@@ -44,8 +44,8 @@
 </div>
 <div class="container">
     <div class= 'blog-header'>
-        <div class='col-12 d-none' style="text-align: center;">
-            <h1>9:00 AM November 9th, 2024</h1>
+        <div class='col-12' style="text-align: center;">
+            <h1>8:30 AM | October 25, 2025</h1>
         </div>
 
         <!--    </div>-->
@@ -118,7 +118,7 @@
             "image" => '/homecoming/images/wp-003.jpg',
             "title" => 'Logistics',
             "main" => '<p>The Wreck Parade will begin at the McCamish Parking Lot and proceed up Fowler Street, finishing
-                        across Ferst Drive. The parade will commence at 9:30 AM on October 25th. A full list of the rules
+                        across Ferst Drive. The parade will commence at 8:30 AM on October 25th. A full list of the rules
                         can be <a href="https://docs.google.com/document/d/1tAiMtG2cwk08twGsu3dNhR_1-c19Y6ATc0dp6I4tx5Y/edit?usp=sharing">found here.</a></p>'
         ],
         [
