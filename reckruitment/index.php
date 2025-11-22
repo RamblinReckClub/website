@@ -1,4 +1,4 @@
-<?php $pageTitle = "RECKruitment Process"; ?>
+<?php $pageTitle = "Reckruitment Process"; ?>
 
 <!DOCTYPE html>
 <html>
@@ -49,7 +49,7 @@
     <li>Have fun! The socials and "Get To Know You" events will have fun activities and should not feel like an interview; that's what the interview is for.</li>
     <li>Meet as many members as possible across the socials and "Get To Know You" events. Don't be afraid to ask a member you already know to introduce you to someone new.</li>
     <li>Put time and effort into your application. Follow the suggested word counts for each question to make sure you answer it fully.</li>
-    <li>For any Reck Club Reckruitment event, wear something that you feel comfortable and confident in! There are no specifications on dress code, except semi-formal for Social 1 and Social 2. If you would like assistance with clothing, <a href="https://www.campuscloset.gatech.edu/" target="blank">Georgia Tech's Campus Closet</a> provides this service free of charge to students!</li>
+    <li>For any Reck Club Reckruitment event, wear something that you feel comfortable and confident in! There are no specifications on dress code for info sessions and GTKYs, but semi-formal attire is expected for interviews and both Social 1 and Social 2. If you would like assistance with clothing, <a href="https://www.campuscloset.gatech.edu/" target="blank">Georgia Tech's Campus Closet</a> provides this service free of charge to students!</li>
 </ul>
 
 <h4 class="mb-2" id="written-application">Written Application</h4>
@@ -92,7 +92,7 @@
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
-    <p>The interview portion of Reckruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social.</p>
+    <p>The interview portion of Reckruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social. Dress code for this event is semi-formal attire.</p>
      <ul>
         <li><strong>Tuesday, January 27th from 7:30pm-11:30pm</strong></li>
         <li><strong>Wednesday, January 28th from 7:30pm-11:30pm</strong></li>
