@@ -81,14 +81,14 @@
     <div class="story">
         <div class="bg"></div>
         <div style="margin-top: 0px; z-index: 250;" class="float-left"> <img height="300" src="/img/why/test.png"><img height="150" src="/img/why/family_title.png">
-            <p>Reck Club is made up of 55 Georgia Tech Students. While we come from a variety of different backgrounds and majors, we all share a common love of Georgia Tech and its traditions, sports and history. Reck Club is also a tight-knit group where you can build life-long friendships.</p> <img height="300" src="/img/why/fam_line2.png">
+            <p>Reck Club is made up of 55 Georgia Tech students who are passionate leaders on campus. While our members come from a wide range of majors and backgrounds, we’re united by a deep love for Georgia Tech and a drive to spread joy across campus. From working major events to bonding at socials and cheering at games, Reck Club is a tight-knit family where you can grow, lead, and build life-long friendships.</p> <img height="300" src="/img/why/fam_line2.png">
         </div>
     </div><!--.story-->
-</div><!--#second-->
+</div><!--#second-->r
 <div id="third">
     <div class="spirit">
         <div class="float-left"> <img height="300" src="/img/why/spirit_line1.png"><img src="/img/why/gotfam.png">
-            <p>Reck Club supports all of Georgia Tech Athletics and traditions. Tech spirit is alive and well in the heart of every Reck Club member. Whether we are filling the bleachers in O’Keefe for a volleyball game, washing the Reck for gameday, or sorting runner bibs for the Freshman Cake Race, Reck Club is always there for Georgia Tech.</p>
+            <p>Reck Club supports Georgia Tech Athletics and the traditions that make our campus special. Tech spirit runs deep in every member — whether we’re filling the stands at O’Keefe, preparing the Reck for gameday, assisting with sports events, or helping run the Freshman Cake Race. No matter the event, big or small, Reck Club shows up with energy, pride, and a commitment to uplifting the Georgia Tech community.</p>
         </div>
     </div><!--.story-->
 </div><!--#third-->
@@ -97,7 +97,7 @@
     </div>
     <div class="spirit">
         <div class="float-left">
-            <p id="trad_text">Reck Club is committed to promoting the many traditions that Georgia Tech boasts. Our pride and joy <g id="44" data-gr-id="44" class="gr_ gr_44 gr-alert gr_gramm gr_run_anim Grammar multiReplace">is</g> the 1930 Ford Model A <g id="43" data-gr-id="43" class="gr_ gr_43 gr-alert gr_gramm gr_run_anim Grammar multiReplace">Sport</g> Coupe, which has led the football team onto Grant Field in every game since 1961. Some of the other traditions that we still keep and manage are the Ramblin’ Wreck Parade, the Mini 500, the Freshman Cake Race, and Traditions Night.</p>
+            <p id="trad_text">Reck Club is dedicated to preserving and sharing the traditions that define Georgia Tech. Our pride and joy <g id="44" data-gr-id="44" class="gr_ gr_44 gr-alert gr_gramm gr_run_anim Grammar multiReplace">is</g> the 1930 Ford Model A <g id="43" data-gr-id="43" class="gr_ gr_43 gr-alert gr_gramm gr_run_anim Grammar multiReplace">Sport</g> Coupe, the Ramblin’ Reck, which has led the football team onto Grant Field since 1961. We also plan and manage some of Tech’s most iconic traditions, including Homecoming events, the Ramblin’ Wreck Parade, the Mini 500, the Freshman Cake Race, and Traditions Night — all centered around spreading joy and building campus spirit.</p>
         </div>
     </div><!--.story-->
 </div><!--#third-->
@@ -107,20 +107,21 @@
         <div class="hist_top1"></div>
         <div class="hist_top2"></div>
         <div class="float-right"> <img height="300" src="/img/why/test.png"><img height="150" src="/img/why/history_title.png">
-            <p>Since 1930, the club's mission has been to spread joy and spirit to all who call themselves Ramblin’ Wrecks from Georgia Tech. Our diverse club makes for diverse alumni as well. When you join the Reck Club family, you become a part of a greater network of Georgia Tech Yellow Jackets and can write your own chapter in our club's rich history.</p>
+            <p>Since 1930, our mission has been to spread joy, pride, and spirit to all who call themselves Ramblin’ Wrecks. Our club’s rich history is shaped by generations of passionate leaders who have helped build and protect Tech’s traditions. When you join Reck Club, you become part of a diverse network of alumni and members who care deeply about Georgia Tech — and you have the chance to write your own chapter in our legacy.</p>
         </div>
     </div><!--.story-->
 </div><!--#second-->
 <div id="sixth">
     <div class="spirit">
         <div class="float-left"> <img src="/img/why/polo.png">
-            <p>The Ramblin’ Reck Club Membership Recruitment starts first thing in the spring semester. Reckruitment 2026 kicks off on Saturday, November 22nd with the launch of our application. Information can be found <a href="/reckruitment">here</a>! Please contact our Reckruitment Chair at <a href="mailto:membershipchair@reckclub.org">membershipchair@reckclub.org</a> if you have any questions about the recruitment process, becoming a member, or just want to know more about our organization! Go Jackets and To Hell With <g id="52" data-gr-id="52" class="gr_ gr_52 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace">georgia</g>!</p> <center><a href="/reckruitment"><img width="300" src="/img/why/info_btn.png"></a></center>
+            <p>Ramblin’ Reck Club seeks students who take initiative, lead with passion, and want to share their love for Georgia Tech with the campus community. Reckruitment 2026 begins Saturday, November 22nd with the release of our application. You can find all details <a href="/reckruitment">here</a>! We encourage anyone who values tradition, service, joy, and community to apply. If you have questions about the process or the club, reach out to our Reckruitment Chair at <a href="mailto:membershipchair@reckclub.org">membershipchair@reckclub.org
+            </a>. Go Jackets and To Hell With <g id="52" data-gr-id="52" class="gr_ gr_52 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace">georgia</g>!</p> <center><a href="/reckruitment"><img width="300" src="/img/why/info_btn.png"></a></center>
         </div>
     </div><!--.story-->
 </div><!--#third-->
 <div id="seventh">
     <div>
-        <p>© <?php echo date("Y"); ?> Ramblin' Reck Club. Salute! We miss Juniors. Ian Lunn for the parallax plugin. Find out more info about Reck Club <a href="/">here</a>. THWG LIFE.</p>
+        <p>© <?php echo date("Y"); ?> Ramblin' Reck Club. Find out more info about Reck Club <a href="/">here</a>. THWG LIFE.</p>
     </div><!--.story-->
 </div><!--#fifth-->
 
