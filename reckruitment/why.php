@@ -114,7 +114,7 @@
 <div id="sixth">
     <div class="spirit">
         <div class="float-left"> <img src="/img/why/polo.png">
-            <p>The Ramblin’ Reck Club Membership Recruitment starts first thing in the spring semester. RECKruitment 2024 kicks off on Monday, January 1st with the launch of our application. Information can be found <a href="/reckruitment">here</a>! Please contact our RECKruitment Chair at <a href="mailto:membershipchair@reckclub.org">membershipchair@reckclub.org</a> if you have any questions about the recruitment process, becoming a member, or just want to know more about our organization! Go Jackets and To Hell With <g id="52" data-gr-id="52" class="gr_ gr_52 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace">georgia</g>!</p> <center><a href="/reckruitment"><img width="300" src="/img/why/info_btn.png"></a></center>
+            <p>The Ramblin’ Reck Club Membership Recruitment starts first thing in the spring semester. Reckruitment 2026 kicks off on Saturday, November 22nd with the launch of our application. Information can be found <a href="/reckruitment">here</a>! Please contact our Reckruitment Chair at <a href="mailto:membershipchair@reckclub.org">membershipchair@reckclub.org</a> if you have any questions about the recruitment process, becoming a member, or just want to know more about our organization! Go Jackets and To Hell With <g id="52" data-gr-id="52" class="gr_ gr_52 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace">georgia</g>!</p> <center><a href="/reckruitment"><img width="300" src="/img/why/info_btn.png"></a></center>
         </div>
     </div><!--.story-->
 </div><!--#third-->
