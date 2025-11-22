@@ -7,16 +7,16 @@
 <body>
 <?php require "../partials/public-header.php" ?>
 <div class="container">
-<h2 class="mb-3">RECKruitment Process</h2>
+<h2 class="mb-3">Reckruitment Process</h2>
     <img class="img-responsive mb-2" src="/img/why/RRCPolos21.png" width="100%" alt="Picture of the 2021 RRC Polos">
-    <p>Every spring semester, Ramblin’ Reck Club holds RECKruitment in order to take in a new class of probates (probationary members). These probates are selected from a pool of applicants who must first submit an application and attend a series of RECKruitment events.  Email <a href="mailto:membershipchair@reckclub.org">Kyle Ralyea and Ria Nayar</a>, Ramblin' Reck Club Recruitment Chairs, if you have questions or concerns. Find the breakdown of these events below:</p>
+    <p>Every spring semester, Ramblin’ Reck Club holds Reckruitment in order to take in a new class of probates (probationary members). These probates are selected from a pool of applicants who must first submit an application and attend a series of Reckruitment events.  Email <a href="mailto:membershipchair@reckclub.org">Kyle Ralyea and Ria Nayar</a>, Ramblin' Reck Club Recruitment Chairs, if you have questions or concerns. Find the breakdown of these events below:</p>
 
     <h4 class="mb-3">Overview of the 2026 Application Process and Timeline</h4>
 
     <p class="mb-0">A full and complete application for membership includes:</p>
     <ul>
         <li>A <a href="#written-application">written application</a> submitted by <strong>Monday, January 19th, 2026</strong></li>
-        <li>Attendance at one of the three selected <a href="#gtky-events">“Get to Know You” (GTKY)</a> Events</li>
+        <li>Attendance at at least one of many <a href="#gtky-events">“Get to Know You” (GTKY)</a> Events. Times and locations to be announced.</li>
     </ul>
 
     <p class="mb-0">Upon proper completion of the application, invitations will be sent out for the next recruitment events (by invitation only):</p>
@@ -39,17 +39,17 @@
 <ul>
     <li>Applicants may <strong>not</strong> graduate prior to December 2026.</li>
     <li>Applicants must be able to attend a weekly probate meeting on Monday evenings from 6-7 PM and then the full club meeting at 7 PM. Exceptions to this can be made, but very rarely.</li>
-    <li>Spring and Fall 2026 out-of-town co-ops and study abroad students are not eligible to apply this RECKruitment season. Email <a href="mailto:membershipchair@reckclub.org">Kyle Ralyea and Ria Nayar</a>, Ramblin’ Reck Club Recruitment Chairs, if you have questions or concerns.</li>
+    <li>Spring and Fall 2026 out-of-town co-ops and study abroad students are not eligible to apply this Reckruitment season. Email <a href="mailto:membershipchair@reckclub.org">Kyle Ralyea and Ria Nayar</a>, Ramblin’ Reck Club Recruitment Chairs, if you have questions or concerns.</li>
 </ul>
 
-<h4 class="mb-2">Tips for RECKruitment</h4>
+<h4 class="mb-2">Tips for Reckruitment</h4>
 
 <ul>
     <li>Be yourself! We want to get to know you and why you love Georgia Tech!</li>
     <li>Have fun! The socials and "Get To Know You" events will have fun activities and should not feel like an interview; that's what the interview is for.</li>
     <li>Meet as many members as possible across the socials and "Get To Know You" events. Don't be afraid to ask a member you already know to introduce you to someone new.</li>
     <li>Put time and effort into your application. Follow the suggested word counts for each question to make sure you answer it fully.</li>
-    <li>For any Reck Club Reckruitment event, wear something that you feel comfortable and confident in! There are no specifications on dress code for any event, including the interviews. If you would like assistance with clothing, <a href="https://www.campuscloset.gatech.edu/" target="blank">Georgia Tech's Campus Closet</a> provides this service free of charge to students!</li>
+    <li>For any Reck Club Reckruitment event, wear something that you feel comfortable and confident in! There are no specifications on dress code, except semi-formal for Social 1 and Social 2. If you would like assistance with clothing, <a href="https://www.campuscloset.gatech.edu/" target="blank">Georgia Tech's Campus Closet</a> provides this service free of charge to students!</li>
 </ul>
 
 <h4 class="mb-2" id="written-application">Written Application</h4>
@@ -87,12 +87,12 @@
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
-    <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be on the evening of <strong>Monday, January 26th.</strong> Location information will be sent to selected applicants.</p>
+    <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. Dress code for this event is semi-formal attire. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be on the evening of <strong>Monday, January 26th.</strong> Location information will be sent to selected applicants.</p>
     <p>There are two time slots for the first social: <strong>7:00PM - 8:30PM</strong> and <strong>9:00PM - 10:30PM</strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
-    <p>The interview portion of RECKruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social.</p>
+    <p>The interview portion of Reckruitment is designed to allow for Reck Clubbers to get to know applicants on a more personal basis. We want to give each applicant the time to express their ideas, commitment, and personality. The interview portion consists of an individual interview and a group interview. Interviewees will sign up for an interview time slot during check-in at the first social.</p>
      <ul>
         <li><strong>Tuesday, January 27th from 7:30pm-11:30pm</strong></li>
         <li><strong>Wednesday, January 28th from 7:30pm-11:30pm</strong></li>
@@ -101,7 +101,7 @@
     <p>Applicants selected for interviews will be notified with further details.</p>
 
 <h4 class="mb-2" id="second-social">Second Social (Invite Only)</h4>
-    <p>After all interviews have been conducted, applicants will be notified whether they will advance to the next round of RECKruitment. During this second round, applicants will attend a mandatory second social held from <strong>12:00PM - 3:00PM on Saturday, January 31st</strong>. Further details for this event will be sent out to those invited applicants only.</p>
+    <p>After all interviews have been conducted, applicants will be notified whether they will advance to the next round of Reckruitment. During this second round, applicants will attend a mandatory second social held from <strong>12:00PM - 3:00PM on Saturday, January 31st</strong>. Dress code for this event is semi-formal attire. Further details for this event will be sent out to those invited applicants only.</p>
 
 <hr class="mb-3"> <!--    adds dividing line-->
     <p>Any time conflicts with these events should be brought to the attention of <a href="mailto:membershipchair@reckclub.org">Kyle Ralyea and Ria Nayar</a>, Ramblin’ Reck Club Recruitment Chairs, no later than <strong>January 23rd</strong>.</p>
@@ -114,7 +114,7 @@
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-secondary">RECKruitment</strong>
+                    <strong class="d-inline-block mb-2 text-secondary">Reckruitment</strong>
                     <h3 class="mb-1 text-dark">Why You Need to Join</h3>
                     <p class="card-text mb-auto">Reck Club is an unforgettable college experience and you should join in on the fun!</p>
                     <a href="/reckruitment/why.php">Continue reading</a>
@@ -125,9 +125,9 @@
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-secondary">RECKruitment</strong>
+                    <strong class="d-inline-block mb-2 text-secondary">Reckruitment</strong>
                     <h3 class="mb-1 text-dark">Probateship</h3>
-                    <p class="card-text mb-auto">During RECKruitment each year, we fill a new class of probates to add to the club’s already existing member base.</p>
+                    <p class="card-text mb-auto">During Reckruitment each year, we fill a new class of probates to add to the club’s already existing member base.</p>
                     <a href="/reckruitment/probateship.php">Read more</a>
                 </div>
                 <img class="card-img-right img-fluid flex-auto d-none d-md-block" src="/img/promo/PC20Pic-small.png" alt="RRC's 2020 probate class by the old Reck Garage." style="width: 200px; height: 250px;">

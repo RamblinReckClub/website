@@ -9,7 +9,7 @@
 <div class="container">
     <h2 class="mb-3">Probateship</h2>
     <img class="img-responsive mb-2" src="/img/2024/probates.jpeg" width="100%" alt="Picture of members of Probate Class 20">
-    <p>During RECKruitment each year, we fill a new class of probates to add to the club’s existing member base. Read below for more details about what it’s like during your probateship in Reck Club.</p>
+    <p>During Reckruitment each year, we fill a new class of probates to add to the club’s existing member base. Read below for more details about what it’s like during your probateship in Reck Club.</p>
     <h4 class="mb-4">What exactly is a probate?</h4>
     <p>A probate, short for probationary member, is someone who has been in Reck Club for less than a full year.</p>
     <h4 class="mb-4">What's the difference between a probate and a member?</h4>
@@ -20,7 +20,7 @@
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-secondary">RECKruitment</strong>
+                    <strong class="d-inline-block mb-2 text-secondary">Reckruitment</strong>
                     <h3 class="mb-1 text-dark">Want to join the tradition?</h3>
                     <p class="card-text mb-auto">Learn more about what it is to be a part of Reck Club and kickstart your recruitment process!</p>
                     <a href="/reckruitment">Read more</a>
@@ -31,7 +31,7 @@
         <div class="col-md-6">
             <div class="card flex-md-row mb-4 box-shadow h-md-250">
                 <div class="card-body d-flex flex-column align-items-start">
-                    <strong class="d-inline-block mb-2 text-secondary">RECKruitment</strong>
+                    <strong class="d-inline-block mb-2 text-secondary">Reckruitment</strong>
                     <h3 class="mb-1 text-dark">Why You Need to Join</h3>
                     <p class="card-text mb-auto">Reck Club is an unforgettable college experience and you should join in on the fun!</p>
                     <a href="/reckruitment/why.php">Continue reading</a>
