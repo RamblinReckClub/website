@@ -15,8 +15,8 @@
 
     <p class="mb-0">A full and complete application for membership includes:</p>
     <ul>
-        <li>A <a href="#written-application">written application</a> submitted by <strong>Monday, January 19th, 2026</strong></li>
-        <li>Attendance at at least one of many <a href="#gtky-events">“Get to Know You” (GTKY)</a> Events. Times and locations to be announced.</li>
+        <li>A <a href="#written-application">written application</a> submitted by <strong>Wednesday, January 21st, 2026</strong></li>
+        <li>Attendance at at least one of many <a href="#gtky-events">“Get to Know You” (GTKY)</a> Events.</li>
     </ul>
 
     <p class="mb-0">Upon proper completion of the application, invitations will be sent out for the next recruitment events (by invitation only):</p>
@@ -38,7 +38,7 @@
 
 <ul>
     <li>Applicants may <strong>not</strong> graduate prior to December 2026.</li>
-    <li>Applicants must be able to attend a weekly probate meeting on Monday evenings from 6-7 PM and then the full club meeting at 7 PM. Exceptions to this can be made, but very rarely.</li>
+    <li>Applicants must be able to attend a weekly probate meeting on Monday evenings from 6-7 PM and the full club meeting at 7 PM.</li>
     <li>Spring and Fall 2026 out-of-town co-ops and study abroad students are not eligible to apply this Reckruitment season. Email <a href="mailto:membershipchair@reckclub.org">Kyle Ralyea and Ria Nayar</a>, Ramblin’ Reck Club Recruitment Chairs, if you have questions or concerns.</li>
 </ul>
 
@@ -55,7 +55,7 @@
 <h4 class="mb-2" id="written-application">Written Application</h4>
 
 
-    <p>The 2026 Ramblin’ Reck Club application can be found <a href="https://forms.gle/MZznaejGPgLfc56t5" target="blank">here</a>. A completed written application must be submitted no later than <strong>Monday, January 19th, 2026</strong>.</p>
+    <p>The 2026 Ramblin’ Reck Club application can be found <a href="https://forms.gle/MZznaejGPgLfc56t5" target="blank">here</a>. A completed written application must be submitted no later than <strong>Wednesday, January 21st, 2026</strong>.</p>
 
 
     <div class='row text-center'>
@@ -70,20 +70,28 @@
 
     <!-- <p><strong>If you were unable to attend an information session, the presentation slides are available <a href="https://drive.google.com/file/d/1ZKo2yF3s3rxrUvV3jm2r5U78j9OXTE1v/view?usp=sharing" target="_blank">here</a>.</strong></p> -->
 
-    <!-- <ul>
-        <li><strong>Tuesday, January 14th at 7:30pm-8:30pm</strong> in Atlantic Theater (Student Center)</li>
-        <li><strong>Wednesday, January 22nd at 5:00pm-6:00pm</strong> <span style="color: red; font-weight: bold;">This session has been moved online due to the weather conditions.</span></li>
-        <li><strong>Thursday, January 30th at 6:00pm-7:00pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjljNDNhOGItOGZjYy00OTFlLTliYWQtNDQ2MjNlZTA0N2Ex%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%22dd9bf83b-e2e0-438f-90ca-a97eb0f30ac9%22%7d" target="_blank">Join with this link.</a></li>
-    </ul> -->
+    <ul>
+        <li><strong>Wednesday, December 3rd from 2:30-3:30pm</strong> in CULC 125</li>
+        <li><strong>Monday, December 8th from 11:00am-12:00pm</strong> in CULC 125</li>
+        <li><strong>Monday, December 15th from 4:00-5:00pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTA4NjFkNjktMzYzMi00OWJkLWE2ZTYtOWI1OGZiNDU5YTVj%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2260e48cb7-af9f-4820-89c2-760a9dca93c4%22%7d" target="_blank">Join with this link.</a></li>
+        <li><strong>Sunday, January 11th from 12:00-1:00pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmE3ZDhiMjktNGYzMy00Yzc0LWFiMTgtY2JmOThhOTNjM2E0%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2260e48cb7-af9f-4820-89c2-760a9dca93c4%22%7d" target="_blank">Join with this link.</a></li>
+        <li><strong>Tuesday, January 13th from 7:00-8:00pm</strong>, location TBA</li>
+        <li><strong>Thursday, January 15th from 5:00-6:00pm</strong>, location TBA</li>
+        <li><strong>Saturday, January 17th from 1:00-2:00pm</strong>, location TBA</li>
+    </ul>
 
 <h4 class="mb-2" id="gtky-events">RRC “Get To Know You” Events (Mandatory)</h4>
 
-    <p>In order to provide applicants a casual setting to interact with Reck Clubbers and get a better feel for the kind of spirit Reck Club has for Georgia Tech, all applicants must attend one of the following Get To Know You events. Please note that applicants need only attend one of the following events in order to satisfy the recruitment requirements. Make sure to check in when you arrive, you do not need to stay for the entire event duration. </p>
+    <p>In order to provide applicants a casual setting to interact with Reck Clubbers and get a better feel for the kind of spirit Reck Club has for Georgia Tech, all applicants must attend <strong>one</strong> of the following Get To Know You events. <strong>Please note that applicants need only attend one of the following events</strong> in order to satisfy the recruitment requirements. Make sure to check in when you arrive, you do not need to stay for the entire event duration. </p>
 
     <ul>
-    <li><strong>To Be Announced</strong></li>
-    <!-- <li><strong>To Be Announced</strong> Board Game Night - 7:00PM to 9:00PM @ Klaus Atrium</li>
-    <li><strong>Thursday, February 6th.</strong> Women's Basketball Tailgate - 5:00PM - 6:45PM @ McCamish Pavilion</li> -->
+    <li><strong>Sunday, January 11th</strong> Women's Basketball Game vs. Clemson - 4:00 PM @ McCamish Pavilion</li>
+    <li><strong>Tuesday, January 13th</strong> Garage Tour & Craft Hour - 8:00-9:00 PM @ the Reck Garage</li>
+    <li><strong>Wednesday, January 14th</strong> Men's Basketball Game vs. Pitt - 7:00PM @ McCamish Pavilion</li>
+    <li><strong>Thursday, January 15th</strong> Board Game Night - 6:00PM @ LOCATION TBA</li>
+    <li><strong>Saturday, January 17th</strong> Trivia - 2:00PM-4:00 PM @ LOCATION TBA</li>
+    <li><strong>Tuesday, January 20th</strong> TBA - 8:30PM @ LOCATION TBA</li>
+    <li><strong>Friday, January 23rd</strong> TBA</li>
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
