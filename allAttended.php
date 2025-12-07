@@ -33,7 +33,7 @@
 
 	// Total number of events
 	//-------------------------------------------
-	$query = $db->query("SELECT COUNT(*) as CNT FROM Event");
+	$query = $db->query("SELECT COUNT(*) as CNT FROM Event WHERE ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) )");
 		$query->setFetchMode(PDO::FETCH_ASSOC);
 	$row = $query->fetch();
 	$totalEvents = $row['CNT'];
@@ -66,7 +66,15 @@
 	// CALCULATE MEMBER'S TOTAL POINTS
 	//-----------------------------------------------
 
-   	$query = $db->prepare("SELECT type FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE memberID = :currentMemID");
+   	$query = $db->prepare("
+        SELECT type FROM AttendsEvent 
+            JOIN Event ON AttendsEvent.eventID = Event.eventID 
+            WHERE memberID = :currentMemID
+            AND (
+                    (MONTH(CURDATE()) BETWEEN 1 AND 7  AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7)
+                 OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12)
+            )
+            ");
 	$query->execute(array('currentMemID'=>$currentMemID));
 		$query->setFetchMode(PDO::FETCH_ASSOC);
 
@@ -94,7 +102,7 @@
 
 	$eventPct = number_format(($events/$totalEvents)*100,1);
 
-    $query = $db->query("SELECT COUNT(*) as CNT FROM Event where type = 'mandatory'");
+    $query = $db->query("SELECT COUNT(*) as CNT FROM Event where type = 'mandatory' AND ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) )");
     $query->setFetchMode(PDO::FETCH_ASSOC);
     $row = $query->fetch();
     $mandatoryEvents = $row['CNT'];
@@ -146,7 +154,7 @@
 			$pointValue=0;
 			$dateMonth=0;
 			$dateDay=0;
-			$query2 = $db->prepare("SELECT eventName, dateYear, dateMonth, dateDay, pointValue FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE memberID = :currentMemID ORDER BY Event.dateMonth, Event.dateDay");
+			$query2 = $db->prepare("SELECT eventName, dateYear, dateMonth, dateDay, pointValue FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE memberID = :currentMemID AND ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) ) ORDER BY Event.dateMonth, Event.dateDay");
 			$query2->execute(array('currentMemID'=>$currentMemID));
 			$query2->setFetchMode(PDO::FETCH_ASSOC);
 
@@ -219,7 +227,7 @@
 	echo "<tr bgcolor=\"#b3a369\"><th colspan=\"3\">Events Attended</th></tr>";
 	echo "<tr><th width=350>Event</th><th width=100>Date</th><th>Points</th></tr>\n";
 
-   	$query2 = $db->prepare("SELECT eventName, dateYear, dateMonth, dateDay, pointValue FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE memberID = :currentMemID ORDER BY Event.dateMonth, Event.dateDay");
+   	$query2 = $db->prepare("SELECT eventName, dateYear, dateMonth, dateDay, pointValue FROM AttendsEvent JOIN Event ON AttendsEvent.eventID = Event.eventID WHERE memberID = :currentMemID AND ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) ) ORDER BY Event.dateMonth, Event.dateDay");
 	$query2->execute(array('currentMemID'=>$currentMemID));
 		$query2->setFetchMode(PDO::FETCH_ASSOC);
 
