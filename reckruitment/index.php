@@ -94,8 +94,9 @@
         <ul>
             <li>Please try to RSVP at <a href="https://forms.gle/oXqSbYzADj9xFHRh9">this link</a> beforehand if possible so we know how much space to save! </li>
             <li>This will be an alcohol-free event.</li>
+            <li>We will be grabbing seats in the back patio, so look for a group of RRC members in white jackets.</li>
         </ul>
-    <li><strong>Friday, January 23rd</strong> Craft Hour - 4:30-6:00PM @ Cypress Theater in the Student Center</li>
+    <li><strong>Friday, January 23rd</strong> Arts, Crafts, & Button Making - 4:30-6:30PM @ Cypress Theater in the Student Center</li>
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
