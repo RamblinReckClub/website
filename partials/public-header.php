@@ -78,11 +78,17 @@
                 <li class="nav-item">
                     <a class="nav-link btn-link" href="https://reckclub.company.site" target="_blank">Store</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-link" href="https://traditions.gatech.edu/" target="_blank">Traditions</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTraditions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Traditions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownTraditions">
+                        <a class="dropdown-item" href="https://traditions.gatech.edu/" target="_blank">Gallery</a>
+                        <a class="dropdown-item" href="/traditionkeepers">Tradition Keepers</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-link" href="/traditionkeepers">Tradition Keepers</a>
+                    <a class="nav-link btn-link" href="/jacketfanatics">Jacket Fanatics</a>
                 </li>
             </ul>
         </div>
