@@ -76,7 +76,7 @@
         <li><strong>Monday, December 15th from 5:30-6:30pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTA4NjFkNjktMzYzMi00OWJkLWE2ZTYtOWI1OGZiNDU5YTVj%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2260e48cb7-af9f-4820-89c2-760a9dca93c4%22%7d" target="_blank">Join with this link.</a></li>
         <li><strong>Sunday, January 11th from 12:00-1:00pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmE3ZDhiMjktNGYzMy00Yzc0LWFiMTgtY2JmOThhOTNjM2E0%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2260e48cb7-af9f-4820-89c2-760a9dca93c4%22%7d" target="_blank">Join with this link.</a></li>
         <li><strong>Tuesday, January 13th from 7:00-8:00pm</strong>, in Cypress Theater in the Student Center.</li>
-        <li><strong>Thursday, January 15th from 5:00-6:00pm</strong>, in Weber SSTII Classroom.</li>
+        <li><strong>Thursday, January 15th from 5:00-6:00pm</strong>, in Weber SSTIII Classroom.</li>
         <li><strong>Saturday, January 17th from 1:00-2:00pm</strong>, in Cypress Theater in the Student Center.</li>
     </ul>
 
