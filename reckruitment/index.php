@@ -76,7 +76,7 @@
         <li><strong>Monday, December 15th from 5:30-6:30pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTA4NjFkNjktMzYzMi00OWJkLWE2ZTYtOWI1OGZiNDU5YTVj%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2260e48cb7-af9f-4820-89c2-760a9dca93c4%22%7d" target="_blank">Join with this link.</a></li>
         <li><strong>Sunday, January 11th from 12:00-1:00pm</strong> virtually. <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmE3ZDhiMjktNGYzMy00Yzc0LWFiMTgtY2JmOThhOTNjM2E0%40thread.v2/0?context=%7b%22Tid%22%3a%22482198bb-ae7b-4b25-8b7a-6d7f32faa083%22%2c%22Oid%22%3a%2260e48cb7-af9f-4820-89c2-760a9dca93c4%22%7d" target="_blank">Join with this link.</a></li>
         <li><strong>Tuesday, January 13th from 7:00-8:00pm</strong>, in Cypress Theater in the Student Center.</li>
-        <li><strong>Thursday, January 15th from 5:00-6:00pm</strong>, in Ford ES&T Level 1 Atrium.</li>
+        <li><strong>Thursday, January 15th from 5:00-6:00pm</strong>, in Weber SSTII Classroom.</li>
         <li><strong>Saturday, January 17th from 1:00-2:00pm</strong>, in Cypress Theater in the Student Center.</li>
     </ul>
 
@@ -88,20 +88,23 @@
     <li><strong>Sunday, January 11th</strong> Women's Basketball Game vs. Clemson - 4:00 PM @ McCamish Pavilion</li>
     <li><strong>Tuesday, January 13th</strong> Traditions and Trivia - 8:00-9:30 PM @ Cypress Theater in the Student Center</li>
     <li><strong>Wednesday, January 14th</strong> Men's Basketball Tailgate and Game vs. Pitt - 6:00PM near McCamish Pavilion</li>
-    <li><strong>Thursday, January 15th</strong> Board Game Night - 6:00-7:30PM @ Ford ES&T Level 1 Atrium</li>
-    <li><strong>Saturday, January 17th</strong> Amazing Race Scavenger Hunt - 2:00-3:30 PM @ Cypress Theater in the Student Center</li>
+        <ul>
+            <li>Join us for tailgate games and pizza near the Ken Byers Tennis Complex, across from McCamish Pavilion, before we head in to watch the game!</li>
+        </ul>
+    <li><strong>Thursday, January 15th</strong> Arts, Crafts, & Button Making - 6:00-7:30PM @ Weber SSTIII Classroom</li>
+    <li><strong>Saturday, January 17th</strong> Board Game "Night" - 2:00-3:30 PM @ Cypress Theater in the Student Center</li>
     <li><strong>Tuesday, January 20th</strong> Rocky Mountain Trivia - 8:30PM @ Rocky Mountain Pizza Company (1005 Hemphill Ave NW, Atlanta, GA 30318)</li>
         <ul>
             <li>Please try to RSVP at <a href="https://forms.gle/oXqSbYzADj9xFHRh9">this link</a> beforehand if possible so we know how much space to save! </li>
             <li>This will be an alcohol-free event.</li>
             <li>We will be grabbing seats in the back patio, so look for a group of RRC members in white jackets.</li>
         </ul>
-    <li><strong>Friday, January 23rd</strong> Arts, Crafts, & Button Making - 4:30-6:30PM @ Cypress Theater in the Student Center</li>
+    <li><strong>Friday, January 23rd</strong> Amazing Race Scavenger Hunt - 4:30-6:30PM @ Cypress Theater in the Student Center</li>
     </ul>
 
 <h4 class="mb-2" id="first-social">First Social (Invite Only)</h4>
     <p>Attending this social is your chance as an applicant to meet Reck Clubbers, get a feel for what Ramblin’ Reck Club is all about, ask any questions you may have about the Club or getting involved, and most importantly, sign up for an interview time. Dress code for this event is semi-formal attire. No need to stress about this event; be yourself and talk to anyone you do not already know! This event will be on the evening of <strong>Monday, January 26th.</strong> Location information will be sent to selected applicants.</p>
-    <p>There are two time slots for the first social: <strong>7:00PM - 8:30PM</strong> and <strong>9:00PM - 10:30PM</strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability.  An invitation to one of the two time slots based on reported availability will be sent out after the application period has ended!</p>
+    <p>There are three time slots for the first social: <strong>7:00PM - 8:00PM</strong>, <strong>8:15PM - 9:15PM</strong>, and <strong>9:30PM - 10:30PM</strong>. Once you submit the written application, you will receive an email instructing you to fill out your availability. An invitation to one of the three time slots based on reported availability will be sent out after the application period has ended!</p>
 
 <h4 class="mb-2" id="interviews">Interviews (Invite Only)</h4>
 
