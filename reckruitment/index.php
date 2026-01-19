@@ -68,7 +68,7 @@
 
     <p>For anyone interested in learning more about Ramblin’ Reck Club, what we are involved in on campus, opportunities within the Club, and the recruitment process, we will be hosting information sessions before the application deadline closes. Feel free to stop in and introduce yourself and get the low-down on all things RRC during the session. It is highly encouraged to attend one of these sessions to help you understand what this club is about, but if you cannot attend, this information will be provided after the meetings.</p>
 
-    <!-- <p><strong>If you were unable to attend an information session, the presentation slides are available <a href="https://drive.google.com/file/d/1ZKo2yF3s3rxrUvV3jm2r5U78j9OXTE1v/view?usp=sharing" target="_blank">here</a>.</strong></p> -->
+    <p><strong>Although we highly recommend it, if you were unable to attend an information session, the presentation slides are available <a href="https://www.canva.com/design/DAG-IKf96Fc/pB6y9hFk0vjCT0PULeMMDA/edit?utm_content=DAG-IKf96Fc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">here</a>.</strong></p>
 
     <ul>
         <li><strong>Wednesday, December 3rd from 2:30-3:30pm</strong> in CULC 125.</li>
@@ -78,6 +78,7 @@
         <li><strong>Tuesday, January 13th from 7:00-8:00pm</strong>, in Cypress Theater in the Student Center.</li>
         <li><strong>Thursday, January 15th from 5:00-6:00pm</strong>, in Weber SSTIII Classroom.</li>
         <li><strong>Saturday, January 17th from 1:00-2:00pm</strong>, in Cypress Theater in the Student Center.</li>
+        <li><strong>Friday, January 23rd from 3:15-4:15pm</strong>, in Piedmont Room in the Student Center.</li>
     </ul>
 
 <h4 class="mb-2" id="gtky-events">RRC “Get To Know You” Events (Mandatory)</h4>
