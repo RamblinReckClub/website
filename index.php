@@ -17,29 +17,6 @@ if (stripos($_SERVER['HTTP_HOST'], 'gatech') !== false) {
 
 <body>
 <?php require "partials/public-header.php" ?>
-<!-- Reck Club Applications Announcement Box -->
-<div class="container mt-4">
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-10">
-      <div class="d-flex flex-column flex-md-row align-items-center justify-content-between rounded p-4 mb-3"
-        style="background-color: #F5F5F5; border-left: 5px solid #B3A369;">
-        <div class="flex-grow-1 text-center text-md-left mb-3 mb-md-0 pr-md-5">
-          <div style="font-size: 1.4rem; font-family: 'Roboto Slab', serif; color: #333; line-height: 1.3; margin-bottom: 0.5rem;">
-            Reck Club applications are due soon!
-          </div>
-          <div style="font-size: 1rem; color: #666; font-family: 'Open Sans', sans-serif;">
-            Interested in applying? Submit your application by Wednesday, January 21!
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-sm-row gap-2" style="gap: 0.75rem;">
-          <a href="/reckruitment/index.php" class="btn btn-primary px-4 py-2" style="font-weight: 600; white-space: nowrap;">Learn More</a>
-          <a href="https://forms.gle/1EHyGZGoP6FqvQBr8" class="btn btn-outline-secondary px-4 py-2" style="font-weight: 500; white-space: nowrap;">Apply Now</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="mb-3">
     <div id="img-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
