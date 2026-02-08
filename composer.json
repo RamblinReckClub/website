@@ -1,0 +1,8 @@
+{
+  "name": "ramblinreckclub/website",
+  "description": "Ramblin' Reck Club website",
+  "type": "project",
+  "require": {
+    "jumbojett/openid-connect-php": "^1.0"
+  }
+}

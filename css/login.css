@@ -92,3 +92,95 @@ body {
 	height: 125px;
 	width: 125px;
 }
+
+.subtitle {
+	color: #666;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 1.5rem !important;
+}
+
+.oidc-button {
+	background-color: #b3a369;
+	border-color: #b3a369;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1rem;
+	padding: 8px 16px;
+	box-shadow: 0 2px 4px rgba(179, 163, 105, 0.3);
+	transition: all 0.2s ease;
+}
+
+.oidc-button:hover,
+.oidc-button:focus {
+	background-color: #a69356;
+	border-color: #a69356;
+	color: #fff;
+	box-shadow: 0 4px 8px rgba(179, 163, 105, 0.4);
+	text-decoration: none;
+	transform: translateY(-1px);
+}
+
+.oidc-button i {
+	margin-right: 8px;
+}
+
+.membership-notice {
+	color: #666;
+	font-size: 0.875rem;
+	line-height: 1.4;
+	margin-bottom: 1rem;
+}
+
+
+.legacy-login-toggle {
+	margin: 1.25rem 0 1.25rem 0;
+	padding: 0.5rem 0 0 0;
+	border-top: 1px solid #e0e0e0;
+}
+
+.legacy-login-toggle a {
+	color: #888;
+	font-size: 0.9rem;
+	text-decoration: none;
+	transition: color 0.2s ease;
+	display: inline-block;
+	padding-top: 0.6rem;
+	padding-bottom: 0.2rem;
+}
+
+.legacy-login-toggle a:hover {
+	color: #b3a369;
+	text-decoration: none;
+}
+
+.legacy-login-toggle i {
+	margin-right: 6px;
+}
+
+
+.secondary-login {
+	margin-top: 0.1rem;
+	padding-top: 0;
+	animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.secondary-login .form-control {
+	font-size: 0.95rem;
+}
+
+.secondary-login .btn {
+	font-size: 0.95rem;
+	margin-top: 0.5rem;
+}
