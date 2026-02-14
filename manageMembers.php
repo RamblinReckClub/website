@@ -90,7 +90,7 @@ if($selectedMember != "none") {
                 </div>
                 <div class="col-lg-6 mb-3">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" placeholder="reckclub1930" value="" required="" size="32" maxlength="32">
+                    <input type="password" class="form-control" name="password" placeholder="reckclub1930" value="" size="32" maxlength="32">
                     <div class="invalid-feedback">
                         Valid password is required.
                     </div>

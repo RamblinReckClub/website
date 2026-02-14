@@ -17,11 +17,19 @@
 	}
 	
 	if($var == false) {
-        $newPasswordHash = password_hash($_POST['password'], PASSWORD_BCRYPT);
-        $oneYearAgo = date('Y-m-d H:i:s', strtotime('-1 year'));
-		$query = $db->prepare("INSERT INTO Member (username, password, passwordType, firstName, lastName, status, passwordExpiration) VALUES (:username, :password, 'bcrypt', :firstName, :lastName, :status, :passwordExpiration)");
-		$query->execute(array('username'=>$_POST['username'], 'password'=>$newPasswordHash, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'status'=>$_POST['status'], 'passwordExpiration'=>$oneYearAgo));
-	
+		$newPasswordHash = null;
+		$passwordType = 'none';
+		$oneYearAgo = null;
+
+		if (isset($_POST['password']) && !empty($_POST['password'])) {
+			$newPasswordHash = password_hash($_POST['password'], PASSWORD_BCRYPT);
+			$passwordType = 'bcrypt';
+			$oneYearAgo = date('Y-m-d H:i:s', strtotime('-1 year'));
+		}
+
+		$query = $db->prepare("INSERT INTO Member (username, password, passwordType, firstName, lastName, status, passwordExpiration) VALUES (:username, :password, :passwordType, :firstName, :lastName, :status, :passwordExpiration)");
+		$query->execute(array('username'=>$_POST['username'], 'password'=>$newPasswordHash, 'passwordType'=>$passwordType, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'status'=>$_POST['status'], 'passwordExpiration'=>$oneYearAgo));
+
 		echo "<h3>Member Created</h3>";
 		echo "<meta http-equiv=\"refresh\" content=\"2; url=manageMembers.php\">";
 	} else {
