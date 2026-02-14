@@ -45,7 +45,7 @@
                 <!-- <p class="membership-notice mb-3">Use your GT account if you're an active Reck Club member</p> -->
                 <div class="legacy-login-toggle">
                     <a href="#" id="show-legacy-login" class="text-muted small">
-                        <i class="fas fa-key"></i> Sign in with Email/Password
+                        <i class="fas fa-key"></i> Sign in with Username/Password
                     </a>
                 </div>
                 <div class="secondary-login" id="legacy-login-form" style="display: none;">
@@ -53,9 +53,9 @@
                 <div class="secondary-login">
                 <?php } ?>
                     <label for="username" class="sr-only">Username</label>
-                    <input type="email" id="username" name="username" class="form-control" placeholder="Email" required autofocus="" onKeyPress="return letternumber(event)">
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus="" onKeyPress="return letternumber(event)">
                     <div class="invalid-feedback">
-                        Please enter your email.
+                        Please enter your username.
                     </div>
                     <label for="password" class="sr-only">Password</label>
                     <input type="password" id="password" maxlength="32" name="password" class="form-control" placeholder="Password" required>
@@ -84,10 +84,10 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             if (legacyForm.style.display === 'none') {
                 legacyForm.style.display = 'block';
-                toggleLink.innerHTML = '<i class="fas fa-chevron-up"></i> Hide email/password login';
+                toggleLink.innerHTML = '<i class="fas fa-chevron-up"></i> Hide username/password login';
             } else {
                 legacyForm.style.display = 'none';
-                toggleLink.innerHTML = '<i class="fas fa-key"></i> Sign in with Email/Password';
+                toggleLink.innerHTML = '<i class="fas fa-key"></i> Sign in with Username/Password';
             }
         });
     }
