@@ -27,8 +27,8 @@
 			$oneYearAgo = date('Y-m-d H:i:s', strtotime('-1 year'));
 		}
 
-		$query = $db->prepare("INSERT INTO Member (username, password, passwordType, firstName, lastName, status, passwordExpiration) VALUES (:username, :password, :passwordType, :firstName, :lastName, :status, :passwordExpiration)");
-		$query->execute(array('username'=>$_POST['username'], 'password'=>$newPasswordHash, 'passwordType'=>$passwordType, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'status'=>$_POST['status'], 'passwordExpiration'=>$oneYearAgo));
+		$query = $db->prepare("INSERT INTO Member (username, password, passwordType, firstName, lastName, status, passwordExpiration, gtUsername) VALUES (:username, :password, :passwordType, :firstName, :lastName, :status, :passwordExpiration, :gtUsername)");
+		$query->execute(array('username'=>$_POST['username'], 'password'=>$newPasswordHash, 'passwordType'=>$passwordType, 'firstName'=>$_POST['firstName'], 'lastName'=>$_POST['lastName'], 'status'=>$_POST['status'], 'passwordExpiration'=>$oneYearAgo, 'gtUsername'=>$_POST['gtUsername']));
 
 		echo "<h3>Member Created</h3>";
 		echo "<meta http-equiv=\"refresh\" content=\"2; url=manageMembers.php\">";

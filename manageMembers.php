@@ -112,6 +112,12 @@ if($selectedMember != "none") {
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
+                    <label for="gtUsername">GT Username</label>
+                    <input type="text" class="form-control" name="gtUsername" placeholder="gburdell3" value="" size="32" maxlength="32">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-3">
                     <label for="status">Status</label>
                     <select class="custom-select d-block w-100 mb-3" name="status" id="status">
                     <option value="probate">Probate</option>
