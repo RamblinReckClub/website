@@ -11,7 +11,7 @@
     <h2 class="mb-3">Drivers</h2>
     <hr class="mb-3">
 
-<img class="img-responsive mb-3" width="100%" src="/img/2026/Sof-Head-Shot.png">
+<img class="img-responsive mb-3" width="100%" src="/img/2026/sof-reck-hc.png">
 <p>Each year, one student is chosen from the ranks of the club to be the sole driver and primary caretaker of the Ramblin’ Reck. They are the only person with keys to the car, and the only person allowed to drive or transport the Reck. They know the ins and outs of the car better than the back of their hand and spends countless hours every week not only making sure that the car is running in tip-top shape, but also scheduling appearances, meeting with alumni and administration, and working on other projects in the best interest of the Reck. Despite the hard work, the job is perhaps the most meaningful and fulfilling on campus, and an unforgettable experience for every driver.</p>
 
 <h4 class="mb-3">The History of Drivers</h4>
