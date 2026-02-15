@@ -100,7 +100,7 @@ if (stripos($_SERVER['HTTP_HOST'], 'gatech') !== false) {
                     <p class="card-text mb-auto">Each year, one student is chosen from the ranks of the club to be the sole driver and primary caretaker of the Ramblin’ Reck.</p>
                     <a href="/reck/drivers.php">Read more</a>
                 </div>
-                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2025/josh-reck-sm.png" style="width: 200px; height: 250px;" src="/img/2025/josh-reck-sm.png" data-holder-rendered="true">
+                <img class="card-img-right img-fluid flex-auto d-none d-md-block" data-src="/img/2026/sof-reck-sm-hc.png" style="width: 200px; height: 250px;" src="/img/2025/josh-reck-sm.png" data-holder-rendered="true">
             </div>
         </div>
     </div>
