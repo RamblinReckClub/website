@@ -45,19 +45,27 @@ if($month=='all') {
     // 1️⃣ Fetch events based on month selection
     if ($month == 'all') {
         $query = $db->query("
-        SELECT * 
-        FROM Event 
-        WHERE isFamilyEvent = '0' 
-        ORDER BY dateYear, dateMonth, dateDay, eventName
-    ");
+    SELECT * 
+    FROM Event 
+    WHERE isFamilyEvent = '0' 
+        AND (
+            (MONTH(CURDATE()) BETWEEN 1 AND 7  AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7)
+         OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12)
+          )
+    ORDER BY dateYear, dateMonth, dateDay, eventName
+");
     } else {
         $query = $db->prepare("
-        SELECT * 
-        FROM Event 
-        WHERE isFamilyEvent = '0' 
-        AND dateMonth = :month 
-        ORDER BY dateYear, dateMonth, dateDay, eventName
-    ");
+    SELECT * 
+    FROM Event 
+    WHERE isFamilyEvent = '0' 
+        AND (
+            (MONTH(CURDATE()) BETWEEN 1 AND 7  AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7)
+         OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12)
+          )
+    AND dateMonth = :month 
+    ORDER BY dateYear, dateMonth, dateDay, eventName
+");
         $query->execute(['month' => $month]);
     }
 
