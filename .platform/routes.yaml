@@ -1,0 +1,4 @@
+routes:
+  "https://{default}/":
+    type: upstream
+    upstream: rrc_site:http
