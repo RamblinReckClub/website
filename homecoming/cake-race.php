@@ -25,18 +25,18 @@
     <div class="container mb-3">
         <div class="row">
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sophia Umaña</b></a></p>
                 <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
             </div>
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Evan Sunny</b></a>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Katie Larson</b></a>
                 </p>
                 <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>
             </div>
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Keneh Nwizubo</b></a></p>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrccakerace@gmail.com"><b>Luke Eiben</b></a></p>
                 <p class="mb-0" style="text-align:center"><i>Freshman Cake Race Sub-Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrccakerace@gmail.com</p>
             </div>
@@ -47,7 +47,7 @@
     <div class="container">
         <div class='blog-header'>
             <div class='col-12' style="text-align: center;">
-                <h1>October 25, 2025, at 6:30 AM</h1>
+                <h1>October 24, 2026, at 6:30 AM</h1>
             </div>
                 </div>
 
@@ -96,14 +96,12 @@
                 [
                     "image" => '/homecoming/images/fcr-002.jpg',
                     "title" => 'Sign Ups',
-                    "main" => '2025 Freshman Cake Race Sign-ups have opened! Sign up <a href="https://gatech.campuslabs.com/engage/event/11465209">here</a>.'
+                    "main" => '2026 Freshman Cake Race Sign-ups have opened! Sign up <a href="https://gatech.campuslabs.com/engage/event/11465209">here</a>.'
                 ],
                 [
                     "image" => '/homecoming/images/fcr-005.jpg',
                     "title" => 'Race Bib Pickup',
-                    "main" => 'If you are an on-campus resident in a first-year dorm, 
-            your RA will distribute your bib to you one or two days before the race. 
-            Otherwise, a member will be in touch with you a few days before the race with pick-up details. 
+                    "main" => ' All participants must pick up their bibs at the Reck Garage at one of the designated pickup times that will be emailed out to those who signed up. Students must have their Buzzcards present to pick up their bibs.
             Bibs WILL NOT be distributed on the morning of the race unless you email <a href="mailto:rrccakerace@gmail.com"><b>rrccakerace@gmail.com</b></a> with an accommodation request.'
                 ]
             );
@@ -139,7 +137,7 @@
 <li>Any student that is intoxicated will <strong>not</strong> be allowed to race.</li> 
 <li>Students are not allowed to litter the trash from cupcakes and cakes.</li> 
 </ul><p><strong>Any violations of these rules will result in disqualification of the participant and that participant’s organization will not receive points towards Homecoming. The violator’s organization will not be allowed to participate in Homecoming the following year.</strong> Violators will be brought to the Office of Student Integrity.</p>
-The full rule book can be found here: <a href="https://docs.google.com/document/d/1WzbUX1ILiFlGRtdwqSEGK7_ZkeEkE2JzES2Q8e-qen4/edit?tab=t.0
+The full rule book can be found here: <a href="https://docs.google.com/document/d/17BeQLrASZF4lDt8nBU_Rf5r-I6c5TO8OzFZKJNH_dU0/edit?usp=sharing
 ">FCR 2025 Rule Book
 </a> '
                 ]

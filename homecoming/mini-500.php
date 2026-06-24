@@ -27,18 +27,18 @@
 
         <div class="row">
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sophia Umaña</b></a></p>
                 <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
             </div>
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Ajay Dakoriya</b></a>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Nina Phelin</b></a>
                 </p>
                 <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
             </div>
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Kaylie Afshani</b></a>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>SG</b></a>
                 </p>
                 <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
@@ -49,7 +49,7 @@
     <div class="container">
         <div class='blog-header'>
             <div class='col-12' style="text-align: center;">
-                <h2 class="mb-3">October 24, 2025, at 5:00PM</h2>
+                <h2 class="mb-3">October 23, 2026, at 5:00PM</h2>
             </div>
             <div class='row text-center'>
                 <div class='col-sm-2 hidden-xs'>

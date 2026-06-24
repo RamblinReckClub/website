@@ -25,17 +25,17 @@
 <div class="container mb-3">
     <div class="row">
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sadie Zeigler</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrchomecoming@gmail.com"><b>Sophia Umaña</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Reck Club Homecoming Chair</i></p>
             <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Daniel Wood</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Nolan Alexander</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
             <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Kaeyshia Kesh</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Claire Tabling</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
             <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
         </div>
@@ -45,7 +45,7 @@
 <div class="container">
     <div class= 'blog-header'>
         <div class='col-12' style="text-align: center;">
-            <h1>8:30 AM | October 25, 2025</h1>
+            <h1>8:30 AM | October 24, 2026</h1>
         </div>
 
         <!--    </div>-->
@@ -118,7 +118,7 @@
             "image" => '/homecoming/images/wp-003.jpg',
             "title" => 'Logistics',
             "main" => '<p>The Wreck Parade will begin at the McCamish Parking Lot and proceed up Fowler Street, finishing
-                        across Ferst Drive. The parade will commence at 8:30 AM on October 25th. A full list of the rules
+                        across Ferst Drive. The parade will commence at 8:30 AM on October 24th. A full list of the rules
                         can be <a href="https://docs.google.com/document/d/1tAiMtG2cwk08twGsu3dNhR_1-c19Y6ATc0dp6I4tx5Y/edit?usp=sharing">found here.</a></p>'
         ],
         [
