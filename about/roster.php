@@ -11,112 +11,117 @@
 <div class="container">
 
 
-    <h4 class="mb-3">2025 Executive Board</h4>
+    <h4 class="mb-3">2026 Executive Board</h4>
     <hr class="mb-3">
     <div class="row">
         <div class="col-md-6">
 
             <p><strong>Faculty Advisor:</strong> <a href="mailto:kristina.clement@studentlife.gatech.edu">Dr. Kristina Clement</a></p>
-            <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Josh </a></p>
-            <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Mya Moffitt</a></p>
-            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Nathan Dailey</a></p>
+            <p><strong>Reck Driver:</strong> <a href="mailto:driver@reckclub.org">Sof Zambrano Molina</a></p>
+            <p><strong>President:</strong> <a href="mailto:president@reckclub.org">Bodan Pittman</a></p>
+            <p><strong>Vice President:</strong> <a href="mailto:vp@reckclub.org">Daniel Wood</a></p>
         </div>
         <div class="col-md-6">
-            <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Bodan Pittman</a></p>
-            <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Abby Hart</a></p>
-            <p><strong>Member-at-Large:</strong> Jacob Manuel</p>
-            <p><strong>Member-at-Large:</strong> Ria Nayar</p>
+            <p><strong>Treasurer:</strong> <a href="mailto:treasurer@reckclub.org">Rush Maples</a></p>
+            <p><strong>Secretary:</strong> <a href="mailto:secretary@reckclub.org">Kaylie Afshani</a></p>
+            <p><strong>Member-at-Large:</strong> Omkar Tamhane</p>
+            <p><strong>Member-at-Large:</strong> Caelyn Grimes</p>
         </div>
     </div>
 
     <br>
-    <h4 class="mb-3">2025 Chairs</h4>
+    <h4 class="mb-3">2026 Chairs</h4>
     <hr class="mb-3">
 
     <div class="row mb-3">
         <?php $chairs = array(
             [
                 "chair" => 'Alumni Relations',
-                "name" => 'Hiba Kunwer',
+                "name" => 'Ajay Dakoriya',
                 "email" => 'alumnirelations@reckclub.org'
             ],
             [
                 "chair" => 'Baseball',
-                "name" => 'Daniel Wood',
+                "name" => 'Austin Barret',
                 "email" => 'rrcbaseball@gmail.com'
             ],
             [
                 "chair" => 'Basketball',
-                "name" => 'Ajay Dakoriya',
+                "name" => 'Daniel Wood',
                 "email" => 'rrcbasketballchair@gmail.com'
             ],
             [
                 "chair" => 'Big Buzz',
-                "name" => 'Anaya Desai',
+                "name" => 'Holland Feeney',
                 "email" => 'rrcbigbuzz@gmail.com'
             ],
             [
                 "chair" => 'Campus Outreach',
-                "name" => 'Sof Zambrano Molina',
+                "name" => 'Divya Basu',
                 "email" => 'rrccampusoutreach@gmail.com'
             ],
             [
                 "chair" => 'Fundraising',
-                "name" => 'Allie Abbott',
+                "name" => 'Keneh Nwizubo',
                 "email" => 'rrcfundraisingchair@gmail.com'
             ],
             [
                 "chair" => 'Football',
-                "name" => 'Holland Feeney',
+                "name" => 'Stephen Harvey',
                 "email" => 'rrcfootball@gmail.com'
             ],
             [
                 "chair" => 'Homecoming',
-                "name" => 'Sadie Zeigler',
+                "name" => 'Sophia Umaña',
                 "email" => 'rrchomecoming@gmail.com'
             ],
             [
                 "chair" => 'Olympic Sports',
-                "name" => 'Emma Pickles',
+                "name" => 'Syaam Khandaker',
                 "email" => 'rrcolympicsports@gmail.com'
             ],
             [
                 "chair" => 'Public Relations',
-                "name" => 'Sophia Umaña',
+                "name" => 'Rostan Baisch',
                 "email" => 'rrcpublicrelations@gmail.com'
             ],
             [
                 "chair" => 'Probate Guides',
-                "name" => 'Kyle Ralyea and Nina Phelan',
+                "name" => 'Harrison Burnside & Katie Park',
                 "email" => ''
             ],
             [
                 "chair" => 'Recruitment',
-                "name" => 'Simran Patel and Gal Ovadia',
+                "name" => 'Kyle Ralyea and Ria Nayar',
                 "email" => 'membershipchair@reckclub.org'
             ],
             [
                 "chair" => 'T-Book',
-                "name" => 'Toby Russell',
+                "name" => 'Holland Feeney',
                 "email" => 'rrctbook@gmail.com'
             ],
             [
                 "chair" => 'T-Night',
-                "name" => 'Harrison Burnside',
+                "name" => 'Kaeyshia Kesh',
                 "email" => 'rrctnight@gmail.com'
             ],
             [
                 "chair" => 'Technology',
-                "name" => 'Steven Baker',
+                "name" => 'Stephen Harvey',
                 "email" => 'rrctechnologychair@gmail.com'
             ],
             [
                 "chair" => 'History and Traditions',
-                "name" => 'Victoria Geyling',
+                "name" => 'Katie Larson',
                 "email" => 'rrctraditions@gmail.com'
             ],
+            [
+                "chair" => 'Spirit',
+                "name" => 'Meredith Gaines',
+                "email" => ''
+            ],
             [   "chair" => 'Diversity and Inclusion',
-                "name" => 'Camille Merchant',
+                "name" => 'Peter Anzideo',
                 "email" => ''
              ]);
         uasort($chairs, function($a, $b) {
