@@ -575,13 +575,13 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('.main').hover(function () {
-                $(this).text("August 24").fadeIn("slow");
+                $(this).text("August 23").fadeIn("slow");
             }, function () {
                 $(this).text("T-Night").fadeIn("slow");
             });
         });
     </script>
-    <title>T-Night 2025 | Ramblin' Reck Club</title>
+    <title>T-Night 2026 | Ramblin' Reck Club</title>
 </head>
 
 <body style="">
@@ -596,7 +596,7 @@
     <div id="wrapper">
         <div class="container">
             <div id="intro" class="clearfix">
-                <div id="invitation">Kickoff the new school year with tons of excitement at T-Night 2025! Come learn all
+                <div id="invitation">Kickoff the new school year with tons of excitement at T-Night 2026! Come learn all
                     about Georgia Tech spirit and traditions and get ready to cheer on the Jackets all season long!
                     T-Night begins with a festival made up of fun and interactive student organization and traditions
                     booths, free t-shirts and food, games, and more! The event continues with an electric show inside
@@ -606,9 +606,9 @@
                 <div id="schedule">
                     <h2>Schedule of Events</h2>
                     <ul>
-                        <li>Sunday, August 24, 2025</span></li>
-                        <li>Traditions Festival - McCamish Parking Lot<span>4:00 PM</span></li>
-                        <li>T-Night Show - McCamish Pavilion<span>6:00 PM</span></li>
+                        <li>Sunday, August 23, 2026</span></li>
+                        <li>Traditions Festival - Bobby Dodd Stadium<span>5:00 PM</span></li>
+                        <li>T-Night Show - McCamish Pavilion<span>7:00 PM</span></li>
                     </ul>
                 </div>
             </div>
