@@ -617,7 +617,7 @@
                         <li>Sunday, August 23, 2026</span></li>
                         <li>T-Night Parade from New Student Convocation<span>5:00 PM</span></li>
                         <li>T-Night Festival - Bobby Dodd Stadium <span>5:15 PM</span></li>
-                        <li>T-Night Show - McCamish Pavilion<span>7:00 PM</span></li>
+                        <li>T-Night Show - Bobby Dodd Stadium <span>7:00 PM</span></li>
                         <li>Follow us on Instagram @ramblinreckclub for more info and updates! </li>
                     </ul>
                     <img id="poster" src="/img/t-night/t-night-2026-poster.jpg" alt="T-Night 2026 poster - August 23, 2026, Bobby Dodd Stadium, 5:00-8:00 PM">
