@@ -282,6 +282,14 @@
             padding-left: 10px;
         }
 
+        #poster {
+            display: inline-block;
+            width: 100%;
+            max-width: 340px;
+            height: auto;
+            margin-top: 20px;
+        }
+
         #history {
             color: #444;
             line-height: 27px;
@@ -596,20 +604,23 @@
     <div id="wrapper">
         <div class="container">
             <div id="intro" class="clearfix">
-                <div id="invitation">Kickoff the new school year with tons of excitement at T-Night 2026! Come learn all
-                    about Georgia Tech spirit and traditions and get ready to cheer on the Jackets all season long!
-                    T-Night begins with a festival made up of fun and interactive student organization and traditions
-                    booths, free t-shirts and food, games, and more! The event continues with an electric show inside
-                    McCamish featuring performance groups, speakers, and your chance to learn the fight song and alma
-                    mater! Come join us for a night to remember! All are welcome!
+                <div id="invitation">Kickoff the new school year with tons of excitement at T-Night 2026!
+                    Come learn all about Georgia Tech spirit and traditions and get ready to cheer on the Jackets
+                    all season long! T-Night begins with a festival made up of fun and interactive student organization
+                    and traditions booths, free food, games, and more! The event continues with an electric show in
+                    Bobby Dodd stadium featuring performance groups, speakers, and your chance to learn the fight song
+                    and alma mater! Come join us for a night to remember! All are welcome!
                 </div>
                 <div id="schedule">
                     <h2>Schedule of Events</h2>
                     <ul>
                         <li>Sunday, August 23, 2026</span></li>
-                        <li>Traditions Festival - Bobby Dodd Stadium<span>5:00 PM</span></li>
+                        <li>T-Night Parade from New Student Convocation<span>5:00 PM</span></li>
+                        <li>T-Night Festival - Bobby Dodd Stadium <span>5:15 PM</span></li>
                         <li>T-Night Show - McCamish Pavilion<span>7:00 PM</span></li>
+                        <li>Follow us on Instagram @ramblinreckclub for more info and updates! </li>
                     </ul>
+                    <img id="poster" src="/img/t-night/t-night-2026-poster.jpg" alt="T-Night 2026 poster - August 23, 2026, Bobby Dodd Stadium, 5:00-8:00 PM">
                 </div>
             </div>
             <div id="history">
@@ -620,11 +631,10 @@
                     the past half century as a more engaging and exciting way to preserve Tech history and traditions.
                 </p>
                 <p> T-Night is an annual, campus-wide event that serves to teach the student body, particularly the
-                    incoming freshman class, Tech history and traditions in a fun and interactive manner. With the help
-                    of the GT Band, the Georgia Tech Athletic Association (GTAA), and many other student organizations,
-                    the Ramblin' Reck Club seeks to instill a sense of pride in students along with knowledge of our
-                    school's past. And there's no better way to get excited about football season than a block party
-                    with all your fellow students!</p>
+                    incoming class, Tech history and traditions in a fun and interactive manner. With the help of the
+                    GT Band, the Georgia Tech Athletic Association (GTAA), and many other student organizations, the
+                    Ramblin' Reck Club seeks to instill a sense of pride in students along with knowledge of our school's past.
+                    And there's no better way to get excited about football season than a block party with all your fellow students!</p>
                 <p>
                     Questions? Contact <a href="mailto:rrctnight@gmail.com">rrctnight@gmail.com</a>
                 </p>
