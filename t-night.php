@@ -609,7 +609,7 @@
                     all season long! T-Night begins with a festival made up of fun and interactive student organization
                     and traditions booths, free food, games, and more! The event continues with an electric show in
                     Bobby Dodd stadium featuring performance groups, speakers, and your chance to learn the fight song
-                    and alma mater! Come join us for a night to remember! RSVP on engage using this <a href="https://gatech.campuslabs.com/engage/event/12499276">link</a>!
+                    and alma mater! Come join us for a night to remember! Sign the Week of Welcome Waiver <a href="https://welcomehome.gatech.edu/students">here</a> and review the clear bag policy for Bobby Dodd Stadium <a href=" https://ramblinwreck.com/clearbag/">here</a>! RSVP on engage using this <a href="https://gatech.campuslabs.com/engage/event/12499276">link</a>!
                 </div>
                 <div id="schedule">
                     <h2>Schedule of Events</h2>
