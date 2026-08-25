@@ -57,7 +57,7 @@
                 </div>
                 <!--        sign up button-->
                 <div class='col-sm-4 col-xs-12 mb-3 mb-sm-6' style="text-align: center;">
-                    <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/11465209">Sign
+                    <a class='btn btn-md btn-secondary' href="https://gatech.campuslabs.com/engage/event/12491601/attend?Vud=10/27/2026&Vut=12:00:00&Hash=SkJpwsuIUqHJ55J2Hv2wL-9zRJjKG1eY6GOoMRth8_fiQRXirlG4LGiIVyHS7KXI3F6rmaexeAv1RaKuHrqWFXRuejukZM1HglNIVjoqMNWZTqS0gdiHrb5qYxE2sVdivu0Jgw7TDUdaRawc2Uafn98zAx9dsBULIi5CZ5z-_9dsZhqH49qm01QkZjbSITvoiIk89V7cLkQJ_m6PA1NvuysizUrtaFjHiDcMmHsq5XzxaMxwTw0nttf3lINxPKb7Z71NQVy3luYDidRwJ8A_OkgUOFvEBs90k-H4h2w_02RwEjusTviHGtuoIz6tIuCczW0ZT9LtIxv6zGVzsCmSLw">Sign
                         up</a>
                 </div>
                 <div class='col-sm-4 col-xs-12 mb-sm-3'>
@@ -96,7 +96,7 @@
                 [
                     "image" => '/homecoming/images/fcr-002.jpg',
                     "title" => 'Sign Ups',
-                    "main" => '2026 Freshman Cake Race Sign-ups have opened! Sign up <a href="https://gatech.campuslabs.com/engage/event/11465209">here</a>.'
+                    "main" => '2026 Freshman Cake Race Sign-ups have opened! Sign up <a href="https://gatech.campuslabs.com/engage/event/12491601/attend?Vud=10/27/2026&Vut=12:00:00&Hash=SkJpwsuIUqHJ55J2Hv2wL-9zRJjKG1eY6GOoMRth8_fiQRXirlG4LGiIVyHS7KXI3F6rmaexeAv1RaKuHrqWFXRuejukZM1HglNIVjoqMNWZTqS0gdiHrb5qYxE2sVdivu0Jgw7TDUdaRawc2Uafn98zAx9dsBULIi5CZ5z-_9dsZhqH49qm01QkZjbSITvoiIk89V7cLkQJ_m6PA1NvuysizUrtaFjHiDcMmHsq5XzxaMxwTw0nttf3lINxPKb7Z71NQVy3luYDidRwJ8A_OkgUOFvEBs90k-H4h2w_02RwEjusTviHGtuoIz6tIuCczW0ZT9LtIxv6zGVzsCmSLw">here</a>.'
                 ],
                 [
                     "image" => '/homecoming/images/fcr-005.jpg',
