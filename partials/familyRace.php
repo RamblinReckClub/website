@@ -25,8 +25,19 @@
 	$raceEventCount = (int)$raceCountRow['CNT'];
 
 	$raceMyFamily = isset($memFamilyID) ? $memFamilyID : null;
+
+	// Optional, set by the including page before the require:
+	//   $raceCompact    - narrower columns, for a half-width slot like points.php
+	//   $raceShowHeader - false when the page already has its own heading above
+	$raceCompact = isset($raceCompact) ? $raceCompact : false;
+	$raceShowHeader = isset($raceShowHeader) ? $raceShowHeader : true;
+
+	// The stylesheet and the car symbol only need to be emitted once per page.
+	$raceAssetsDone = defined('RRC_RACE_ASSETS');
+	if (!$raceAssetsDone) { define('RRC_RACE_ASSETS', 1); }
 ?>
 
+<?php if (!$raceAssetsDone): ?>
 <style>
 	.rrc-race { border: 1px solid #dee2e6; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1.5rem; }
 	.rrc-race-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: .75rem; }
@@ -44,6 +55,9 @@
 	.rrc-race-pts { font-size: .875rem; text-align: right; font-variant-numeric: tabular-nums; }
 	.rrc-race-you { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #b3a369; margin-right: 5px; vertical-align: middle; }
 	.rrc-race-foot { border-top: 1px solid #dee2e6; margin-top: .75rem; padding-top: .5rem; display: flex; justify-content: space-between; font-size: .75rem; color: #6c757d; }
+	.rrc-race-sm { padding: .75rem 1rem; }
+	.rrc-race-sm .rrc-race-row { grid-template-columns: 16px minmax(0, 128px) 1fr 52px; gap: 8px; }
+	.rrc-race-sm .rrc-race-name, .rrc-race-sm .rrc-race-pts { font-size: .8rem; }
 	@media (max-width: 480px) {
 		.rrc-race-row { grid-template-columns: 16px minmax(0, 80px) 1fr 56px; gap: 8px; }
 		.rrc-race-car { display: none; }
@@ -71,12 +85,15 @@
 		</g>
 	</symbol>
 </svg>
+<?php endif; ?>
 
-<div class="rrc-race">
+<div class="rrc-race<?php echo $raceCompact ? ' rrc-race-sm' : ''; ?>">
+	<?php if ($raceShowHeader): ?>
 	<div class="rrc-race-head">
 		<h4 class="rrc-race-title">Family Points Race</h4>
 		<span class="rrc-race-sub"><?php echo $raceEventCount; ?> event<?php echo ($raceEventCount == 1) ? '' : 's'; ?> so far this semester</span>
 	</div>
+	<?php endif; ?>
 
 	<?php
 		$raceRank = 1;
@@ -106,7 +123,9 @@
 	?>
 
 	<div class="rrc-race-foot">
-		<span><?php echo count($raceFamilies); ?> families</span>
+		<span><?php echo count($raceFamilies); ?> families<?php if (!$raceShowHeader): ?> &middot; <?php echo $raceEventCount; ?> event<?php echo ($raceEventCount == 1) ? '' : 's'; ?><?php endif; ?></span>
 		<?php if ($raceMyFamily !== null): ?><span>your family is marked with a dot</span><?php endif; ?>
 	</div>
 </div>
+
+<?php unset($raceCompact, $raceShowHeader); ?>

@@ -104,19 +104,11 @@ while($row = $rank_query->fetch()) {
             <div class="row">
                 <h2 class="col-12 float-left">Families</h2>
             </div>
-            <ul class="list-group">
-                <?php
-                $family_query = $db->query("SELECT familyName, familyPoints FROM Family ORDER BY familyPoints DESC, familyName");
-                $family_query->setFetchMode(PDO::FETCH_ASSOC);
-
-                $var = 1;
-
-                while($row = $family_query->fetch()){
-                    echo "<li class='list-group-item d-flex justify-content-between align-items-center'>". $var . ". " . $row['familyName']. " <span class=\"badge badge-primary badge-pill\">".$row['familyPoints']."</span></li>";
-                    $var++;
-                }
-                ?>
-            </ul>
+            <?php
+                $raceCompact = true;
+                $raceShowHeader = false;
+                require "partials/familyRace.php";
+            ?>
             <div class="row mt-2"><a class="col-12 text-center" href="families.php">Family Rankings</a></div>
         </div>
     </div>
