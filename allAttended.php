@@ -33,7 +33,7 @@
 
 	// Total number of events
 	//-------------------------------------------
-	$query = $db->query("SELECT COUNT(*) as CNT FROM Event WHERE ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) )");
+	$query = $db->query("SELECT COUNT(*) as CNT FROM Event WHERE ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) ) AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear),'%m/%d/%Y') <= CURDATE()");
 		$query->setFetchMode(PDO::FETCH_ASSOC);
 	$row = $query->fetch();
 	$totalEvents = $row['CNT'];
@@ -100,9 +100,9 @@
 		}
 	}
 
-	$eventPct = number_format(($events/$totalEvents)*100,1);
+	$eventPct = ($totalEvents > 0) ? number_format(($events/$totalEvents)*100,1) : '0.0';
 
-    $query = $db->query("SELECT COUNT(*) as CNT FROM Event where type = 'mandatory' AND ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) )");
+    $query = $db->query("SELECT COUNT(*) as CNT FROM Event where type = 'mandatory' AND ( (MONTH(CURDATE()) BETWEEN 1 AND 7 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7) OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12) ) AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear),'%m/%d/%Y') <= CURDATE()");
     $query->setFetchMode(PDO::FETCH_ASSOC);
     $row = $query->fetch();
     $mandatoryEvents = $row['CNT'];

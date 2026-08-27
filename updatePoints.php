@@ -21,7 +21,15 @@
 	                         LIMIT 0, 10");
 	    $query->setFetchMode(PDO::FETCH_ASSOC);
 	} elseif($query_bound == 'all') {
-	    $query = $db->query("SELECT * FROM Event");
+	    $query = $db->query("SELECT *
+	                         FROM Event
+	                         WHERE isFamilyEvent = '0'
+	                           AND (
+	                                 (MONTH(CURDATE()) BETWEEN 1 AND 7  AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 1 AND 7)
+	                              OR (MONTH(CURDATE()) BETWEEN 8 AND 12 AND dateYear = YEAR(CURDATE()) AND dateMonth BETWEEN 8 AND 12)
+	                               )
+	                           AND STR_TO_DATE(CONCAT(dateMonth,'/',dateDay,'/',dateYear ),'%m/%d/%Y') <= CURDATE()
+	                         ORDER BY dateYear DESC, dateMonth DESC, dateDay DESC, eventName");
 	    $query->setFetchMode(PDO::FETCH_ASSOC);
 	} else {
 	    $query = $db->prepare("SELECT *
