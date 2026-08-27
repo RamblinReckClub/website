@@ -11,8 +11,8 @@
 
 <div align="center">
 <a href="rankings.php">Back to Individual Rankings</a><br/><br/>
-<a href="/friends.php?memberId=<?php echo $_POST['memberID']; ?>">Friends List</a><br/><br/>
-<a href="/memberProfile.php?memberId=<?php echo $_POST['memberID']; ?>">View Profile</a>
+<a href="/friends.php?memberId=<?php echo (int)$_POST['memberID']; ?>">Friends List</a><br/><br/>
+<a href="/memberProfile.php?memberId=<?php echo (int)$_POST['memberID']; ?>">View Profile</a>
 </div><br/>
 
 <?php

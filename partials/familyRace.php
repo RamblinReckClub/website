@@ -100,14 +100,15 @@
 		foreach ($raceFamilies as $raceRow):
 			$racePoints = (int)$raceRow['familyPoints'];
 			$racePct = ($raceMax > 0) ? ($racePoints / $raceMax) * 100 : 0;
-			$raceName = (strlen($raceRow['familyName']) > 0) ? $raceRow['familyName'] : 'Family '.$raceRow['familyID'];
-			$raceIsMine = ($raceMyFamily !== null && $raceMyFamily == $raceRow['familyID']);
+			$raceFamilyID = (int)$raceRow['familyID'];
+			$raceName = (strlen($raceRow['familyName']) > 0) ? $raceRow['familyName'] : 'Family '.$raceFamilyID;
+			$raceIsMine = ($raceMyFamily !== null && (int)$raceMyFamily === $raceFamilyID);
 	?>
 		<div class="rrc-race-row" title="<?php echo htmlspecialchars($raceName); ?> &mdash; <?php echo number_format($racePoints); ?> points">
 			<span class="rrc-race-rank"><?php echo $raceRank; ?></span>
 			<span class="rrc-race-name">
 				<?php if ($raceIsMine): ?><span class="rrc-race-you"></span><?php endif; ?>
-				<a href="#family-<?php echo $raceRow['familyID']; ?>"><?php echo htmlspecialchars($raceName); ?></a>
+				<a href="#family-<?php echo $raceFamilyID; ?>"><?php echo htmlspecialchars($raceName); ?></a>
 			</span>
 			<span class="rrc-race-lane">
 				<span class="rrc-race-track">
