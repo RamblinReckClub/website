@@ -48,6 +48,8 @@
                         Homecoming
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/homecoming/">Homecoming Overview</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="/homecoming/mini-500.php">Mini 500</a>
                         <a class="dropdown-item" href="/homecoming/cake-race.php">Freshman Cake Race</a>
                         <a class="dropdown-item" href="/homecoming/wreck-parade.php">Wreck Parade</a>
