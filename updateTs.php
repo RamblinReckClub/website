@@ -6,6 +6,9 @@
 	require "database_connect.php";
 	require "lib/tplan.php";
 
+	// Only a probate may write entries, and only ever their own.
+	tplan_guard($status, 0, 0);
+
 	$planKey = 'fall-2026';
 	$plan    = tplan_load($planKey);
 	$back    = 'myTs.php';

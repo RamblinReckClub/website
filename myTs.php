@@ -5,7 +5,10 @@
 	require "lib/tplan.php";
 	$pageTitle = "My Ts";
 
-	// Probate Guides and Admins may look at anyone. Everyone else sees themselves.
+	// Probates, Probate Guides and Admins only. A general member gets nothing.
+	tplan_guard($status, $isProbateGuide, $isAdmin);
+
+	// Guides and Admins may look at anyone. A probate only ever sees themselves.
 	$canViewOthers = ($isProbateGuide == 1 || $isAdmin == 1);
 	$viewID = isset($_GET['memberId']) ? (int)$_GET['memberId'] : $memberID;
 	if ($viewID != $memberID && !$canViewOthers) { $viewID = $memberID; }
@@ -114,19 +117,27 @@
 		if (!empty($p['short'])) {
 			echo '<span class="t-warn">Still need at least one: '.htmlspecialchars(implode(', ', $p['short'])).'</span>';
 		}
+		if (!empty($p['def']['desc'])) { echo '<span class="t-desc">'.htmlspecialchars($p['def']['desc']).'</span>'; }
 		if (!empty($p['def']['hint'])) { echo '<span class="t-meta">'.htmlspecialchars($p['def']['hint']).'</span>'; }
+		if (!empty($p['over'])) {
+			echo '<span class="t-warn">'.($p['have'] - $p['def']['cap']).' past the cap of '.(int)$p['def']['cap'].' &mdash; extras do not add to your total.</span>';
+		}
 		if (!empty($p['buckets'])) {
 			$bits = array();
 			foreach ($p['buckets'] as $b => $n) { $bits[] = htmlspecialchars($b).' '.(int)$n; }
 			echo '<span class="t-meta">'.implode(' &middot; ', $bits).'</span>';
 		} elseif (!empty($p['events'])) {
 			$ns = array();
-			foreach (array_slice($p['events'], 0, 3) as $e) { $ns[] = htmlspecialchars($e['eventName']); }
+			foreach (array_slice($p['events'], 0, 3) as $e) {
+				$ns[] = '<i class="t-ev t-ev-'.htmlspecialchars($e['type']).'"></i>'.htmlspecialchars($e['eventName']);
+			}
 			echo '<span class="t-meta">'.implode(', ', $ns).(count($p['events']) > 3 ? ' +'.(count($p['events']) - 3).' more' : '').'</span>';
 		}
 		echo t_self($p, $memberList, $canEdit);
-		echo '</div><div class="t-bar"><i class="'.($p['done'] ? 'full' : '').'" style="width:'.$pct.'%"></i></div>'
-		   . '<div class="t-pv'.($p['done'] ? ' done' : '').'">'.$p['have'].'/'.$p['need'].'</div></div>';
+		$barCls = isset($p['def']['cap']) ? 'cap' : ($p['done'] ? 'full' : '');
+		$capNote = isset($p['def']['cap']) ? '<small>max</small>' : '';
+		echo '</div><div class="t-bar"><i class="'.$barCls.'" style="width:'.$pct.'%"></i></div>'
+		   . '<div class="t-pv'.($p['done'] && !isset($p['def']['cap']) ? ' done' : '').'">'.$p['have'].'/'.$p['need'].$capNote.'</div></div>';
 	}
 ?>
 <!DOCTYPE html>
@@ -199,9 +210,11 @@
 
 	<div class="t-sec"><h2 class="t-up">Mandatory</h2><span class="t-up">All four required</span></div>
 	<?php foreach ($mandatory as $t): ?>
-	<div class="t-card<?= $t['done'] ? ' done' : '' ?>">
+	<div class="t-card a-<?= htmlspecialchars(isset($t['def']['accent'])?$t['def']['accent']:'navy') ?><?= $t['done'] ? ' done' : '' ?>">
+		<div class="t-crest"></div>
 		<div class="t-head">
-			<h3 class="t-cond"><?= htmlspecialchars($t['def']['name']) ?></h3>
+			<h3 class="t-cond"><?= htmlspecialchars($t['def']['name']) ?>
+				<span class="blurb"><?= htmlspecialchars($t['def']['blurb']) ?></span></h3>
 			<?php
 				$blockers = 0;
 				foreach ($t['parts'] as $p) { if (!$p['done'] && ($p['have'] > 0 || !empty($p['short']))) { $blockers++; } }
@@ -220,13 +233,16 @@
 
 	<div class="t-sec"><h2 class="t-up">Elective focus</h2><span class="t-up">Any <?= $plan['elective']['need'] ?></span></div>
 	<?php foreach ($elective as $t): ?>
-	<div class="t-card<?= $t['done'] ? ' done' : '' ?>">
+	<div class="t-card a-<?= htmlspecialchars(isset($t['def']['accent'])?$t['def']['accent']:'buzz') ?><?= $t['done'] ? ' done' : '' ?>">
+		<div class="t-crest"></div>
 		<div class="t-head">
-			<h3 class="t-cond"><?= htmlspecialchars($t['def']['name']) ?></h3>
+			<h3 class="t-cond"><?= htmlspecialchars($t['def']['name']) ?>
+				<span class="blurb"><?= htmlspecialchars($t['def']['blurb']) ?></span></h3>
 			<?php if ($t['done']): ?><span class="t-chip t-c-ok t-up">Complete</span>
 			<?php else: $left = 0; foreach ($t['parts'] as $p) { $left += max(0, $p['need'] - $p['have']); } ?>
 				<span class="t-chip t-c-go t-up"><?= $left ?> to go</span><?php endif; ?>
-			<span class="t-score t-cond"><?= $t['parts'][0]['have'] ?><small>/<?= $t['parts'][0]['need'] ?></small></span>
+			<?php $hp = $t['parts'][0]; foreach ($t['parts'] as $cand) { if (!empty($cand['def']['sum'])) { $hp = $cand; break; } } ?>
+			<span class="t-score t-cond"><?= $hp['have'] ?><small>/<?= $hp['need'] ?></small></span>
 		</div>
 		<?php if (!$t['done']): ?>
 		<div class="t-parts">
