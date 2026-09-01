@@ -21,6 +21,7 @@
 	$isTreasurer = $_SESSION['isTreasurer'];
 	$isVP = $_SESSION['isVP'];
 	$isEventAdmin = $_SESSION['isEventAdmin'];
+	$isProbateGuide = isset($_SESSION['isProbateGuide']) ? $_SESSION['isProbateGuide'] : 0;
 	$memberPoints = $_SESSION['memberPoints'];
 	$mandatoryEventCount = $_SESSION['mandatoryEventCount'];
 	$sportsEventCount = $_SESSION['sportsEventCount'];

@@ -33,6 +33,16 @@
                 <li class="nav-item">
                     <a class="nav-link btn-link" href="/memberProfile.php">Profile</a>
                 </li>
+                <?php if(isset($_SESSION['status']) && $_SESSION['status'] == 'probate') :?>
+                <li class="nav-item">
+                    <a class="nav-link btn-link" href="/myTs.php">My Ts</a>
+                </li>
+                <?php endif; ?>
+                <?php if((isset($isProbateGuide) && $isProbateGuide == 1) || $isAdmin == 1) :?>
+                <li class="nav-item">
+                    <a class="nav-link btn-link" href="/probateTs.php">Probate Ts</a>
+                </li>
+                <?php endif; ?>
                 <!--<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Records

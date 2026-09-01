@@ -1,0 +1,112 @@
+/* Probate T Tracker. Sits on top of the site's Bootstrap theme and keeps the
+   Reck Club palette, but runs denser and flatter than the rest of the site. */
+
+:root {
+	--t-gold:      #b3a369;
+	--t-gold-deep: #857a48;
+	--t-gold-wash: #f4f0e2;
+	--t-navy:      #003057;
+	--t-ink:       #16202b;
+	--t-ink-2:     #5b6a79;
+	--t-ink-3:     #8b97a3;
+	--t-line:      #e2e6ea;
+	--t-line-2:    #cbd3da;
+	--t-panel:     #ffffff;
+	--t-sunk:      #f7f8f9;
+	--t-ok:        #1f7a4d;
+	--t-ok-wash:   #e6f3ec;
+	--t-hot:       #b3452a;
+	--t-hot-wash:  #fbeae5;
+}
+
+.t-cond { font-family: "Roboto Slab", Georgia, serif; }
+.t-up   { text-transform: uppercase; letter-spacing: .1em; }
+.t-wrap { font-variant-numeric: tabular-nums; }
+
+/* ---- scoreboard header ---- */
+.t-board      { border: 1px solid var(--t-line); border-radius: 6px; overflow: hidden; background: var(--t-panel); margin-bottom: 1.5rem; }
+.t-board-top  { display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+                flex-wrap: wrap; padding: .85rem 1.1rem; background: var(--t-navy); }
+.t-board-top h1 { color: #fff; font-size: 1.6rem; margin: 0; font-weight: 700; }
+.t-tag        { font-size: .66rem; font-weight: 600; color: #cfe0ee; border: 1px solid #2b5378;
+                padding: 2px 7px; border-radius: 2px; }
+.t-stats      { display: grid; grid-template-columns: repeat(4, 1fr); }
+.t-stat       { padding: .9rem 1.1rem; border-right: 1px solid var(--t-line); }
+.t-stat:last-child { border-right: 0; }
+.t-stat .n    { font-size: 2.3rem; line-height: .95; font-weight: 700; color: var(--t-ink); display: flex; align-items: baseline; gap: 2px; }
+.t-stat .n small { font-size: .95rem; color: var(--t-ink-3); font-weight: 400; }
+.t-stat .l    { font-size: .62rem; font-weight: 700; color: var(--t-ink-3); margin-top: .35rem; }
+.t-seg        { display: flex; gap: 3px; margin-top: .55rem; }
+.t-seg i      { height: 4px; flex: 1; background: var(--t-line-2); border-radius: 1px; }
+.t-seg i.on   { background: var(--t-gold); }
+.t-seg i.ok   { background: var(--t-ok); }
+
+/* ---- flags ---- */
+.t-flag       { display: flex; gap: 11px; padding: .75rem 1.1rem; background: var(--t-hot-wash); border-top: 1px solid var(--t-line); }
+.t-flag .rail { width: 2px; background: var(--t-hot); flex: none; border-radius: 1px; }
+.t-flag b     { display: block; color: var(--t-hot); font-size: .68rem; font-weight: 700; margin-bottom: .15rem; }
+.t-flag ul    { margin: 0; padding-left: 1rem; font-size: .78rem; color: var(--t-ink-2); }
+
+/* ---- section heads ---- */
+.t-sec        { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin: 1.6rem 0 .5rem; }
+.t-sec h2     { font-size: .95rem; margin: 0; font-weight: 700; color: var(--t-ink); }
+.t-sec span   { font-size: .62rem; font-weight: 700; color: var(--t-ink-3); }
+
+/* ---- one T ---- */
+.t-card       { border: 1px solid var(--t-line); border-radius: 6px; background: var(--t-panel); margin-bottom: .6rem; overflow: hidden; }
+.t-card.done  { border-color: #cfe3d7; }
+.t-head       { display: grid; grid-template-columns: 1fr auto auto; gap: 12px; align-items: center; padding: .7rem 1.1rem; }
+.t-head h3    { font-size: 1.05rem; margin: 0; font-weight: 400; color: var(--t-ink); }
+.t-score      { font-size: 1.15rem; font-weight: 700; min-width: 54px; text-align: right; color: var(--t-ink); }
+.t-score small{ font-size: .78rem; color: var(--t-ink-3); font-weight: 400; }
+.t-chip       { font-size: .6rem; font-weight: 700; padding: 3px 7px; border-radius: 2px; white-space: nowrap; }
+.t-c-ok       { background: var(--t-ok-wash);  color: var(--t-ok); }
+.t-c-go       { background: var(--t-gold-wash);color: var(--t-gold-deep); }
+.t-c-hot      { background: var(--t-hot-wash); color: var(--t-hot); }
+.t-c-no       { background: var(--t-sunk);     color: var(--t-ink-3); border: 1px solid var(--t-line); }
+
+/* ---- requirement rows ---- */
+.t-parts      { background: var(--t-sunk); border-top: 1px solid var(--t-line); }
+.t-p          { display: grid; grid-template-columns: 1fr 74px 46px; gap: 12px; align-items: center; padding: .5rem 1.1rem; }
+.t-p + .t-p   { border-top: 1px solid var(--t-line); }
+.t-lab        { font-size: .84rem; color: var(--t-ink); }
+.t-meta       { display: block; font-size: .72rem; color: var(--t-ink-3); margin-top: 1px; }
+.t-warn       { display: block; font-size: .72rem; color: var(--t-hot); margin-top: 1px; font-weight: 600; }
+.t-bar        { height: 4px; background: var(--t-line-2); border-radius: 2px; overflow: hidden; }
+.t-bar i      { display: block; height: 100%; background: var(--t-gold); border-radius: 2px; }
+.t-bar i.full { background: var(--t-ok); }
+.t-pv         { font-size: .78rem; color: var(--t-ink-2); text-align: right; font-weight: 600; }
+.t-pv.done    { color: var(--t-ok); }
+.t-src        { font-size: .55rem; font-weight: 700; color: var(--t-ink-3); border: 1px solid var(--t-line-2);
+                padding: 1px 4px; border-radius: 2px; margin-left: 6px; vertical-align: 1px; }
+.t-src.auto   { color: var(--t-gold-deep); border-color: #d6cba4; background: var(--t-gold-wash); }
+
+/* ---- self-check entries ---- */
+.t-ents       { display: flex; flex-wrap: wrap; gap: 5px; margin-top: .4rem; align-items: center; }
+.t-ent        { display: inline-flex; align-items: center; gap: 6px; font-size: .7rem; background: var(--t-panel);
+                border: 1px solid var(--t-line-2); border-radius: 2px; padding: 1px 3px 1px 8px; margin: 0; color: var(--t-ink-2); }
+.t-ent b      { color: var(--t-ink); font-weight: 600; }
+.t-ent button { border: 0; background: none; color: var(--t-ink-3); font-size: .85rem; line-height: 1; padding: 0 4px; cursor: pointer; }
+.t-ent button:hover { color: var(--t-hot); }
+.t-add        { display: inline-flex; align-items: center; gap: 4px; margin: 0; }
+.t-add .form-control { height: 25px; font-size: .7rem; padding: 1px 7px; width: auto; min-width: 118px; }
+.t-add .btn   { padding: 1px 9px; font-size: .66rem; }
+
+/* ---- guide roster ---- */
+.t-roster            { width: 100%; font-size: .84rem; border-collapse: collapse; }
+.t-roster th         { font-size: .6rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
+                       color: var(--t-ink-3); padding: 0 .6rem .5rem; border-bottom: 1px solid var(--t-line-2); text-align: left; }
+.t-roster td         { padding: .55rem .6rem; border-bottom: 1px solid var(--t-line); vertical-align: middle; }
+.t-roster tbody tr:hover { background: var(--t-sunk); }
+.t-roster .nm        { font-weight: 600; white-space: nowrap; }
+.t-roster .nm a      { color: var(--t-ink); }
+.t-pct               { font-weight: 700; }
+
+@media (max-width: 620px) {
+	.t-stats { grid-template-columns: repeat(2, 1fr); }
+	.t-stat:nth-child(2) { border-right: 0; }
+	.t-stat:nth-child(-n+2) { border-bottom: 1px solid var(--t-line); }
+	.t-p { grid-template-columns: 1fr 54px 42px; gap: 8px; }
+	.t-head { grid-template-columns: 1fr auto; }
+	.t-board-top h1 { font-size: 1.3rem; }
+}

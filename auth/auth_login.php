@@ -44,6 +44,7 @@ function successfulLogin($user, $db) {
     $_SESSION['isTreasurer'] = $user['isTreasurer'];
     $_SESSION['isVP'] = $user['isVP'];
     $_SESSION['isEventAdmin'] = $user['isEventAdmin'];
+    $_SESSION['isProbateGuide'] = $user['isProbateGuide'];
     $_SESSION['memberPoints'] = $user['memberPoints'];
     $_SESSION['mandatoryEventCount'] = $user['mandatoryEventCount'];
     $_SESSION['sportsEventCount'] = $user['sportsEventCount'];
