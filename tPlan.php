@@ -51,6 +51,17 @@
 				Everything due Monday, November 16 at 12:00 PM.
 				<?php if ($status === 'probate'): ?><a href="/myTs.php" style="margin-left:.5rem">See where you stand &rarr;</a><?php endif; ?>
 			</p>
+			<?php if (!empty($plan['form_url'])): ?>
+			<div class="t-submit" style="margin-top:.9rem">
+				<div>
+					<b>Every completed T has to be submitted</b>
+					<span>Finishing a T on your dashboard is not the same as submitting it. Fill in the form each time you complete one.</span>
+				</div>
+				<a class="t-submit-btn" href="<?= htmlspecialchars($plan['form_url']) ?>" target="_blank" rel="noopener noreferrer">
+					Open the T Plan form <span aria-hidden="true">&#8599;</span>
+				</a>
+			</div>
+			<?php endif; ?>
 		</div>
 		<div class="t-flag" style="background:var(--t-gold-wash);border-top:1px solid var(--t-line)">
 			<i class="rail" style="background:var(--t-tech)"></i>

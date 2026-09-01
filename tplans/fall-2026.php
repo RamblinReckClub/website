@@ -13,6 +13,7 @@ return [
 'name'     => 'Fall 2026 Probate T Plan',
 'start'    => '2026-08-25 00:00:00',
 'deadline' => '2026-11-16 12:00:00',
+'form_url' => 'https://forms.gle/A3BdPTnWN6hpWGfH8',
 'intro'    => 'Four mandatory Ts, any three Elective Focus Ts, and up to five make-up Ts to cover what you miss. Nothing here can be double-counted: one event satisfies one component.',
 
 'general' => [

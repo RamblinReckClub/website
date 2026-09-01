@@ -201,6 +201,18 @@
 		<?php endif; ?>
 	</div>
 
+	<?php if ($canEdit && !empty($plan['form_url'])): ?>
+	<div class="t-submit">
+		<div>
+			<b>Finished a T?</b>
+			<span>Every completed T has to be submitted on the T Plan form before it counts. Ticking it here does not submit it.</span>
+		</div>
+		<a class="t-submit-btn" href="<?= htmlspecialchars($plan['form_url']) ?>" target="_blank" rel="noopener noreferrer">
+			Submit a completed T <span aria-hidden="true">&#8599;</span>
+		</a>
+	</div>
+	<?php endif; ?>
+
 	<?php if ($err): ?><div class="alert alert-danger" style="font-size:.85rem;"><?= htmlspecialchars($err) ?></div><?php endif; ?>
 
 	<div class="t-sec"><h2 class="t-up">General requirements</h2></div>
@@ -218,7 +230,12 @@
 			<?php
 				$blockers = 0;
 				foreach ($t['parts'] as $p) { if (!$p['done'] && ($p['have'] > 0 || !empty($p['short']))) { $blockers++; } }
-				if ($t['done']) { echo '<span class="t-chip t-c-ok t-up">Complete</span>'; }
+				if ($t['done']) {
+					echo '<span class="t-chip t-c-ok t-up">Complete</span>';
+					if ($canEdit && !empty($plan['form_url'])) {
+						echo '<a class="t-submit-inline" href="'.htmlspecialchars($plan['form_url']).'" target="_blank" rel="noopener noreferrer">Submit this T <span aria-hidden="true">&#8599;</span></a>';
+					}
+				}
 				elseif ($blockers) { echo '<span class="t-chip t-c-hot t-up">'.$blockers.' to finish</span>'; }
 				elseif ($t['complete']) { echo '<span class="t-chip t-c-go t-up">In progress</span>'; }
 				else { echo '<span class="t-chip t-c-no t-up">Not started</span>'; }
@@ -239,6 +256,9 @@
 			<h3 class="t-cond"><?= htmlspecialchars($t['def']['name']) ?>
 				<span class="blurb"><?= htmlspecialchars($t['def']['blurb']) ?></span></h3>
 			<?php if ($t['done']): ?><span class="t-chip t-c-ok t-up">Complete</span>
+				<?php if ($canEdit && !empty($plan['form_url'])): ?>
+				<a class="t-submit-inline" href="<?= htmlspecialchars($plan['form_url']) ?>" target="_blank" rel="noopener noreferrer">Submit this T <span aria-hidden="true">&#8599;</span></a>
+				<?php endif; ?>
 			<?php else: $left = 0; foreach ($t['parts'] as $p) { $left += max(0, $p['need'] - $p['have']); } ?>
 				<span class="t-chip t-c-go t-up"><?= $left ?> to go</span><?php endif; ?>
 			<?php $hp = $t['parts'][0]; foreach ($t['parts'] as $cand) { if (!empty($cand['def']['sum'])) { $hp = $cand; break; } } ?>

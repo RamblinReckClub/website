@@ -122,6 +122,22 @@
 .t-add .form-control { height: 26px; font-size: .71rem; padding: 1px 7px; width: auto; min-width: 120px; }
 .t-add .btn    { padding: 1px 10px; font-size: .67rem; }
 
+/* ---- submit-a-T callout ---- */
+.t-submit        { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap;
+                   background: var(--t-gold-wash); border: 1px solid #e4d9b5; border-left: 4px solid var(--t-tech);
+                   border-radius: 0 6px 6px 0; padding: .8rem 1.1rem; margin-bottom: 1.2rem; }
+.t-submit b      { display: block; font-size: .88rem; color: var(--t-navy); }
+.t-submit span   { display: block; font-size: .78rem; color: var(--t-ink-2); max-width: 62ch; }
+.t-submit-btn    { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap;
+                   background: var(--t-navy); color: #fff; font-size: .8rem; font-weight: 600;
+                   padding: .48rem 1rem; border-radius: 4px; text-decoration: none; border: 1px solid var(--t-navy); }
+.t-submit-btn:hover, .t-submit-btn:focus { background: #00436f; color: #fff; text-decoration: none; }
+.t-submit-btn:focus-visible { outline: 3px solid var(--t-tech); outline-offset: 2px; }
+.t-submit-inline { font-size: .68rem; font-weight: 700; color: var(--t-navy); background: #fff;
+                   border: 1px solid var(--t-line-2); border-radius: 3px; padding: 3px 8px; margin-left: 8px;
+                   white-space: nowrap; text-decoration: none; }
+.t-submit-inline:hover, .t-submit-inline:focus { border-color: var(--t-tech); color: var(--t-navy); text-decoration: none; }
+
 /* ---- guide roster ---- */
 .t-roster              { width: 100%; font-size: .84rem; border-collapse: collapse; }
 .t-roster th           { font-size: .6rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase;
