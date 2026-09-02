@@ -35,7 +35,7 @@
             <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
         </div>
         <div class="col-4 text-center">
-            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Claire Tabling</b></a></p>
+            <p class="mb-0" style="text-align:center"><a href="mailto:rrcwreckparade@gmail.com"><b>Claire Mathis</b></a></p>
             <p class="mb-0" style="text-align:center"><i>Wreck Parade Sub-Chair</i></p>
             <p class="mb-0" style="text-align:center">rrcwreckparade@gmail.com</p>
         </div>
