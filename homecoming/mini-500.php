@@ -32,13 +32,13 @@
                 <p class="mb-0" style="text-align:center">rrchomecoming@gmail.com</p>
             </div>
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Nina Phelin</b></a>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>Nina Phelan</b></a>
                 </p>
                 <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
             </div>
             <div class="col-4 text-center">
-                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>SG</b></a>
+                <p class="mb-0" style="text-align:center"><a href="mailto:rrcmini500@gmail.com"><b>SG Pfanstiel</b></a>
                 </p>
                 <p class="mb-0" style="text-align:center"><i>Mini 500 Sub-Chair</i></p>
                 <p class="mb-0" style="text-align:center">rrcmini500@gmail.com</p>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class='row text-center font-weight-bold'>
-                <p class="col-12 text-center">Sign-ups will be available on Monday, September 15, at 9:00 AM via the link above. Registration will be limited to 60 teams.</p>
+                <p class="col-12 text-center">Sign-ups will be available on Tuesday, September 15, at 9:00 AM via the link above. Registration will be limited to 70 teams.</p>
             </div>
             <hr class="mb-3 d-none">
             <div class="container">
@@ -112,7 +112,7 @@
                                  This is the only modification that a team must make, but it is highly encouraged that a 
                                  team uses their knowledge and skills as GT students to modify their Tricycle further 
                                  because if no further modifications are made the tricycle is almost guaranteed to not 
-                                 make it through the race.
+                                 make it through the race. Modified tricycles must still meet tricycle regulations which can be found in the event rules linked above.
                         Common modifications are:
                         <li>Changing out the front tire to be a larger and more reinforced tire</li>
                         <li>Adding padding to the seat and handlebars for your arms to rest on</li>
@@ -138,10 +138,10 @@
                     "main" => 'The Race will be around Peters Parking Deck with the Pits for each team lining the 
                             Peters Parking Deck side of Fowler Street and the start being at the corner of Fowler St. 
                             and Bobby Dodd Way. Each team will receive an email with their assigned pit number. 
-                            The team will report to THEIR PIT between 4:15 PM and 4:45 PM and check in with their 
-                            pit boss (A member of Ramblin\' Reck Club). Teams should arrive with their racers, pit crew, 
-                            tricycles, and any approved tools required for wheel rotations. Mini 500 shirts will be 
-                            provided at your assigned pit.'
+                            The team will report to THEIR PIT between 4:00 PM and 4:30 PM and check in with their pit boss
+                             (A member of Ramblin\' Reck Club). Teams should arrive with their racers, pit crew, 
+                            signed waivers, tricycles, and any approved tools required for wheel rotations. Mini 500 shirts
+                             and race bibs will be provided at check-in.'
 
                 ],
                 [
@@ -175,7 +175,7 @@
                     "main" => 'After every two laps the team is required to perform a rotation of their front tire.
                                 This will be monitored by the pit boss assigned to the teams pit and completed after 
                                 lap 2, 4, and 6. A wheel reversal consists of removing the front tire, rotating it, and 
-                                then reattaching the front tire.'
+                                then reattaching the front tire. No power tools can be used for wheel reversals.'
                 ]
             );
 
