@@ -104,14 +104,14 @@
             "main" => '<p>Sign ups are officially live!</p> 
                   
                         <p>Entries competing for Homecoming points - 
-                            <a href="https://docs.google.com/forms/d/1ooCsLkVGMd8dFVLcerV8nuZm8xwYK7pmZJgpetwMRW4/edit">sign up here!</a></p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScDdKQEHq_wtC7Rs9PtXaA23YCiQVOhSNL0RG5iWKU36PyWkA/viewform?usp=sharing&ouid=101171025245043687154">sign up here!</a></p>
                         <p>Enthusiasts unite! Alumni fixed bodies and contraptions, non-point entries of all types - 
-                            <a href="https://docs.google.com/forms/d/1ZLNbycp0YVU2fR6oIx8jcM3QGdnP9fhvXtNfjXuUleA/edit">sign up here!</a></p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScTAH1T6uX2pBNLQ3-dKfHoq7R-8RIjuETlV57hXqZf8StXQA/viewform?usp=dialog">sign up here!</a></p>
                         <p>Alumni, if you are entering a classic car in the parade - 
-                            <a href="https://docs.google.com/forms/d/1fTAdI5wGGEcLp1o6q46ReAbNOKB_bNAFvN0R0dg1v8M/edit">sign up here!</a></p>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScccXTgx6xVDC1D5XI04qtsS5tG9an_gu6H-IpaFcwSIvKhAA/viewform?usp=dialog">sign up here!</a></p>
                         
                         <p><strong>Students:</strong> in addition to filling out the applicable form above, please RSVP via Engage
-                            <a href="https://gatech.campuslabs.com/engage/event/11556360">here!</a></p>
+                            <a href="https://gatech.campuslabs.com/engage/event/12698330">here!</a></p>
                         '
         ],
         [
