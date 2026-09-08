@@ -157,6 +157,25 @@ $hcMonthLabel = date('F Y', $hcFirst);
     .hc-meta { font-size: .85rem; }
     .hc-meta i { color: var(--accent); width: 1.1rem; }
 
+    /* ---------- SCPC panel ---------- */
+    .hc-scpc {
+        border-top: 4px solid #00263A;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, .12);
+        background: #fff;
+        border-radius: .3rem;
+        padding: 1.6rem 1.9rem;
+    }
+    .hc-scpc p:last-of-type { margin-bottom: 1.25rem; }
+    .hc-scpc-eyebrow {
+        display: block;
+        font-size: .72rem;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+        color: #00263A;
+        font-weight: 700;
+        margin-bottom: .4rem;
+    }
+
     /* ---------- Calendar ---------- */
     .hc-cal { border: 1px solid #e5e5e5; border-radius: .3rem; overflow: hidden; }
     .hc-cal-head {
@@ -960,13 +979,23 @@ $hcMonthLabel = date('F Y', $hcFirst);
                             </g>
                             <path d="M 293,54 L 302,57 L 301,51 L 295,49 Z" fill="#e8edf0"/>
                             <circle cx="297" cy="47" r="2.6" fill="#dfe4e8"/>
-                            <!-- headlamp bar and lamps -->
-                            <line x1="256" y1="52" x2="310" y2="54" stroke="#b9c0c6" stroke-width="2.6"/>
-                            <circle cx="272" cy="46" r="9.5" fill="#c8cfd4" stroke="#9aa3aa" stroke-width="1.2"/>
-                            <line x1="281" y1="53" x2="281" y2="60" stroke="#b9c0c6" stroke-width="2"/>
-                            <circle cx="281" cy="50" r="11" fill="url(#hc-chrome)" stroke="#9aa3aa" stroke-width="1.2"/>
-                            <circle cx="281" cy="50" r="7" fill="#fff8dd"/>
-                            <circle cx="278" cy="47" r="2.6" fill="#fff" opacity=".85"/>
+                            <!-- headlamp bar and lamps, seen in profile and aimed forward -->
+                            <line x1="254" y1="61" x2="306" y2="63" stroke="#b9c0c6" stroke-width="2.6"/>
+                            <!-- far lamp, offset up-left for depth -->
+                            <line x1="272" y1="54" x2="272" y2="62" stroke="#aab2b8" stroke-width="1.8"/>
+                            <path d="M 272,35 Q 276,35 277,39 L 277,51 Q 276,55 272,55 L 267,53
+                                     Q 264,51 264,45 Q 264,39 267,37 Z" fill="#9aa3aa"/>
+                            <ellipse cx="277" cy="45" rx="2.4" ry="8.4" fill="#b9c0c6"/>
+                            <!-- near lamp: chrome bucket in profile, lens facing the way the Reck is going -->
+                            <line x1="284" y1="58" x2="284" y2="63" stroke="#b9c0c6" stroke-width="2.2"/>
+                            <path d="M 285,37 Q 290,37 291,42 L 291,56 Q 290,61 285,61 L 279,58
+                                     Q 275,56 275,49 Q 275,42 279,40 Z" fill="url(#hc-chrome)"/>
+                            <path d="M 279,40 Q 275,42 275,49 Q 275,56 279,58 L 281,57
+                                     Q 278,55 278,49 Q 278,43 281,41 Z" fill="#8f979c" opacity=".5"/>
+                            <ellipse cx="291" cy="49" rx="2.8" ry="11" fill="#e8edf0" stroke="#9aa3aa"
+                                     stroke-width=".9"/>
+                            <ellipse cx="292" cy="49" rx="1.6" ry="8.6" fill="#fff8dd"/>
+                            <ellipse cx="292" cy="44" rx=".9" ry="2.6" fill="#fff" opacity=".9"/>
                             <!-- running board -->
                             <rect x="122" y="115" width="94" height="10" rx="2.5" fill="#f2efe6"/>
                             <rect x="126" y="117" width="86" height="6" rx="1.5" fill="#33383c"/>
@@ -1122,6 +1151,36 @@ $hcMonthLabel = date('F Y', $hcFirst);
             </div>
         <?php endforeach; ?>
     </div>
+</div>
+
+<!-- ============================ SCPC ============================ -->
+<div class="container mb-4">
+    <div class='blog-header mb-4'>
+        <div class='col-12' style="text-align: center;">
+            <h1>SCPC Homecoming Events</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-10 offset-lg-1 col-md-12">
+            <div class="hc-scpc">
+                <span class="hc-scpc-eyebrow">The rest of Homecoming week</span>
+                <p>SCPC teams up with campus organizations, Greek life, residence halls, and friend
+                    groups to bring you a week-long celebration of Georgia Tech spirit leading up to
+                    the Homecoming football game on October 24th! Compete against other groups on
+                    campus to score Homecoming points and win in your category &mdash; winners get
+                    their name displayed during the Homecoming game! Plus, don&rsquo;t miss the
+                    Homecoming Carnival, Ramblin&rsquo; Royalty, Homecoming Kickoff, and more!</p>
+                <p>SCPC oversees registration for all Homecoming events outside of the official
+                    Ramblin&rsquo; Reck events. For Homecoming Event Registration, Ramblin&rsquo;
+                    Royalty, and FAQ&rsquo;s, follow this
+                    <a href="https://linktr.ee/hocogt" target="_blank" rel="noopener">link</a>
+                    or click this button.</p>
+                <a class="btn btn-md btn-secondary" href="https://linktr.ee/hocogt"
+                   target="_blank" rel="noopener">Registration, Ramblin&rsquo; Royalty &amp; FAQs</a>
+            </div>
+        </div>
+    </div>
+    <hr class="mt-4 mb-4">
 </div>
 
 <!-- ============================ Calendar ============================ -->
