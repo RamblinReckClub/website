@@ -1,14 +1,22 @@
 <div class="container">
     <nav class="navbar navbar-expand-md d-flex bg-light navbar-light px-0" style="background: #fff !important;">
         <div class="blog-header col-12 pt-2 pb-3 px-0">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-3">
                     <button class="btn btn-sm btn-outline-primary navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </div>
                 <div class="col-6 text-center">
-                    <a class="blog-header-logo text-dark text-center" href="/points.php">Ramblin' Reck Club</a>
+                    <!-- Bold weights for the Members' Garage brand, loaded here so only logged-in pages get them -->
+                    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+                    <a class="rrc-brand" href="/points.php">
+                        <span class="rrc-medallion"><img src="/img/brand/official-logo-reckonly-sm.png" alt=""></span>
+                        <span class="rrc-brand-text">
+                            <span class="rrc-brand-name">Ramblin&rsquo; Reck Club</span>
+                            <span class="rrc-brand-sub">Members&rsquo; Garage</span>
+                        </span>
+                    </a>
                 </div>
                 <div class="col-3">
 <!--                    <a class="float-right btn btn-sm btn-outline-primary" href="/points.php">Log In</a>-->

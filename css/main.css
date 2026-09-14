@@ -115,6 +115,67 @@ a:hover, .btn-link:hover, #submit-request-button:disabled {
     font-size: 2.25rem;
 }
 
+/* Members' Garage brand in partials/header.php, the logged-in header only */
+.rrc-brand, .rrc-brand:hover {
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    color: #212529 !important;
+    text-align: left;
+    text-decoration: none;
+}
+
+.rrc-medallion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #B3A369;
+    box-shadow: 0 0 0 5px rgba(179, 163, 105, .16);
+}
+
+.rrc-medallion img {
+    display: block;
+    width: 46px;
+    height: auto;
+}
+
+.rrc-brand-name {
+    display: block;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.05;
+}
+
+.rrc-brand-sub {
+    display: block;
+    margin-top: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: .8rem;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: #B3A369;
+}
+
+@media (max-width: 991px) {
+    .rrc-brand-name { font-size: 1.5rem; }
+    .rrc-brand-sub { font-size: .68rem; letter-spacing: .18em; }
+}
+
+@media (max-width: 575px) {
+    .rrc-brand { gap: 8px; }
+    .rrc-medallion { width: 38px; height: 38px; box-shadow: 0 0 0 3px rgba(179, 163, 105, .16); }
+    .rrc-medallion img { width: 29px; }
+    .rrc-brand-name { font-size: 1rem; }
+    .rrc-brand-sub { font-size: .55rem; letter-spacing: .12em; margin-top: 3px; }
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #B3A369;
 }
