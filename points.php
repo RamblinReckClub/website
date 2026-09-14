@@ -99,6 +99,11 @@ while($row = $rank_query->fetch()) {
 
             </ul>
             <div class="row mt-2"><a class="col-12 text-center" href="rankings.php">Complete Rankings</a></div>
+
+            <div class="row mt-4">
+                <h2 class="col-12 float-left">Your Reck Twin</h2>
+            </div>
+            <?php require "partials/reckTwin.php"; ?>
         </div>
         <div class="col-md-6 col-sm-12">
             <div class="row">
