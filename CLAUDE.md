@@ -104,6 +104,24 @@ there are 8. Families 5-8 cannot be renamed or have members reassigned there.
 `Event`. Event IDs were renumbered at some point - see the comment in
 `allTimeEvents.php`. All-time counts include rows whose events are gone.
 
+## Reck Twins
+
+`lib/reckTwins.php` pairs every active member (member / probate / social) with at
+most one other; `partials/reckTwin.php` is the card on `points.php`.
+
+- **Score** = events together / (yours + theirs - together), times
+  sqrt(smaller event count / larger). Nobody wins just by going to everything,
+  and heavy attendees pair with heavy attendees.
+- **Pairing** locks in the strongest pair in the club first, then the strongest
+  among whoever is left, so twins are always mutual and nobody is claimed twice.
+- **Live.** Every page load replays the semester through today, a
+  Monday-to-Sunday week at a time, so a check-off shows up straight away. Each
+  week's round gives the previous week's pairs a 1.25x stay bonus. Without it
+  about half the club changed twins every week on Fall 2025 data; much above 1.25
+  it locks in weak pairs from the first weeks.
+- **Nothing is stored.** The same attendance always gives the same twins. Until a
+  semester has 10 events held, the previous semester's twins are shown.
+
 ## The probate T Plan tracker
 
 | File | Role |
