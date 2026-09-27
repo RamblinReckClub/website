@@ -55,7 +55,7 @@
                 </select>
                 <select name="pointValue" class="form-control me-1" required>
                     <option value="">Points</option>
-                    <?php foreach ([0, 5, 10, 15, 20] as $points): ?>
+                    <?php foreach ([0, 5, 10, 15, 20, 30] as $points): ?>
                         <option value="<?= $points ?>"><?= $points ?> Points</option>
                     <?php endforeach; ?>
                 </select>
