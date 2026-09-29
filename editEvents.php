@@ -135,7 +135,7 @@
                             echo "<option value=\"10\" selected>10</option>";
                             echo "<option value=\"15\">15</option>";
                             echo "<option value=\"20\">20</option>";
-                            echo "<option value=\"30\">30</option>";
+                            echo "<option value=\"25\">25</option>";
                             echo "</select>";
                         } else {
                             echo "<input type=\"text\" class=\"form-control\" name=\"pointValue\" size=5 maxlength=5>";
@@ -494,7 +494,7 @@
                                     echo "<option value=\"10\"" . (($retrievedEvent['pointValue']==10) ? 'selected' : '') . ">10</option>";
                                     echo "<option value=\"15\"" . (($retrievedEvent['pointValue']==15) ? 'selected' : '') . ">15</option>";
                                     echo "<option value=\"20\"" . (($retrievedEvent['pointValue']==20) ? 'selected' : '') . ">20</option>";
-                                    echo "<option value=\"30\"" . (($retrievedEvent['pointValue']==30) ? 'selected' : '') . ">30</option>";
+                                    echo "<option value=\"25\"" . (($retrievedEvent['pointValue']==25) ? 'selected' : '') . ">25</option>";
                                     echo "</select>";
                                 } else {
                                     echo "<input type=\"text\" class=\"form-control\" name=\"newPointValue\" value=\"".$retrievedEvent['pointValue']."\" size=5 maxlength=5>";
