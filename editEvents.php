@@ -135,7 +135,7 @@
                             echo "<option value=\"10\" selected>10</option>";
                             echo "<option value=\"15\">15</option>";
                             echo "<option value=\"20\">20</option>";
-                            echo "<option value=\"30\">30</option>";
+                            echo "<option value=\"25\">25</option>";
                             echo "</select>";
                         } else {
                             echo "<input type=\"text\" class=\"form-control\" name=\"pointValue\" size=5 maxlength=5>";
