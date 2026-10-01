@@ -80,33 +80,45 @@ try {
 
     $oidc->authenticate();
 
-    // Get username from Microsoft Graph API or standard OIDC claims
-    $username = null;
-    if ($config['use_ms_graph']) {
-        $username = getMicrosoftUsername($oidc);
+    // Georgia Tech username. Entra's userinfo endpoint can only ever return
+    // sub/name/family_name/given_name/picture/email, so preferred_username has
+    // to come from the verified ID token. Graph stays as a fallback.
+    $claim = $oidc->getVerifiedClaims($config['username_claim']);
+
+    if (!$claim && $config['use_ms_graph']) {
+        $claim = getMicrosoftUsername($oidc);
     }
-    
-    if (!$username) {
-        $username = $oidc->requestUserInfo($config['username_claim']);
-    }
-    
-    if (!$username) {
+
+    if (!$claim) {
         oidc_callback_fail('Unable to determine Georgia Tech username.', 400, [
             'debug' => oidc_debug_enabled($config),
             'config' => $debugConfig
         ]);
     }
 
+    // preferred_username is the UPN (gburdell3@gatech.edu); gtUsername holds the
+    // bare username. Accept either form so the column can hold either.
+    $claim = strtolower(trim($claim));
+    $bare = strtok($claim, '@');
+
     $matchField = $config['match_field'];
-    $query = $db->prepare("SELECT * FROM Member WHERE {$matchField} = :value");
-    $query->execute(['value' => $username]);
+    $query = $db->prepare("SELECT * FROM Member WHERE {$matchField} IN (:bare, :full)");
+    $query->execute(['bare' => $bare, 'full' => $claim]);
     $user = $query->fetch(PDO::FETCH_ASSOC);
 
     if (!$user) {
         oidc_callback_fail('No matching member account found.', 403, [
             'debug' => oidc_debug_enabled($config),
             'config' => $debugConfig,
-            'exception' => ['matched_value' => $username, 'match_field' => $matchField]
+            'exception' => ['matched_value' => $bare, 'match_field' => $matchField]
+        ]);
+    }
+
+    // memberLogin.php blocks alumni; the OIDC path has to do the same.
+    if ($user['status'] === 'alumni') {
+        oidc_callback_fail('Alumni accounts are currently disabled.', 403, [
+            'debug' => oidc_debug_enabled($config),
+            'config' => $debugConfig
         ]);
     }
 
