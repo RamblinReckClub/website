@@ -56,6 +56,12 @@
                     <a class="nav-link btn-link" href="/probateTs.php">Probate Ts</a>
                 </li>
                 <?php endif; ?>
+                <?php require_once dirname(__FILE__).'/../lib/wrapped.php'; ?>
+                <?php if(isset($db) && count(wrapped_visible($db, $_SESSION['memberID'])) > 0) :?>
+                <li class="nav-item">
+                    <a class="nav-link btn-link" href="/wrapped.php">Wrapped</a>
+                </li>
+                <?php endif; ?>
                 <!--<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Records
@@ -76,6 +82,9 @@
                         <a class="dropdown-item" href="/manageMembers.php">Manage Members</a>
 <!--                        <a class="dropdown-item" href="/managePositions.php">Manage Positions</a>-->
                         <a class="dropdown-item" href="/manageWebsite.php">Manage Website</a>
+                        <?php endif; ?>
+                        <?php if($isAdmin == 1) :?>
+                        <a class="dropdown-item" href="/wrapped.php">Wrapped</a>
                         <?php endif; ?>
                     </div>
                 </li>
