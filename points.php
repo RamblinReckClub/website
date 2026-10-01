@@ -40,6 +40,7 @@ while($row = $rank_query->fetch()) {
 
 
 <div class="container">
+    <?php require "partials/wrappedBanner.php"; ?>
     <div class="mb-3" style="background: #b3a369; border-radius: 5px; border-color: #B3A369;">
 
         <div class="row p-4">
